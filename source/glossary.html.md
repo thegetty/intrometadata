@@ -1,6 +1,8 @@
-<div class="Basic-Graphics-Frame">
-
-Glossary
+---
+title: Glossary 
+layout: page
+sort_order: 7
+---
 
 algorithm
 

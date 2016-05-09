@@ -1,8 +1,9 @@
-<div class="Basic-Graphics-Frame">
-
-Setting the Stage
-
-*Anne J. Gilliland*
+---
+title: Setting the Stage
+layout: page
+author: Anne J. Gilliland
+sort_order: 2
+---
 
 *Metadata*, literally “data about data,” is today a widely used, yet frequently underspecified term that is understood in different ways by the diverse professional communities that design, create, describe, preserve, and use information systems and resources. Until the mid-1990s, *metadata* was a term used primarily by communities involved with the management and interoperability of geospatial data and with data management and systems design and maintenance in general. For these communities, the term referred to a suite of industry or disciplinary standards as well as additional internal and external documentation and other data necessary for the identification, representation, interoperability, technical management, performance, and use of data contained in an information system.
 

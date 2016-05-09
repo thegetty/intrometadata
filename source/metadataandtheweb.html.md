@@ -1,8 +1,9 @@
-<div class="Basic-Graphics-Frame">
-
-[](){#_idTextAnchor005}Metadata and the Web
-
-*Tony Gill; revised by Murtha Baca, with assistance from Joan Cobb, Nathaniel Deines, and Moon Kim*
+---
+title: Metadata and the Web
+layout: page
+author: Tony Gill; revised by Murtha Baca, with assistance from Joan Cobb, Nathaniel Deines, and Moon Kim
+sort_order: 3
+---
 
 When the first edition of this book was published in 1998, the term *metadata* was comparatively esoteric, having originated in the information science and geospatial data communities at the end of the twentieth century. As of this writing, a Google search on “metadata” yields hundreds of millions of results; a search in WorldCat for publications with “metadata” in the title yields more than 13,000 results; and a keyword search on “metadata” in Amazon returns more than 5,000 results. Metadata has hit the big time; it is now a pervasive phenomenon, and even a consumer commodity. For example, almost all consumer-level digital cameras capture and embed exchangeable image file format (Exif)[^11] metadata in digital images, and files created using Adobe’s Creative Suite of software tools (e.g., Photoshop and Illustrator) contain embedded Extensible ­Metadata Platform (XMP)[^12] metadata.
 

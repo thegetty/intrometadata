@@ -1,6 +1,8 @@
-<div class="Basic-Graphics-Frame">
-
-Practical Principles for Metadata Creation and Maintenance 
+---
+title: Practical Principles for Metadata Creation and Maintenance 
+layout: page
+sort_order: 6
+---
 
 <span class="semibold">1. Metadata creation is one of the core activities of collecting institutions and memory institutions.</span> Quality metadata creation is just as important as the care, preservation, display, and dissemination of collections; adequate planning and resources must be devoted to this ongoing, mission-critical activity. 
 

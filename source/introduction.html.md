@@ -4,6 +4,7 @@ layout: page
 author: Murtha Baca
 sort_order: 1
 ---
+
 Like metadata itself, the realm of online resources is constantly and rapidly growing and evolving. Much has changed in the digital information landscape since the first print edition of this book was published in 1998, followed by revised editions in 2000 and 2008. The time is right for an updated edition of this text, intended to give a general introduction to metadata and to explain some of the key tools, concepts, and issues associated with using metadata to build authoritative, reliable, and useful digital resources. In the last few years, phenomena such as linked open data have begun to play an important role in the Semantic Web; the standard for library cataloging, Anglo-American Cataloging Rules, has been largely replaced by the Resource Description and Access (RDA) standard; and the BIBFRAME linked open data standard is poised to become the successor to the venerable MARC format for encoding bibliographic metadata.
 
 Metadata creation is—or should usually be—a collaborative effort, as is this publication. Anne Gilliland, the late Mary Woodley, and Maureen Whalen updated their chapters, and with the help of several colleagues, I updated Tony Gill’s chapter on metadata and the web. The fact that this publication is the result of several people working together is significant—and indicative of how we work today.
