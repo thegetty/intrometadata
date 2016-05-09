@@ -62,3 +62,39 @@
 .page-content {
   @extend %body-text;
 }
+
+.page-content ul {
+  margin-left: $base-spacing;
+  list-style-type: disc;
+  li {
+    margin-bottom: $small-spacing;
+  }
+}
+
+.page-content table {
+  margin-bottom: $base-spacing * 2;
+}
+
+.page-content td ul {
+  font-size: $base-font-size;
+  margin-left: 0;
+  list-style-type: none;
+}
+
+.page-content tr,
+.page-content th,
+.page-content td {
+  vertical-align: top;
+  padding-right: $small-spacing;
+}
+
+.footnotes {
+  margin-top: $base-spacing * 4;
+  padding-top: $base-spacing;
+  border-top: 1px solid shade($base-border-color, 25%);
+  font-size: $base-font-size * .6;
+  ol {
+    margin-left: $base-spacing;
+    list-style-type: decimal;
+  }
+}
