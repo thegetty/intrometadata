@@ -122,9 +122,9 @@ statutory four-factor test. Another important exception applies to libraries and
 
 [120]: Examples include assumptions based on US copyright law; examples and assumptions for non-US jurisdictions are not provided herein.
 
-[121]: Available at <http://copyright.cornell.edu/resources/publicdomain.cfm> and http://copyright.cornell.edu/resources/docs/copyrightterm.pdf.
+[121]: Available at [http://copyright.cornell.edu/resources/publicdomain.cfm](http://copyright.cornell.edu/resources/publicdomain.cfm) and http://copyright.cornell.edu/resources/docs/copyrightterm.pdf.
 
-[122]: [](){#_idTextAnchor068}From section 107 of the Copyright Act of 1976:
+[122]: From section 107 of the Copyright Act of 1976:
 
 Limitations on exclusive rights: Fair use. Notwithstanding the provisions of sections 106 and 106A, the fair use of a copyrighted work, including such use by reproduction in copies or phonorecords or by any other means specified by that section, for purposes such as criticism, comment, news reporting, teaching (including multiple copies for classroom use), scholarship, or research, is not an infringement of copyright. In determining whether the use made of a work in any particular case is a fair use the factors to be considered shall include—
 
@@ -142,7 +142,7 @@ Prior to passage of the Copyright Act of 1976, fair use was based on court decis
 
 [123]: All terms of original copyright run through the end of the twenty-eighth calendar year following publication, making the period for renewal registration in the above example December 31, 1973, to December 31, 1974. When checking the US Copyright Office renewal records, it is advisable to look at the years immediately preceding and following the calculated year for copyright-term expiration. This will ensure the work was not renewed properly in a different year.
 
-[124]: William M. Landes and Richard A. Posner, “Indefinitely Renewable Copyright” (John M. Olin Program in Law and Economics Working Paper No. 154, University of Chicago Law School, 2002), <http://ssrn.com/abstract=319321> or DOI: 10.2139/ssrn.319321.
+[124]: William M. Landes and Richard A. Posner, “Indefinitely Renewable Copyright” (John M. Olin Program in Law and Economics Working Paper No. 154, University of Chicago Law School, 2002), [http://ssrn.com/abstract=319321](http://ssrn.com/abstract=319321) or DOI: 10.2139/ssrn.319321.
 
 [125]: *Report on Orphan Works: A Report of the Register of Copyrights* (Washington, DC: US Copyright Office, 2006), http://www.copyright.gov/orphan/orphan-report.pdf.
 

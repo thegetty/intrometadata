@@ -189,17 +189,17 @@ By purportedly making available the full text of millions of printed volumes, Go
 
 <div id="footnote-015" class="_idFootnote">
 
-[1]: See [](){#_idTextAnchor035}http://www.oclc.org/.
+[1]: See [http://www](http:www).oclc.org/.
 
-[2]: See [](){#_idTextAnchor036}http://www.worldcat.org/.
+[2]: See [http://www](http:www).worldcat.org/.
 
 [3]: However, unless the keyword “WorldCat” is included in the Google search, the record in WorldCat may not appear on the first page of search results.
 
-[4]: See [](){#_idTextAnchor037}http://books.google.com/.
+[4]: See [http://books](http:books).google.com/.
 
-[5]: See [](){#_idTextAnchor038}http://www.google.com/googlebooks/partners/.
+[5]: See [http://www](http:www).google.com/googlebooks/partners/.
 
-[6]: See [](){#_idTextAnchor039}http://www.google.com/googlebooks/library/.
+[6]: See [http://www](http:www).google.com/googlebooks/library/.
 
 </div>
 
@@ -218,80 +218,80 @@ By using these various components in intelligent and appropriate ways in order t
 
 [12]: See http://www.adobe.com/products/xmp/.
 
-[13]: See [](){#_idTextAnchor006}<http://www.cidoc-crm.org/>.
+[13]: See [http://www.cidoc-crm.org/](http://www.cidoc-crm.org/).
 
-[14]: Olivia Madison et al., *Functional Requirements for Bibliographic Records* (Munich: K. G. Saur; International Federation of Library Associations and Institutions, 1998), [](){#_idTextAnchor007}[http://www .ifla.org/publications/functional-requirements-for-bibliographic-records](http://www.ifla.org/publications/functional-requirements-for-bibliographic-records). See also Arlene G. Taylor, ed., *Understanding FRBR: What It Is and How It Will Affect Our Retrieval Tools* (Westport, CT; London: Libraries Unlimited, 2007).
+[14]: Olivia Madison et al., *Functional Requirements for Bibliographic Records* (Munich: K. G. Saur; International Federation of Library Associations and Institutions, 1998), [http://www .ifla.org/publications/functional-requirements-for-bibliographic-records](http://www.ifla.org/publications/functional-requirements-for-bibliographic-records). See also Arlene G. Taylor, ed., *Understanding FRBR: What It Is and How It Will Affect Our Retrieval Tools* (Westport, CT; London: Libraries Unlimited, 2007).
 
 [15]: Of course, these numbers increase constantly. For the latest Netcraft surveys, see http://news.netcraft.com/.
 
 [16]: Ted Nelson quoted in Nick Gibbins, “The Eighth ACM International Hypertext Conference,” *Ariadne*, no. 9 (May 19, 1997), http://www.ariadne.ac.uk/issue9/hypertext.
 
-[17]: See [](){#_idTextAnchor008}<http://vlib.org>.
+[17]: See [http://vlib.org](http://vlib.org).
 
-[18]: See [](){#_idTextAnchor009}<http://www.google.com/about/company/>.
+[18]: See [http://www.google.com/about/company/](http://www.google.com/about/company/).
 
-[19]: See [](){#_idTextAnchor010}<http://www.google.com/trends/>.
+[19]: See [http://www.google.com/trends/](http://www.google.com/trends/).
 
-[20]: See David Austin, “How Google Finds Your Needle in the Web’s Haystack,” ­American Mathematical Society website, [](){#_idTextAnchor011}<http://www.ams.org/samplings/feature-column/fcarc-pagerank>.
+[20]: See David Austin, “How Google Finds Your Needle in the Web’s Haystack,” ­American Mathematical Society website, [http://www.ams.org/samplings/feature-column/fcarc-pagerank](http://www.ams.org/samplings/feature-column/fcarc-pagerank).
 
 [21]: Performance—or lack thereof—is almost certainly the chief reason for the lack of success up to now of true metasearching. Because that type of search is done “live” on a number of databases and using a variety of protocols, it can be excruciatingly slow.
 
-[22]: See Luiz André Barroso, Jeffery Dean, and Urs Hölzle, “Web Search for a Planet: The Google Cluster Architecture,” *IEEE Micro* 23, no. 2 (April 2003), [](){#_idTextAnchor012}[http://static.google usercontent.com/media/research.google.com/en/us/archive/googlecluster-ieee.pdf](http://static.googleusercontent.com/media/research.google.com/en/us/archive/googlecluster-ieee.pdf).
+[22]: See Luiz André Barroso, Jeffery Dean, and Urs Hölzle, “Web Search for a Planet: The Google Cluster Architecture,” *IEEE Micro* 23, no. 2 (April 2003), [http://static.google usercontent.com/media/research.google.com/en/us/archive/googlecluster-ieee.pdf](http://static.googleusercontent.com/media/research.google.com/en/us/archive/googlecluster-ieee.pdf).
 
 [23]: Steve Lawrence and C. Lee Giles, “Accessibility of Information on the Web,” *Nature* 400 (July 9, 1999): 107–09.
 
-[24]: Luiz André Barroso, “The Price of Performance: An Economic Case for Chip Multiprocessing,” *ACM Queue* 3, no. 7 (October 18, 2005), [](){#_idTextAnchor013}<http://queue.acm.org/detail.cfm?id=1095420>.
+[24]: Luiz André Barroso, “The Price of Performance: An Economic Case for Chip Multiprocessing,” *ACM Queue* 3, no. 7 (October 18, 2005), [http://queue.acm.org/detail.cfm?id=1095420](http://queue.acm.org/detail.cfm?id=1095420).
 
-[25]: See [](){#_idTextAnchor014}<http://dublincore.org/documents/dces/>.
+[25]: See [http://dublincore.org/documents/dces/](http://dublincore.org/documents/dces/).
 
-[26]: See [](){#_idTextAnchor015}<http://www.niso.org/apps/group_public/download.php/6577/z39-85-2001_dublin_core.pdf>.
+[26]: See [http://www.niso.org/apps/group_public/download.php/6577/z39-85-2001_dublin_core.pdf](http://www.niso.org/apps/group_public/download.php/6577/z39-85-2001_dublin_core.pdf).
 
-[27]: See [](){#_idTextAnchor016}<http://www.iso.org/iso/home/store/catalogue_ics/catalogue_detail_ics.htm?csnumber=52142>.
+[27]: See [http://www.iso.org/iso/home/store/catalogue_ics/catalogue_detail_ics.htm?csnumber=52142](http://www.iso.org/iso/home/store/catalogue_ics/catalogue_detail_ics.htm?csnumber=52142).
 
-[28]: See [](){#_idTextAnchor017}<http://www.dublincore.org/projects/>.
+[28]: See [http://www.dublincore.org/projects/](http://www.dublincore.org/projects/).
 
-[29]: See [](){#_idTextAnchor018}<http://www.w3.org/RDF/>.
+[29]: See [http://www.w3.org/RDF/](http://www.w3.org/RDF/).
 
-[30]: See [](){#_idTextAnchor019}<http://www.w3.org/XML/>.
+[30]: See [http://www.w3.org/XML/](http://www.w3.org/XML/).
 
-[31]: Note that an RDF “vocabulary” is not the same as a “controlled vocabulary”; see Patricia Harpring, *Introduction to Controlled Vocabularies* (Los Angeles: Getty Research Institute, 2010), <http://www.getty.edu/research/publications/electronic_publications/intro_controlled_vocab/index.html>. The 2014 revised edition is only available in print.
+[31]: Note that an RDF “vocabulary” is not the same as a “controlled vocabulary”; see Patricia Harpring, *Introduction to Controlled Vocabularies* (Los Angeles: Getty Research Institute, 2010), [http://www.getty.edu/research/publications/electronic_publications/intro_controlled_vocab/index.html](http://www.getty.edu/research/publications/electronic_publications/intro_controlled_vocab/index.html). The 2014 revised edition is only available in print.
 
-[32]: See <http://www.w3.org/TR/rdf-schema/>.
+[32]: See [http://www.w3.org/TR/rdf-schema/](http://www.w3.org/TR/rdf-schema/).
 
-[33]: See [](){#_idTextAnchor020}<http://www.w3.org/TR/owl2-overview/>.
+[33]: See [http://www.w3.org/TR/owl2-overview/](http://www.w3.org/TR/owl2-overview/).
 
-[34]: See <http://www.w3.org/2013/data/>.
+[34]: See [http://www.w3.org/2013/data/](http://www.w3.org/2013/data/).
 
-[35]: See [](){#_idTextAnchor021}<http://www.w3.org/People/Berners-Lee/>.
+[35]: See [http://www.w3.org/People/Berners-Lee/](http://www.w3.org/People/Berners-Lee/).
 
-[36]: See [](){#_idTextAnchor022}<http://www.w3.org/standards/semanticweb/data>.
+[36]: See [http://www.w3.org/standards/semanticweb/data](http://www.w3.org/standards/semanticweb/data).
 
-[37]: See [](){#_idTextAnchor023}<http://wiki.dbpedia.org/Datasets> for details.
+[37]: See [http://wiki.dbpedia.org/Datasets](http://wiki.dbpedia.org/Datasets) for details.
 
-[38]: See <http://www.getty.edu/research/tools/vocabularies/lod/>.
+[38]: See [http://www.getty.edu/research/tools/vocabularies/lod/](http://www.getty.edu/research/tools/vocabularies/lod/).
 
-[39]: See [](){#_idTextAnchor024}<http://www.openarchives.org/pmh/>.
+[39]: See [http://www.openarchives.org/pmh/](http://www.openarchives.org/pmh/).
 
-[40]: Cory Doctorow, “Metacrap: Putting the torch to seven straw-men of the meta-utopia,” [](){#_idTextAnchor025}<http://www.well.com/~doctorow/metacrap.htm>.
+[40]: Cory Doctorow, “Metacrap: Putting the torch to seven straw-men of the meta-utopia,” [http://www.well.com/~doctorow/metacrap.htm](http://www.well.com/~doctorow/metacrap.htm).
 
 [41]: Doctorow confusingly uses *schema* to refer to classification schemes (i.e., ways of describing content with words) rather than the more common meaning of a metadata structure as used in this publication. See “A Typology of Data Standards” in chapter 1, p. 3.
 
-[42]: See [](){#_idTextAnchor026}<https://www.librarything.com/>. See also *What Makes LibraryThing ­LibraryThing* (blog), April 3, 2013, [](){#_idTextAnchor027}http://blog.librarything.com/main/2013/04/what-makes-librarything-librarything/.
+[42]: See [https://www.librarything.com/](https://www.librarything.com/). See also *What Makes LibraryThing ­LibraryThing* (blog), April 3, 2013, [http://blog](http:blog).librarything.com/main/2013/04/what-makes-librarything-librarything/.
 
-[43]: See [](){#_idTextAnchor028}https://www.flickr.com/.
+[43]: See [https://www](https:www).flickr.com/.
 
-[44]: See [](){#_idTextAnchor029}https://www.librarything.com/forlibraries.
+[44]: See [https://www](https:www).librarything.com/forlibraries.
 
-[45]: See <https://www.flickr.com/photos/8623220@N02/> .
+[45]: See [https://www.flickr.com/photos/8623220@N02/](https://www.flickr.com/photos/8623220@N02/) .
 
-[46]: See [](){#_idTextAnchor030}http://www.loc.gov/marc/.
+[46]: See [http://www](http:www).loc.gov/marc/.
 
-[47]: See <http://dublincore.org/documents/dces/>.
+[47]: See [http://dublincore.org/documents/dces/](http://dublincore.org/documents/dces/).
 
-[48]: See [](){#_idTextAnchor031}http://www.loc.gov/standards/mods/.
+[48]: See [http://www](http:www).loc.gov/standards/mods/.
 
-[49]: See [](){#_idTextAnchor032}http://www.loc.gov/ead/.
+[49]: See [http://www](http:www).loc.gov/ead/.
 
-[50]: See [](){#_idTextAnchor033}http://www.loc.gov/standards/vracore/.
+[50]: See [http://www](http:www).loc.gov/standards/vracore/.
 
-[51]: See [](){#_idTextAnchor034}http://network.icom.museum/cidoc/working-groups/data-harvesting-and-interchange/what-is-lido/.
+[51]: See [http://network](http:network).icom.museum/cidoc/working-groups/data-harvesting-and-interchange/what-is-lido/.

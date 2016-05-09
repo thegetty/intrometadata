@@ -6,7 +6,7 @@ sort_order: 7
 
 algorithm
 
-A formula or procedure for solving a problem or carrying out a task. An algorithm is a set of steps in a very specific order, such as a mathematical formula or the instructions in a computer program. <span class="Helv-Lt-Std-LT-Cond-Ital">See also</span> <span class="Helv-Lt-Std-Bold-Cond">computer program</span>.
+A formula or procedure for solving a problem or carrying out a task. An algorithm is a set of steps in a very specific order, such as a mathematical formula or the instructions in a computer program. See also <span class="Helv-Lt-Std-Bold-Cond">computer program</span>.
 
 Anglo-American Cataloguing Rules (AACR)
 
@@ -42,7 +42,7 @@ A file, typically electronic, that serves as a source of standardized forms of n
 
 authority heading
 
-A preferred, authorized heading used in a vocabulary, particularly in a bibliographic authority file that typically includes a string of names or terms, with additional information as necessary to allow disambiguation between identical headings (e.g., <span class="Helv-Lt-Std-LT-Cond-Ital">United States—History—Civil War, 1861–1865—Battlefields and United States—History—Civil War, 1861–1865—Campaigns</span>). The types of authority headings used by the Library of Congress are the following: subject, name, title, name/title, and keyword.
+A preferred, authorized heading used in a vocabulary, particularly in a bibliographic authority file that typically includes a string of names or terms, with additional information as necessary to allow disambiguation between identical headings (e.g., United States—History—Civil War, 1861–1865—Battlefields and United States—History—Civil War, 1861–1865—Campaigns). The types of authority headings used by the Library of Congress are the following: subject, name, title, name/title, and keyword.
 
 automatic indexing
 
@@ -54,7 +54,7 @@ A database that contains and manages data for an information system, distinct fr
 
 batch load
 
-In the context of populating or contributing to databases, moving or manipulating a group of records as a single unit for the purpose of data processing, typically accomplished by the computer without user interaction, in contrast to entering records manually, one at a time. <span class="Helv-Lt-Std-LT-Cond-Ital">See also</span><span class="Helv-Lt-Std-LT-Cond-Ital"> </span><span class="Helv-Lt-Std-Bold-Cond">load</span> and <span class="Helv-Lt-Std-Bold-Cond">processing</span>.
+In the context of populating or contributing to databases, moving or manipulating a group of records as a single unit for the purpose of data processing, typically accomplished by the computer without user interaction, in contrast to entering records manually, one at a time. See also <span class="Helv-Lt-Std-Bold-Cond">load</span> and <span class="Helv-Lt-Std-Bold-Cond">processing</span>.
 
 BIBFRAME (Bibliographic Framework)
 
@@ -62,15 +62,15 @@ A data model for bibliographic description designed to replace the <span class="
 
 Boolean operators
 
-Logical operators used as modifiers to refine the relationship between terms in a search. The four most commonly used Boolean operators are AND, OR, NOT, and ADJ (adjacent). They may be used with parentheses and other punctuation to form logical groupings of criteria in queries—e.g., <span class="Helv-Lt-Std-LT-Cond-Ital">(Castillo OR Rancho) AND Diego</span>.
+Logical operators used as modifiers to refine the relationship between terms in a search. The four most commonly used Boolean operators are AND, OR, NOT, and ADJ (adjacent). They may be used with parentheses and other punctuation to form logical groupings of criteria in queries—e.g., (Castillo OR Rancho) AND Diego.
 
 browsing
 
-The process whereby a user of a system or web site visually scans and maneuvers through navigation lists, results lists, hierarchical displays, or other content in order to make a selection, as contrasted to the user entering a search term in a search box. <span class="Helv-Lt-Std-LT-Cond-Ital">See also</span> <span class="Helv-Lt-Std-Bold-Cond">searching</span>.
+The process whereby a user of a system or web site visually scans and maneuvers through navigation lists, results lists, hierarchical displays, or other content in order to make a selection, as contrasted to the user entering a search term in a search box. See also <span class="Helv-Lt-Std-Bold-Cond">searching</span>.
 
 cataloger
 
-In the context of this book, the person who enters information in records for works. <span class="Helv-Lt-Std-LT-Cond-Ital">See also </span><span class="Helv-Lt-Std-Bold-Cond">end user</span>.
+In the context of this book, the person who enters information in records for works. See also <span class="Helv-Lt-Std-Bold-Cond">end user</span>.
 
 cataloging
 
@@ -110,17 +110,17 @@ A type of database system that allows an institution to manage various aspects o
 
 computer program
 
-<span class="Helv-Lt-Std-LT-Cond-Ital">Also</span> called a <span class="Helv-Lt-Std-Bold-Cond">program</span>. A specific set of instructions for ordered operations that result in the completion of a task by the computer; a computer program consists of <span class="Helv-Lt-Std-Bold-Cond">computer code</span>. While the program is technically a type of data, computer programs are generally considered as separate from the data to which they refer (e.g., data would be the terms, scope notes, etc., in a vocabulary record). An <span class="Helv-Lt-Std-LT-Cond-Ital">interactive</span> program acts when prompted by an action or information supplied by a user; a <span class="Helv-Lt-Std-LT-Cond-Ital">batch</span> program automatically runs at a certain time or under certain conditions and then stops after the task is completed. A program is written in a <span class="Helv-Lt-Std-Bold-Cond">programming language.</span> <span class="Helv-Lt-Std-LT-Cond-Ital">See also</span> <span class="Helv-Lt-Std-Bold-Cond">processing.</span>
+Also called a <span class="Helv-Lt-Std-Bold-Cond">program</span>. A specific set of instructions for ordered operations that result in the completion of a task by the computer; a computer program consists of <span class="Helv-Lt-Std-Bold-Cond">computer code</span>. While the program is technically a type of data, computer programs are generally considered as separate from the data to which they refer (e.g., data would be the terms, scope notes, etc., in a vocabulary record). An interactive program acts when prompted by an action or information supplied by a user; a batch program automatically runs at a certain time or under certain conditions and then stops after the task is completed. A program is written in a <span class="Helv-Lt-Std-Bold-Cond">programming language.</span> See also <span class="Helv-Lt-Std-Bold-Cond">processing.</span>
 
 computer system <span class="Emphasis">See</span> system<span class="Strong">.</span>
 
 conceptual data model
 
-An abstract model or representation of data for a particular domain, business enterprise, or field of study, independent of any specific software or information system. Usually expressed in terms of entities and relationships. <span class="Helv-Lt-Std-LT-Cond-Ital">See also</span> <span class="Helv-Lt-Std-Bold-Cond">logical data model.</span>
+An abstract model or representation of data for a particular domain, business enterprise, or field of study, independent of any specific software or information system. Usually expressed in terms of entities and relationships. See also <span class="Helv-Lt-Std-Bold-Cond">logical data model.</span>
 
 content object
 
-In the context of a database, any entity that contains data. A content object can itself be made up of content objects. For example, a journal is a content object made up of individual journal articles, which are themselves content objects. <span class="Helv-Lt-Std-LT-Cond-Ital">See also</span> <span class="Helv-Lt-Std-Bold-Cond">information object.</span>
+In the context of a database, any entity that contains data. A content object can itself be made up of content objects. For example, a journal is a content object made up of individual journal articles, which are themselves content objects. See also <span class="Helv-Lt-Std-Bold-Cond">information object.</span>
 
 controlled vocabulary
 
@@ -128,39 +128,39 @@ An organized arrangement of words and phrases used to index content and/or to re
 
 core elements
 
-In the context of this book, the set of metadata elements representing the fundamental or most important information required for a minimal record. <span class="Helv-Lt-Std-LT-Cond-Ital">See also </span><span class="Helv-Lt-Std-Bold-Cond">required fields</span>.
+In the context of this book, the set of metadata elements representing the fundamental or most important information required for a minimal record. See also <span class="Helv-Lt-Std-Bold-Cond">required fields</span>.
 
-cross-database searching <span class="Helv-Lt-Std-LT-Cond-Ital">See</span><span class="Strong"> </span><span class="Helv-Lt-Std-Bold-Cond">federated searching</span>.
+cross-database searching See<span class="Strong"> </span><span class="Helv-Lt-Std-Bold-Cond">federated searching</span>.
 
 crosswalk
 
-<span class="Helv-Lt-Std-LT-Cond-Ital">Also</span> called <span class="Helv-Lt-Std-Bold-Cond">field mapping</span>. A chart or table (visual or virtual) that represents the semantic or technical mapping of fields or data elements from one data standard to fields or data elements in another standard that has a similar function or meaning. Crosswalks make it possible to convert data between databases that use different metadata schemes and enable heterogeneous databases to be searched simultaneously with a single query as if they were a single database (semantic interoperability). <span class="Helv-Lt-Std-LT-Cond-Ital">See also</span> <span class="Helv-Lt-Std-Bold-Cond">metadata mapping</span>.
+Also called <span class="Helv-Lt-Std-Bold-Cond">field mapping</span>. A chart or table (visual or virtual) that represents the semantic or technical mapping of fields or data elements from one data standard to fields or data elements in another standard that has a similar function or meaning. Crosswalks make it possible to convert data between databases that use different metadata schemes and enable heterogeneous databases to be searched simultaneously with a single query as if they were a single database (semantic interoperability). See also <span class="Helv-Lt-Std-Bold-Cond">metadata mapping</span>.
 
 data
 
-In common usage in computer science, this term is used as a singular noun to refer to information that exists in a form that may be used by a computer, excluding the program code. In other uses, <span class="Helv-Lt-Std-LT-Cond-Ital">datum</span> is the singular and <span class="Helv-Lt-Std-LT-Cond-Ital">data</span> is the plural, referring to facts or numbers in a general sense.
+In common usage in computer science, this term is used as a singular noun to refer to information that exists in a form that may be used by a computer, excluding the program code. In other uses, datum is the singular and data is the plural, referring to facts or numbers in a general sense.
 
 database
 
-A structured set of data held in computer storage, especially one that incorporates software to make it accessible in a variety of ways. A database is used to store, query, and retrieve information. It typically comprises a logical collection of interrelated information that is managed as a unit, stored in machine-readable form, and organized and structured as records that are presented in a standardized format in order to allow rapid search and retrieval by a computer. <span class="Helv-Lt-Std-LT-Cond-Ital">See also</span> <span class="Helv-Lt-Std-Bold-Cond">system</span>.
+A structured set of data held in computer storage, especially one that incorporates software to make it accessible in a variety of ways. A database is used to store, query, and retrieve information. It typically comprises a logical collection of interrelated information that is managed as a unit, stored in machine-readable form, and organized and structured as records that are presented in a standardized format in order to allow rapid search and retrieval by a computer. See also <span class="Helv-Lt-Std-Bold-Cond">system</span>.
 
 database field
 
-<span class="Helv-Lt-Std-LT-Cond-Ital">Also</span> called a <span class="Helv-Lt-Std-Bold-Cond">data field</span>. A placeholder for a unit of information in a database that forms one of the searchable items in that database. A database field is a portion of a structured machine-readable record containing a particular category of information (e.g., <span class="Helv-Lt-Std-LT-Cond-Ital">term</span> and <span class="Helv-Lt-Std-LT-Cond-Ital">scope note</span> would be fields included in a vocabulary record).
+Also called a <span class="Helv-Lt-Std-Bold-Cond">data field</span>. A placeholder for a unit of information in a database that forms one of the searchable items in that database. A database field is a portion of a structured machine-readable record containing a particular category of information (e.g., term and scope note would be fields included in a vocabulary record).
 
 database index
 
-<span class="Helv-Lt-Std-LT-Cond-Ital">Also</span> called a <span class="Helv-Lt-Std-Bold-Cond">data index</span>. A particular type of data structure that improves the speed of operations in a table by allowing the quick location of particular records based on key column values. Indexes are essential for good database performance. The concept is distinguished from<span class="Strong"> </span>human indexing (application of keywords and other data values to a descriptive record) and <span class="Helv-Lt-Std-Bold-Cond">automatic indexing</span>.
+Also called a <span class="Helv-Lt-Std-Bold-Cond">data index</span>. A particular type of data structure that improves the speed of operations in a table by allowing the quick location of particular records based on key column values. Indexes are essential for good database performance. The concept is distinguished from<span class="Strong"> </span>human indexing (application of keywords and other data values to a descriptive record) and <span class="Helv-Lt-Std-Bold-Cond">automatic indexing</span>.
 
-database record <span class="Helv-Lt-Std-LT-Cond-Ital">See</span> <span class="Helv-Lt-Std-Bold-Cond">record</span>.
+database record See <span class="Helv-Lt-Std-Bold-Cond">record</span>.
 
 data content standard
 
 Rules that determine the vocabulary, syntax, or format of content entered into data fields or metadata elements—e.g., <span class="Helv-Lt-Std-Bold-Cond">RDA</span>, ISO 8601 (rules for recording date and time), <span class="Helv-Lt-Std-Bold-Cond">DACS</span><span class="Helv-Lt-Std-Bold-Cond">,</span><span class="Helv-Lt-Std-Bold-Cond"> CCO</span>.
 
-data preprocessing [](){#_idTextAnchor069}<span class="Helv-Lt-Std-LT-Cond-Ital">See</span> <span class="Helv-Lt-Std-Bold-Cond">preprocessing</span>.
+data preprocessing [span class="Helv-Lt-Std-LT-Cond-Ital"](span class="Helv-Lt-Std-LT-Cond-Ital")See</span> <span class="Helv-Lt-Std-Bold-Cond">preprocessing</span>.
 
-data processing <span class="Helv-Lt-Std-LT-Cond-Ital">See</span> <span class="Helv-Lt-Std-Bold-Cond">processing</span>.
+data processing See <span class="Helv-Lt-Std-Bold-Cond">processing</span>.
 
 data provider
 
@@ -180,7 +180,7 @@ The terms, words, or numbers used to populate fields in a record.
 
 deep web
 
-<span class="Helv-Lt-Std-LT-Cond-Ital">See</span> <span class="Helv-Lt-Std-Bold-Cond">hidden web</span>.
+See <span class="Helv-Lt-Std-Bold-Cond">hidden web</span>.
 
 default values
 
@@ -192,7 +192,7 @@ A <span class="Helv-Lt-Std-Bold-Cond">data content standard</span> for describin
 
 diacritics
 
-<span class="Helv-Lt-Std-LT-Cond-Ital">Also </span>called <span class="Helv-Lt-Std-Bold-Cond">diacritical marks</span>. Signs or accent marks found over, under, or through alphabetic letters in many languages (e.g., the umlaut in German, <span class="Helv-Lt-Std-LT-Cond-Ital">München</span>), used to indicate emphasis or pronunciation, often to distinguish different sounds or values of the same letter or character without the diacritical mark.
+Also called <span class="Helv-Lt-Std-Bold-Cond">diacritical marks</span>. Signs or accent marks found over, under, or through alphabetic letters in many languages (e.g., the umlaut in German, München), used to indicate emphasis or pronunciation, often to distinguish different sounds or values of the same letter or character without the diacritical mark.
 
 digital asset management system
 
@@ -244,13 +244,13 @@ A specification for an image file format for digital cameras that provides the a
 
 false hit
 
-In search and retrieval, an entry in a list of results that does not comply with the user’s intended results. <span class="Helv-Lt-Std-LT-Cond-Ital">Also</span> called a <span class="Helv-Lt-Std-Bold-Cond">false drop</span>.
+In search and retrieval, an entry in a list of results that does not comply with the user’s intended results. Also called a <span class="Helv-Lt-Std-Bold-Cond">false drop</span>.
 
 federated searching
 
-<span class="Helv-Lt-Std-LT-Cond-Ital">Also</span> called<span class="Helv-Lt-Std-Bold-Cond">,</span><span class="Helv-Lt-Std-Bold-Cond"> cross-database searching</span><span class="Helv-Lt-Std-Bold-Cond">,</span><span class="Helv-Lt-Std-Bold-Cond"> metasearching</span><span class="Helv-Lt-Std-Bold-Cond">,</span><span class="Strong"> </span>and <span class="Helv-Lt-Std-Bold-Cond">parallel searching.</span> Performing queries simultaneously across resources residing in different domains and created by different communities. Federated searching may involve searching across multiple databases, different platforms, and varying protocols, thus requiring the application of <span class="Helv-Lt-Std-Bold-Cond">interoperability</span> between resources and vocabularies.
+Also called<span class="Helv-Lt-Std-Bold-Cond">,</span><span class="Helv-Lt-Std-Bold-Cond"> cross-database searching</span><span class="Helv-Lt-Std-Bold-Cond">,</span><span class="Helv-Lt-Std-Bold-Cond"> metasearching</span><span class="Helv-Lt-Std-Bold-Cond">,</span><span class="Strong"> </span>and <span class="Helv-Lt-Std-Bold-Cond">parallel searching.</span> Performing queries simultaneously across resources residing in different domains and created by different communities. Federated searching may involve searching across multiple databases, different platforms, and varying protocols, thus requiring the application of <span class="Helv-Lt-Std-Bold-Cond">interoperability</span> between resources and vocabularies.
 
-field mapping <span class="Helv-Lt-Std-LT-Cond-Ital">See</span> <span class="Helv-Lt-Std-Bold-Cond">crosswalk</span>.
+field mapping See <span class="Helv-Lt-Std-Bold-Cond">crosswalk</span>.
 
 finding aid
 
@@ -294,15 +294,15 @@ In Open Archives Initiative nomenclature, a computer system that sends <span cla
 
 heading
 
-<span class="Helv-Lt-Std-LT-Cond-Ital">Also</span> called a <span class="Helv-Lt-Std-Bold-Cond">label</span><span class="Strong">.</span> A string of words comprising a term combined with other information that serves to modify, disambiguate, amplify, or create a context for the main term in displays. <span class="Helv-Lt-Std-LT-Cond-Ital">See also </span><span class="Helv-Lt-Std-Bold-Cond">authority heading</span>.
+Also called a <span class="Helv-Lt-Std-Bold-Cond">label</span><span class="Strong">.</span> A string of words comprising a term combined with other information that serves to modify, disambiguate, amplify, or create a context for the main term in displays. See also <span class="Helv-Lt-Std-Bold-Cond">authority heading</span>.
 
 hidden web
 
-<span class="Helv-Lt-Std-LT-Cond-Ital">Also</span> called <span class="Helv-Lt-Std-Bold-Cond">deep web</span> and<span class="Helv-Lt-Std-Bold-Cond"> invisible web</span>. The sum of the web pages that are not accessible to web crawlers, usually because they are either dynamically generated by a user querying a database or are password protected or subscription based.
+Also called <span class="Helv-Lt-Std-Bold-Cond">deep web</span> and<span class="Helv-Lt-Std-Bold-Cond"> invisible web</span>. The sum of the web pages that are not accessible to web crawlers, usually because they are either dynamically generated by a user querying a database or are password protected or subscription based.
 
 hostname
 
-An identifier for a specific machine on the Internet. The hostname identifies not only the machine, but also its subnet and domain—for example, “[www.getty.edu]().” <span class="Helv-Lt-Std-LT-Cond-Ital">See also</span> <span class="Helv-Lt-Std-Bold-Cond">domain name</span>.
+An identifier for a specific machine on the Internet. The hostname identifies not only the machine, but also its subnet and domain—for example, “[www.getty.edu]().” See also <span class="Helv-Lt-Std-Bold-Cond">domain name</span>.
 
 HTML (HyperText Markup Language)
 
@@ -318,7 +318,7 @@ An abbreviated reference to a “hypertext link,” a method of creating nonline
 
 information object
 
-A digital item or group of items referred to as a unit, regardless of type or format, that a computer can address or manipulate as a single discrete object. <span class="Helv-Lt-Std-LT-Cond-Ital">See also</span> <span class="Helv-Lt-Std-Bold-Cond">content object</span>.
+A digital item or group of items referred to as a unit, regardless of type or format, that a computer can address or manipulate as a single discrete object. See also <span class="Helv-Lt-Std-Bold-Cond">content object</span>.
 
 International Organization for Standardization (ISO)
 
@@ -334,9 +334,9 @@ A thematically organized list of descriptive links to Internet sites, often crea
 
 interoperability
 
-The ability of different information systems to work together, particularly in the correct interpretation of data semantics and functionality. <span class="Helv-Lt-Std-LT-Cond-Ital">See also</span> <span class="Helv-Lt-Std-Bold-Cond">semantic interoperability</span>.
+The ability of different information systems to work together, particularly in the correct interpretation of data semantics and functionality. See also <span class="Helv-Lt-Std-Bold-Cond">semantic interoperability</span>.
 
-invisible web <span class="Helv-Lt-Std-LT-Cond-Ital">See</span> <span class="Helv-Lt-Std-Bold-Cond">hidden web</span>.
+invisible web See <span class="Helv-Lt-Std-Bold-Cond">hidden web</span>.
 
 item
 
@@ -384,7 +384,7 @@ Software that uses the OpenURL standard to automatically redirect a user’s req
 
 load
 
-The process of moving or transferring files or software from one disk, computer, or server to another. To <span class="Helv-Lt-Std-LT-Cond-Ital">upload</span> means to transfer from a local computer to a remote computer; to <span class="Helv-Lt-Std-LT-Cond-Ital">download</span> means to transfer from a remote computer to a local one.
+The process of moving or transferring files or software from one disk, computer, or server to another. To upload means to transfer from a local computer to a remote computer; to download means to transfer from a remote computer to a local one.
 
 logical data model
 
@@ -392,7 +392,7 @@ A data model that includes all entities and the relationships among them based o
 
 mapping
 
-A set of correspondences between terms, fields, or element names used for translating data from one standard or vocabulary into another, or as a means of combining terms or data for search and retrieval. <span class="Helv-Lt-Std-LT-Cond-Ital">See also</span> <span class="Helv-Lt-Std-Bold-Cond">crosswalk</span>.
+A set of correspondences between terms, fields, or element names used for translating data from one standard or vocabulary into another, or as a means of combining terms or data for search and retrieval. See also <span class="Helv-Lt-Std-Bold-Cond">crosswalk</span>.
 
 MARC (Machine-Readable Cataloging) format
 
@@ -412,7 +412,7 @@ A standard for encoding descriptive, administrative, and structural metadata rel
 
 metadata mapping
 
-A formal identification of equivalent or nearly equivalent metadata elements or groups of metadata elements within different metadata schemas, carried out in order to facilitate <span class="Helv-Lt-Std-Bold-Cond">semantic interoperability</span>. <span class="Helv-Lt-Std-LT-Cond-Ital">See also</span> <span class="Helv-Lt-Std-Bold-Cond">mapping</span> <span class="Helv-Lt-Std-LT-Cond-Ital">and</span> <span class="Helv-Lt-Std-Bold-Cond">crosswalk</span>.
+A formal identification of equivalent or nearly equivalent metadata elements or groups of metadata elements within different metadata schemas, carried out in order to facilitate <span class="Helv-Lt-Std-Bold-Cond">semantic interoperability</span>. See also <span class="Helv-Lt-Std-Bold-Cond">mapping</span> and <span class="Helv-Lt-Std-Bold-Cond">crosswalk</span>.
 
 metadata mining
 
@@ -424,7 +424,7 @@ An <span class="Helv-Lt-Std-Bold-Cond">XML schema</span> for bibliographic recor
 
 metasearch
 
-Searching of diverse databases on diverse platforms with diverse metadata in real time via one or more protocols. The <span class="Helv-Lt-Std-LT-Cond-Ital">National Information Standards Organization</span> MetaSearch Initiative defines metasearch as “search and retrieval to span multiple databases, sources, platforms, protocols, and vendors at once.” Metasearch enables users to enter search criteria once and access several search engines simultaneously. With meta­search, fresh records are always available because searching is in real time, in a distributed environment.
+Searching of diverse databases on diverse platforms with diverse metadata in real time via one or more protocols. The National Information Standards Organization MetaSearch Initiative defines metasearch as “search and retrieval to span multiple databases, sources, platforms, protocols, and vendors at once.” Metasearch enables users to enter search criteria once and access several search engines simultaneously. With meta­search, fresh records are always available because searching is in real time, in a distributed environment.
 
 meta tag
 
@@ -460,7 +460,7 @@ In the context of this book, an ontology is a formal, machine-readable specifica
 
 Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH)
 
-A protocol used to harvest or collect [metadata]() records from data providers. <span class="Helv-Lt-Std-LT-Cond-Ital">See also</span> <span class="Helv-Lt-Std-Bold-Cond">data provider</span>, data harvester, and <span class="Helv-Lt-Std-Bold-Cond">service provider</span>. [http://www.openarchives.org/pmh]()/
+A protocol used to harvest or collect [metadata]() records from data providers. See also <span class="Helv-Lt-Std-Bold-Cond">data provider</span>, data harvester, and <span class="Helv-Lt-Std-Bold-Cond">service provider</span>. [http://www.openarchives.org/pmh]()/
 
 operating system
 
@@ -472,7 +472,7 @@ A proprietary link-analysis algorithm developed by Google founders Larry Page an
 
 paradigmatic relationship
 
-<span class="Helv-Lt-Std-LT-Cond-Ital">Also</span> called a <span class="Helv-Lt-Std-Bold-Cond">semantic relationship</span><span class="Strong">.</span> A relationship between terms or concepts that is permanent and based on a known definition.
+Also called a <span class="Helv-Lt-Std-Bold-Cond">semantic relationship</span><span class="Strong">.</span> A relationship between terms or concepts that is permanent and based on a known definition.
 
 parsing
 
@@ -484,21 +484,21 @@ In the context of this book, a measure of search effectiveness expressed as the 
 
 preprocessing
 
-<span class="Helv-Lt-Std-LT-Cond-Ital">Also</span> called <span class="Helv-Lt-Std-Bold-Cond">data preprocessing</span>. Preliminary processing or transformation of data in order to facilitate further processing, parsing, etc.
+Also called <span class="Helv-Lt-Std-Bold-Cond">data preprocessing</span>. Preliminary processing or transformation of data in order to facilitate further processing, parsing, etc.
 
 probabilistic model
 
-An automatic relevance and weighting method in which terms in a text or other <span class="Helv-Lt-Std-Bold-Cond">content object</span> are modeled as random variables so that term frequency and distribution are used to predict the probability of relevance. <span class="Helv-Lt-Std-LT-Cond-Ital">See also</span> <span class="Helv-Lt-Std-Bold-Cond">language model</span>.
+An automatic relevance and weighting method in which terms in a text or other <span class="Helv-Lt-Std-Bold-Cond">content object</span> are modeled as random variables so that term frequency and distribution are used to predict the probability of relevance. See also <span class="Helv-Lt-Std-Bold-Cond">language model</span>.
 
 procedure
 
-A relatively independent portion of computer code within a larger computer program that performs a specific task in a series of steps. <span class="Helv-Lt-Std-LT-Cond-Ital">Also</span> called a <span class="Helv-Lt-Std-Bold-Cond">subprogram</span> or <span class="Helv-Lt-Std-Bold-Cond">subroutine</span>.
+A relatively independent portion of computer code within a larger computer program that performs a specific task in a series of steps. Also called a <span class="Helv-Lt-Std-Bold-Cond">subprogram</span> or <span class="Helv-Lt-Std-Bold-Cond">subroutine</span>.
 
 processing
 
-<span class="Helv-Lt-Std-LT-Cond-Ital">Also</span> called <span class="Helv-Lt-Std-Bold-Cond">data processing</span>. The manipulation or transformation of data through a series of operations. In <span class="Helv-Lt-Std-Bold-Cond">batch processing</span>, the operations are grouped together in batches and performed automatically; in <span class="Helv-Lt-Std-Bold-Cond">interactive processing</span>, the operations are prompted by input from a human programmer or user. <span class="Helv-Lt-Std-LT-Cond-Ital">See also</span> <span class="Helv-Lt-Std-Bold-Cond">computer program</span>.
+Also called <span class="Helv-Lt-Std-Bold-Cond">data processing</span>. The manipulation or transformation of data through a series of operations. In <span class="Helv-Lt-Std-Bold-Cond">batch processing</span>, the operations are grouped together in batches and performed automatically; in <span class="Helv-Lt-Std-Bold-Cond">interactive processing</span>, the operations are prompted by input from a human programmer or user. See also <span class="Helv-Lt-Std-Bold-Cond">computer program</span>.
 
-program <span class="Helv-Lt-Std-LT-Cond-Ital">See</span> <span class="Helv-Lt-Std-Bold-Cond">computer program</span>.
+program See <span class="Helv-Lt-Std-Bold-Cond">computer program</span>.
 
 programming language
 
@@ -522,7 +522,7 @@ A measure of a search system’s effectiveness in terms of retrieving all result
 
 record
 
-In the context of this book, a coherent, discrete group of populated fields or metadata elements. <span class="Helv-Lt-Std-LT-Cond-Ital">Also</span> called a<span class="Helv-Lt-Std-Bold-Cond"> </span><span class="Helv-Lt-Std-Bold-Cond">logical record</span>.
+In the context of this book, a coherent, discrete group of populated fields or metadata elements. Also called a<span class="Helv-Lt-Std-Bold-Cond"> </span><span class="Helv-Lt-Std-Bold-Cond">logical record</span>.
 
 relational database
 
@@ -554,15 +554,15 @@ The process of searching for specific information objects on the web.
 
 <span class="Helv-Lt-Std-Bold-Cond">retrieval</span>
 
-In the context of this book, the activity of using a search or other method to find records or other data in a database. <span class="Helv-Lt-Std-LT-Cond-Ital">See also</span> <span class="Helv-Lt-Std-Bold-Cond">query</span>.
+In the context of this book, the activity of using a search or other method to find records or other data in a database. See also <span class="Helv-Lt-Std-Bold-Cond">query</span>.
 
 robot
 
-<span class="Helv-Lt-Std-LT-Cond-Ital">See</span> <span class="Helv-Lt-Std-Bold-Cond">web crawler</span>.
+See <span class="Helv-Lt-Std-Bold-Cond">web crawler</span>.
 
 schema
 
-<span class="Helv-Lt-Std-LT-Cond-Ital">Also</span> called <span class="Helv-Lt-Std-Bold-Cond">scheme</span>. The organization, structure, and rules for encoding information that supports specific communities of users. The plural forms of the word schema are “schemas” and “schemata.” <span class="Helv-Lt-Std-LT-Cond-Ital">See also</span> <span class="Helv-Lt-Std-Bold-Cond">XML schema</span>.
+Also called <span class="Helv-Lt-Std-Bold-Cond">scheme</span>. The organization, structure, and rules for encoding information that supports specific communities of users. The plural forms of the word schema are “schemas” and “schemata.” See also <span class="Helv-Lt-Std-Bold-Cond">XML schema</span>.
 
 schema registry
 
@@ -574,7 +574,7 @@ A technique in which display data (usually unstructured) is automatically retrie
 
 search engine
 
-A computer program that allows users to search electronic resources. In the context of the World Wide Web, the term usually refers to a program that searches a large index of web pages generated by an automated web crawler. <span class="Helv-Lt-Std-LT-Cond-Ital">See also</span> <span class="Helv-Lt-Std-Bold-Cond">web search engine</span>.
+A computer program that allows users to search electronic resources. In the context of the World Wide Web, the term usually refers to a program that searches a large index of web pages generated by an automated web crawler. See also <span class="Helv-Lt-Std-Bold-Cond">web search engine</span>.
 
 searching
 
@@ -590,11 +590,11 @@ A method of linking terms in a database according to the meaning of and relation
 
 Semantic Web
 
-An evolving, collaborative effort led by the World Wide Web Consortium (W3C) whose goal is to <span class="summary">provide a common framework that will allow </span><span class="Helv-Lt-Std-LT-Cond-Ital">data</span><span class="summary"> to be shared and reused across various applications and enterprise and community boundaries. </span>It derives from W3C director and inventor of the World Wide Web Tim Berners-Lee’s vision of the web as a universal medium for data, information, and knowledge exchange.
+An evolving, collaborative effort led by the World Wide Web Consortium (W3C) whose goal is to <span class="summary">provide a common framework that will allow </span>data<span class="summary"> to be shared and reused across various applications and enterprise and community boundaries. </span>It derives from W3C director and inventor of the World Wide Web Tim Berners-Lee’s vision of the web as a universal medium for data, information, and knowledge exchange.
 
 server
 
-An application that supplies resources or resource manifestations. Often used to refer to a networked computer that acts as a source of data and/or applications used by multiple client computers or devices. <span class="Helv-Lt-Std-LT-Cond-Ital">See also</span> <span class="Helv-Lt-Std-Bold-Cond">client</span>.
+An application that supplies resources or resource manifestations. Often used to refer to a networked computer that acts as a source of data and/or applications used by multiple client computers or devices. See also <span class="Helv-Lt-Std-Bold-Cond">client</span>.
 
 service provider
 
@@ -610,7 +610,7 @@ The decentralized practice and method by which individuals and groups create, cl
 
 social tagging
 
-The decentralized practice and method by which individuals and groups create, manage, and share terms, names, etc.—called “tags”—to annotate and categorize digital resources in an online “social” environment. A <span class="Helv-Lt-Std-Bold-Cond">folksonomy</span> is the result of social tagging. Also referred to as collaborative tagging, social classification, social indexing, mob indexing, folk categorization. <span class="Helv-Lt-Std-LT-Cond-Ital">See also</span> <span class="Helv-Lt-Std-Bold-Cond">tagging</span>.
+The decentralized practice and method by which individuals and groups create, manage, and share terms, names, etc.—called “tags”—to annotate and categorize digital resources in an online “social” environment. A <span class="Helv-Lt-Std-Bold-Cond">folksonomy</span> is the result of social tagging. Also referred to as collaborative tagging, social classification, social indexing, mob indexing, folk categorization. See also <span class="Helv-Lt-Std-Bold-Cond">tagging</span>.
 
 sorting
 
@@ -622,9 +622,9 @@ Used in reference to <span class="Helv-Lt-Std-Bold-Cond">meta tags</span>, the a
 
 specifications
 
-In the context of designing an information system, the formal, detailed description of user and technical requirements, including specific descriptions of procedures, functions, screens, reports, materials, other features, and hardware. <span class="Helv-Lt-Std-LT-Cond-Ital">See also</span> <span class="Helv-Lt-Std-LT-Cond-Ital">user requirements</span>.
+In the context of designing an information system, the formal, detailed description of user and technical requirements, including specific descriptions of procedures, functions, screens, reports, materials, other features, and hardware. See also user requirements.
 
-spider <span class="Helv-Lt-Std-LT-Cond-Ital">See</span> <span class="Helv-Lt-Std-Bold-Cond">web crawler</span>.
+spider See <span class="Helv-Lt-Std-Bold-Cond">web crawler</span>.
 
 SQL (Structured Query Language)
 
@@ -640,23 +640,23 @@ In the context of search and retrieval, words in a vocabulary or target data tha
 
 surrogate
 
-<span class="Helv-Lt-Std-LT-Cond-Ital">See</span> <span class="Helv-Lt-Std-Bold-Cond">digital surrogate</span>.
+See <span class="Helv-Lt-Std-Bold-Cond">digital surrogate</span>.
 
 system
 
-<span class="Helv-Lt-Std-LT-Cond-Ital">Also</span> called a <span class="Helv-Lt-Std-Bold-Cond">computer system</span>. A number of interrelated hardware and software components that work together to store and convert data into information by using electronic processing. <span class="Helv-Lt-Std-LT-Cond-Ital">See also</span> <span class="Helv-Lt-Std-Bold-Cond">database</span>.
+Also called a <span class="Helv-Lt-Std-Bold-Cond">computer system</span>. A number of interrelated hardware and software components that work together to store and convert data into information by using electronic processing. See also <span class="Helv-Lt-Std-Bold-Cond">database</span>.
 
 tagging
 
-In the context of the web, the act of associating [terms]() (called “tags”) with an information object (e.g., a web page, an image, a streaming video clip), thus describing the item and enabling keyword-based classification and retrieval. Tags—a form of user-generated metadata—from communities of users can be aggregated and analyzed, providing useful information about the collection of objects with which the tags have been associated. <span class="Helv-Lt-Std-LT-Cond-Ital">See also</span> <span class="Helv-Lt-Std-Bold-Cond">social tagging</span>.
+In the context of the web, the act of associating [terms]() (called “tags”) with an information object (e.g., a web page, an image, a streaming video clip), thus describing the item and enabling keyword-based classification and retrieval. Tags—a form of user-generated metadata—from communities of users can be aggregated and analyzed, providing useful information about the collection of objects with which the tags have been associated. See also <span class="Helv-Lt-Std-Bold-Cond">social tagging</span>.
 
 taxonomy
 
-An orderly classification that explicitly expresses the relationships, usually hierarchical (e.g., genus/species, whole/part, class/instance)—between and among the things being classified. A taxonomy can be used as a <span class="Helv-Lt-Std-Bold-Cond">controlled vocabulary</span>. <span class="Helv-Lt-Std-LT-Cond-Ital">See also</span> <span class="Helv-Lt-Std-Bold-Cond">folksonomy</span>.
+An orderly classification that explicitly expresses the relationships, usually hierarchical (e.g., genus/species, whole/part, class/instance)—between and among the things being classified. A taxonomy can be used as a <span class="Helv-Lt-Std-Bold-Cond">controlled vocabulary</span>. See also <span class="Helv-Lt-Std-Bold-Cond">folksonomy</span>.
 
 TCP/IP (Transmission Control Protocol/ Internet Protocol)
 
-The <span class="Helv-Lt-Std-LT-Cond-Ital">International Organization for Standardization</span><span class="Strong"> (</span>ISO) standardized suite of network protocols that enables information systems to communicate with other information systems on the Internet regardless of their computer platforms.
+The International Organization for Standardization<span class="Strong"> (</span>ISO) standardized suite of network protocols that enables information systems to communicate with other information systems on the Internet regardless of their computer platforms.
 
 Text Encoding Initiative (TEI)
 
@@ -668,7 +668,7 @@ The process of rendering the letters or characters of one alphabet or writing sy
 
 truncation
 
-In searching and matching, the action of cutting off characters in a search term in order to find all terms with a certain common string of characters; this typically involves the user employing a wildcard symbol to search for a string of characters no matter what other characters follow (or precede) that string (e.g., searching for <span class="Helv-Lt-Std-LT-Cond-Ital">arch</span>\* will retrieve <span class="Helv-Lt-Std-LT-Cond-Ital">arch, arches, architrave, architecture, architectural history,</span> etc.).
+In searching and matching, the action of cutting off characters in a search term in order to find all terms with a certain common string of characters; this typically involves the user employing a wildcard symbol to search for a string of characters no matter what other characters follow (or precede) that string (e.g., searching for arch\* will retrieve arch, arches, architrave, architecture, architectural history, etc.).
 
 Unicode
 
@@ -688,7 +688,7 @@ A type of <span class="Helv-Lt-Std-Bold-Cond">URI</span> consisting of an Intern
 
 URN (Uniform Resource Name)
 
-A type of <span class="Helv-Lt-Std-Bold-Cond">URI</span> consisting of a unique, location-independent identifier of a file available on the Internet. The file remains accessible by its URN regardless of changes that might occur in its host and directory path. For example, urn:issn:0167-6423 is the URN for the journal <span class="Helv-Lt-Std-LT-Cond-Ital">Science of Computer Programming</span>.
+A type of <span class="Helv-Lt-Std-Bold-Cond">URI</span> consisting of a unique, location-independent identifier of a file available on the Internet. The file remains accessible by its URN regardless of changes that might occur in its host and directory path. For example, urn:issn:0167-6423 is the URN for the journal Science of Computer Programming.
 
 user interface
 
@@ -696,7 +696,7 @@ The portion of the design and functionality of a cataloging, editorial, search a
 
 user requirements
 
-In system design, the initial formal explanation of functionalities, displays, and reports expressed from the point of view of the user’s needs and expectations. <span class="Helv-Lt-Std-LT-Cond-Ital">See also</span><span class="Strong"> </span><span class="Helv-Lt-Std-Bold-Cond">specifications</span>.
+In system design, the initial formal explanation of functionalities, displays, and reports expressed from the point of view of the user’s needs and expectations. See also<span class="Strong"> </span><span class="Helv-Lt-Std-Bold-Cond">specifications</span>.
 
 Virtual International Authority File (VIAF)
 
@@ -728,7 +728,7 @@ A computer that is able to respond to HTTP requests from clients known as web br
 
 website
 
-A collection of related electronic pages (<span class="Helv-Lt-Std-LT-Cond-Ital">web pages</span>), generally formatted in HTML and found at a single address where the server computer is identified by a given host name.
+A collection of related electronic pages (web pages), generally formatted in HTML and found at a single address where the server computer is identified by a given host name.
 
 wiki
 
