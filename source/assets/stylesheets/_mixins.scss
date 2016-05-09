@@ -1,0 +1,20 @@
+@mixin link-color ($base-color) {
+  a {
+    color: $base-color;
+
+    &:active,
+    &:focus,
+    &:hover {
+      color: transparentize($base-color, 0.65);
+    }
+  }
+}
+
+@mixin text-size($multiplier) {
+  p,
+  ol,
+  ul {
+    font-size: $base-font-size * $multiplier;
+  }
+}
+
