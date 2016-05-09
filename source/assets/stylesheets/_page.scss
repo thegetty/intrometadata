@@ -98,3 +98,13 @@
     list-style-type: decimal;
   }
 }
+
+.page-content .sidebar {
+  background-color: $light-gray;
+  margin: $base-spacing 0 0 0;
+  padding: $base-spacing;
+  border-radius: $base-border-radius * 2;
+  h2 {
+    margin-top: 0;
+  }
+}
