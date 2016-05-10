@@ -1,0 +1,60 @@
+<table>
+  <thead>
+    <tr>
+      <th>Method</th>
+      <th>Description</th>
+      <th>Examples</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Batch processing of contributed data</td>
+      <td>A contributing institution/data provider makes its metadata records available in a standard format for batch loading/ingest by a service provider.</td>
+      <td>
+        <ul>
+          <li>Contribution of MARC records to OCLC’s WorldCat</li>
+          <li>Contribution of batch data to the Getty vocabularies</li>
+          <li>Contribution of MARC records and EAD finding aids to OCLC’s ArchiveGrid</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Real-time access to data via web services or linked-data APIs</td>
+      <td>Data is made available in real time via web APIs (application programming). The data is provided in documented standardized serializations (e.g., JSON, JSON-LD, XML, linked open data), and can be used/reused in local applications, combined with local search results, etc.</td>
+      <td>
+        <ul>
+          <li>The WorldCat search API</li>
+          <li>The Getty vocabularies web services APIs, which make it possible to retrieve regularly updated data from the Art &amp; Architecture Thesaurus and the other Getty vocabularies</li>
+          <li>The Getty vocabularies linked open data SPARQL endpoint</li>
+          <li>The Europeana APIs</li>
+          <li>The Ex Libris Alma APIs</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Harvesting</td>
+      <td>Records expressed in a standard metadata schema (e.g., Dublin Core) are made available by data providers on specially configured servers. The records are harvested, batch processed, and made available by service providers from a single database or index. The service provider preprocesses the contributed data and stores it locally before it is made available for searching by users. In order for records to be added or updated, data providers must post fresh metadata records, and service providers must reharvest, batch process, and integrate the new and updated records into the union catalog.</td>
+      <td>
+        <ul>
+          <li>The OAISTER database</li>
+          <li>The Digital Public Library of America</li>
+          <li>Europeana</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Screen scraping</td>
+      <td>The extraction of display data (usually unstructured) and hidden embedded data from web pages.</td>
+      <td>
+        <ul>
+          <li>How search engines like Google use robots to extract data from web pages for creating their huge search indexes</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Metasearch of distributed metadata records</td>
+      <td>Diverse databases on different platforms and often with different metadata schemas are searched in real time via one or more protocols (e.g. Z39.50, screen scraping, APIs). The service provider does not preprocess or store data but rather processes data only when a user launches a search. Search results are usually displayed target-by-target, as integrating retrieved records from each different database into a single ranked result set is difficult and time consuming.</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
