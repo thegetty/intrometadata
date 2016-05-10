@@ -71,6 +71,14 @@
   }
 }
 
+.page-content ol {
+  margin-left: $base-spacing;
+  list-style-type: decimal;
+  li {
+    margin-bottom: $small-spacing;
+  }
+}
+
 .page-content table {
   margin-bottom: $base-spacing * 2;
 }
