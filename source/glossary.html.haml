@@ -1,0 +1,19 @@
+---
+title: Glossary 
+layout: page
+sort_order: 7
+---
+%ul.glossary
+  - data.definitions.each do |term|
+    %li
+      - if term.definition.nil?
+        %span.term= term.id.gsub("-", " ")
+        %br
+        %span.definition= "See <span class='term'>#{term.crossref}</span>"
+      - else
+        - term.definition[0] = term.definition[0].capitalize
+        %span.term= term.id.gsub("-", " ")
+        - if term.plural
+          %span.plural= "(plural <em>#{term.plural}</em>)"
+        %br
+        %span.definition= "#{term.definition}"

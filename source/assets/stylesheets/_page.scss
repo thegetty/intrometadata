@@ -131,3 +131,11 @@
     margin-top: 0;
   }
 }
+
+.page-content .glossary {
+  list-style-type: none;
+  padding-left: 0;
+  .term {
+    font-weight: 700;
+  }
+}
