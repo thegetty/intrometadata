@@ -1,0 +1,10 @@
+---
+title: Contributors
+layout: page
+sort_order: 8
+---
+%ul.contributors
+  - data.book.creators.each do |creator|
+    %li= creator.bio
+  - data.book.contributors.each do |contributor|
+    %li= contributor.bio
