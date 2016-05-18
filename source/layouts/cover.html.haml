@@ -1,8 +1,9 @@
 = wrap_layout :application do
   %header.cover
-    %h1.page-title= current_page.data.title
-    - if current_page.data.author
-      %h3.page-author= current_page.data.author
+    %h1.cover-title= data.book.title.main
+    - unless data.book.title.subtitle.nil?
+      %h2.cover-subtitle= data.book.title.subtitle
+    %h3.cover-author= data.book.author_as_it_appears[0]
   %article.page
     %main.page-content
       = yield

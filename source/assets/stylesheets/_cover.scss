@@ -3,6 +3,7 @@
   @include flex-direction(column);
   @include justify-content(center);
 
+  background-image: url(image-path("cover.jpg"));
   background-color: tint($light-gray, 30%);
   background-position: center center;
   background-size: cover;
@@ -10,8 +11,15 @@
   margin-bottom: $base-spacing;
   padding: $small-spacing;
 
-  .page-title,
-  .page-author {
+  .cover-title,
+  .cover-author {
     text-align: center;
+  }
+
+  .cover-title {
+    font-size: 5em;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 2px 2px 2px $dark-gray;
   }
 }
