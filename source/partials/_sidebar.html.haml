@@ -6,4 +6,18 @@
     %nav-sidebar-content
       %ul.nav-sidebar-toc
         - chapters.each do |chapter|
-          %li= link_to chapter.title, chapter
+          - if chapter.data.sidebar != false
+            %li= link_to chapter.title, chapter
+  %footer.nav-sidebar-footer
+    %p
+      #{data.book.rights}
+      %br
+      Published by the #{data.book.imprint}, #{data.book.publisher_location}
+    = link_to "About", "/about.html"
+    %span &#124;
+    = link_to "Privacy", "http://www.getty.edu/legal/privacy.html", { target: "blank" }
+    %span &#124;
+    = link_to "Terms of Use", "http://www.getty.edu/legal/copyright.html", { target: "blank" }
+    .nav-logo
+      = tag :img,
+        src: image_path("getty_logo.svg"), class: "nav-logo", alt: "Getty Logo"

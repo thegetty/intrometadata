@@ -24,8 +24,45 @@ contributors:
 author_as_it_appears:
   - "Edited by Murtha Baca"
   - "contributions by Tony Gill, Maureen Whalen, and Mary S. Woodley"
+project_team:
+  - name: Murtha Baca
+    role: Series Editor
+  - name: Tom Fredrickson
+    role: Manuscript Editor
+  - name: Marissa Clifford
+    role: Proofreader
+  - name: Marissa Clifford
+    role: Proofreader
+  - name: Gary Hespenheide
+    role: Designer
+  - name: Amita Molloy
+    role: Production
+  - name: Greg Albers
+    role: Digital Project Manager
+editions:
+  - name: Online
+    type: InteractiveResource
+    format: text/html
+    isbn:
+    link: http://www.getty.edu/publications/intrometadata
+    additional_description:
+  - name: Paperback
+    type: PhyiscalObject
+    format: paperback
+    isbn: 978-1-60606-479-5
+    pages: 96
+    illustrations: "11 b/w  illustrations"
+    link: http://shop.getty.edu/products/introduction-to-metadata-third-edition-978-1606064795
+    additional_description:
+description_main: |
+  Metadata provides a means of indexing, accessing, preserving, and discovering digital resources. The volume of digital information available over electronic networks has created a pressing need for standards that ensure correct and proper use and interpretation of the data by its owners and users. Well-crafted metadata is needed more now than ever before and helps users to locate, retrieve, and manage information in this vast and complex universe.
+
+  The third edition of *Introduction to Metadata*, first published in 1998, provides an overview of metadata, including its types, roles, and characteristics; a discussion of metadata as it relates to Web resources; and a description of methods, tools, standards, and protocols for publishing and disseminating digital collections. This revised edition is an indispensable resource in the field, addressing advances in standards such as Linked Open Data, changes in intellectual property law, and new computing technologies, and offering an expanded glossary of essential terms.
 publisher: Getty Publications
+imprint: Getty Research Institute
+publisher_short: Getty P
 publisher_location: Los Angeles
+rights: © 2016 J. Paul Getty Trust
 description: >-
   A digital book template from Getty Publications.
 subjects:
