@@ -139,4 +139,9 @@
   .term {
     font-weight: 700;
   }
+  a > .term {
+    font-weight: normal;
+    color: $base-font-color;
+    border-bottom: 1px solid $action-color-light;
+  }
 }

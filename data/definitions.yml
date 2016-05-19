@@ -1,9 +1,9 @@
 ---
 - id: algorithm
-  definition: "A formula or procedure for solving a problem or carrying out a task. An algorithm is a set of steps in a very specific order, such as a mathematical formula or the instructions in a computer program. <em>See also</em> <span class='term'>computer program</span>."
+  definition: "A formula or procedure for solving a problem or carrying out a task. An algorithm is a set of steps in a very specific order, such as a mathematical formula or the instructions in a computer program. <em>See also</em> <a href='#computer_program'><span class='term'>computer program</span></a>."
 
 - id: Anglo-American Cataloguing Rules (AACR)
-  definition: "A <span class='term'>data content standard </span>for describing bibliographic materials. <a href='http://www.aacr2.org/'>http://www.aacr2.org/</a>"
+  definition: "A <a href='#data_content_standard'><span class='term'>data content standard</span></a> for describing bibliographic materials. <a href='http://www.aacr2.org/'>http://www.aacr2.org/</a>"
 
 - id: application
   definition: "A software program designed to accomplish a task for an end user (e.g., word processing or project management), as distinguished from the operating system program that runs the computer itself. "
@@ -36,28 +36,28 @@
   definition: "A database that contains and manages data for an information system, distinct from the presentation or interface components of that system."
 
 - id: batch load
-  definition: "In the context of populating or contributing to databases, moving or manipulating a group of records as a single unit for the purpose of data processing, typically accomplished by the computer without user interaction, in contrast to entering records manually, one at a time. <em>See also</em><em> </em><span class='term'>load</span> and <span class='term'>processing</span>."
+  definition: "In the context of populating or contributing to databases, moving or manipulating a group of records as a single unit for the purpose of data processing, typically accomplished by the computer without user interaction, in contrast to entering records manually, one at a time. <em>See also</em><em> </em><a href='#load'><span class='term'>load</span></a> and <a href='#processing'><span class='term'>processing</span></a>."
 
 - id: BIBFRAME (Bibliographic Framework)
-  definition: "A data model for bibliographic description designed to replace the <span class='term'>MARC</span> standards and to use the principles of linked data to make bibliographic data more useful within the library community as well as in the broader universe of information. <a href='http://www.loc.gov/bibframe/'>http://www.loc.gov/bibframe/</a>"
+  definition: "A data model for bibliographic description designed to replace the <a href='#marc_machine_readable_cataloging_format'><span class='term'>MARC</span></a> standards and to use the principles of linked data to make bibliographic data more useful within the library community as well as in the broader universe of information. <a href='http://www.loc.gov/bibframe/'>http://www.loc.gov/bibframe/</a>"
 
 - id: Boolean operators
   definition: "Logical operators used as modifiers to refine the relationship between terms in a search. The four most commonly used Boolean operators are AND, OR, NOT, and ADJ (adjacent). They may be used with parentheses and other punctuation to form logical groupings of criteria in queries—e.g., <em>(Castillo OR Rancho) AND Diego</em>."
 
 - id: browsing
-  definition: "The process whereby a user of a system or web site visually scans and maneuvers through navigation lists, results lists, hierarchical displays, or other content in order to make a selection, as contrasted to the user entering a search term in a search box. <em>See also</em> <span class='term'>searching</span>."
+  definition: "The process whereby a user of a system or web site visually scans and maneuvers through navigation lists, results lists, hierarchical displays, or other content in order to make a selection, as contrasted to the user entering a search term in a search box. <em>See also</em> <a href='#searching'><span class='term'>searching</span></a>."
 
 - id: cataloger
-  definition: "In the context of this book, the person who enters information in records for works. <em>See also </em><span class='term'>end user</span>."
+  definition: "In the context of this book, the person who enters information in records for works. <em>See also </em><a href='#end_user'><span class='term'>end user</span></a>."
 
 - id: cataloging
-  definition: "In the context of this book, the process of describing and indexing a work or image, particularly in a collections management system or other automated system. Cataloging involves the use of prescribed categories of information and rules—e.g., the rules described in <span class='term'>AACR2, RDA, CCO,</span> and <span class='term'>CDWA</span>."
+  definition: "In the context of this book, the process of describing and indexing a work or image, particularly in a collections management system or other automated system. Cataloging involves the use of prescribed categories of information and rules—e.g., the rules described in <a href='#anglo_american_cataloguing_rules_aacr'><span class='term'>AACR2</span></a>, <a href='#resource_description_and_access_rda'><span class='term'>RDA</span></a>, <a href='#cataloging_cultural_objects_cco'><span class='term'>CCO</span></a>, and <a href='#cdwa_categories_for_the_description_of_works_of_art_lite'><span class='term'>CDWA</span></a>."
 
 - id: Cataloging Cultural Objects (CCO)
-  definition: "A <span class='term'>data content standard</span> for describing works of art, architecture, and material culture. <a href='http://cco.vrafoundation.org/'>http://cco.vrafoundation.org/</a>"
+  definition: "A <a href='#data_content_standard'><span class='term'>data content standard</span></a> for describing works of art, architecture, and material culture. <a href='http://cco.vrafoundation.org/'>http://cco.vrafoundation.org/</a>"
 
 - id: CDWA (Categories for the Description of Works of Art) Lite
-  definition: "An <span class='term'>XML schema</span> for core records for art, architecture, and material culture designed to work with the <span class='term'>Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH)</span>; the elements are based on a subset of the full element set of Categories for the Description of Works of Art. <a href='http://www.getty.edu/research/publications/&#173;electronic_publications/cdwa/cdwalite.html'>http://www.getty.edu/research/publications/&#173;electronic_publications/cdwa/cdwalite.html</a>"
+  definition: "An <a href='#xml_schema'><span class='term'>XML schema</span></a> for core records for art, architecture, and material culture designed to work with the <a href='#open_archives_initiative_protocol_for_metadata_harvesting_oai_pmh'><span class='term'>Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH)</span></a>; the elements are based on a subset of the full element set of Categories for the Description of Works of Art. <a href='http://www.getty.edu/research/publications/&#173;electronic_publications/cdwa/cdwalite.html'>http://www.getty.edu/research/publications/&#173;electronic_publications/cdwa/cdwalite.html</a>"
 
 - id: CGI script
   definition: "A computer program, most frequently written in C, Perl, or a shell script, that uses the Common Gateway Interface (CGI) standard and provides an interface between a user or an external computer application and a web server. CGI scripts are most commonly used to develop forms that allow users to submit information to a web server."
@@ -66,10 +66,10 @@
   definition: "An object-oriented model for the publication and interchange of cultural heritage information. <a href='http://www.cidoc-crm.org'>http://www.cidoc-crm.org</a>"
 
 - id: classification
-  definition: "In the context of this book, the process of arranging works or other <span class='term'>content objects </span>systematically in groups or categories of shared similarity according to established criteria and using terms to identify the classes."
+  definition: "In the context of this book, the process of arranging works or other <a href='#content_object'><span class='term'>content objects</span></a> systematically in groups or categories of shared similarity according to established criteria and using terms to identify the classes."
 
 - id: client
-  definition: "An application or piece of hardware that retrieves and/or renders resources or resource manifestations. Often used to denote a computer or other kinds of devices connected to a network equipped with software that enables users to access resources available on another computer connected to the same network, called a <span class='term'>server</span>. "
+  definition: "An application or piece of hardware that retrieves and/or renders resources or resource manifestations. Often used to denote a computer or other kinds of devices connected to a network equipped with software that enables users to access resources available on another computer connected to the same network, called a <a href='#server'><span class='term'>server</span></a>. "
 
 - id: clustering
   definition: "In the context of automated data, clustering usually refers to the process of grouping or classifying items or data through automatic or algorithmic means rather than by incorporating human judgment."
@@ -78,46 +78,46 @@
   definition: "A type of database system that allows an institution to manage various aspects of its collections, including description (artist, title, measurements, media, style, subject, etc.) as well as administrative information regarding acquisitions, loans, and conservation information."
 
 - id: computer program
-  definition: "<em>Also</em> called a <span class='term'>program</span>. A specific set of instructions for ordered operations that result in the completion of a task by the computer; a computer program consists of <span class='term'>computer code</span>. While the program is technically a type of data, computer programs are generally considered as separate from the data to which they refer (e.g., data would be the terms, scope notes, etc., in a vocabulary record). An <em>interactive</em> program acts when prompted by an action or information supplied by a user; a <em>batch</em> program automatically runs at a certain time or under certain conditions and then stops after the task is completed. A program is written in a <span class='term'>programming language.</span> <em>See also</em> <span class='term'>processing.</span>"
+  definition: "<em>Also</em> called a <a href='#program'><span class='term'>program</span></a>. A specific set of instructions for ordered operations that result in the completion of a task by the computer; a computer program consists of computer code. While the program is technically a type of data, computer programs are generally considered as separate from the data to which they refer (e.g., data would be the terms, scope notes, etc., in a vocabulary record). An <em>interactive</em> program acts when prompted by an action or information supplied by a user; a <em>batch</em> program automatically runs at a certain time or under certain conditions and then stops after the task is completed. A program is written in a <a href='#programming_language'><span class='term'>programming language</span></a>. <em>See also</em> <a href='#processing'><span class='term'>processing</span></a>."
 
 - id: computer system
   crossref: system
 
 - id: conceptual data model
-  definition: "An abstract model or representation of data for a particular domain, business enterprise, or field of study, independent of any specific software or information system. Usually expressed in terms of entities and relationships. <em>See also</em> <span class='term'>logical data model.</span>"
+  definition: "An abstract model or representation of data for a particular domain, business enterprise, or field of study, independent of any specific software or information system. Usually expressed in terms of entities and relationships. <em>See also</em> <a href='#logical_data_model'><span class='term'>logical data model</span></a>."
 
 - id: content object
-  definition: "In the context of a database, any entity that contains data. A content object can itself be made up of content objects. For example, a journal is a content object made up of individual journal articles, which are themselves content objects. <em>See also</em> <span class='term'>information object.</span>"
+  definition: "In the context of a database, any entity that contains data. A content object can itself be made up of content objects. For example, a journal is a content object made up of individual journal articles, which are themselves content objects. <em>See also</em> <a href='#information_object'><span class='term'>information object</span></a>."
 
 - id: controlled vocabulary
   definition: "An organized arrangement of words and phrases used to index content and/or to retrieve content through browsing or searching. A controlled vocabulary typically includes preferred and variant terms and has a limited scope or describes a specific domain."
 
 - id: core elements
-  definition: "In the context of this book, the set of metadata elements representing the fundamental or most important information required for a minimal record. <em>See also </em><span class='term'>required fields</span>."
+  definition: "In the context of this book, the set of metadata elements representing the fundamental or most important information required for a minimal record. <em>See also </em><a href='#required_fields'><span class='term'>required fields</span></a>."
 
 - id: cross-database searching
   crossref: federated searching
 
 - id: crosswalk
-  definition: "<em>Also</em> called <span class='term'>field mapping</span>. A chart or table (visual or virtual) that represents the semantic or technical mapping of fields or data elements from one data standard to fields or data elements in another standard that has a similar function or meaning. Crosswalks make it possible to convert data between databases that use different metadata schemes and enable heterogeneous databases to be searched simultaneously with a single query as if they were a single database (semantic interoperability). <em>See also</em> <span class='term'>metadata mapping</span>."
+  definition: "<em>Also</em> called <a href='#field_mapping'><span class='term'>field mapping</span></a>. A chart or table (visual or virtual) that represents the semantic or technical mapping of fields or data elements from one data standard to fields or data elements in another standard that has a similar function or meaning. Crosswalks make it possible to convert data between databases that use different metadata schemes and enable heterogeneous databases to be searched simultaneously with a single query as if they were a single database (semantic interoperability). <em>See also</em> <a href='#metadata_mapping'><span class='term'>metadata mapping</span></a>."
 
 - id: data
   definition: "In common usage in computer science, this term is used as a singular noun to refer to information that exists in a form that may be used by a computer, excluding the program code. In other uses, <em>datum</em> is the singular and <em>data</em> is the plural, referring to facts or numbers in a general sense."
 
 - id: database
-  definition: "A structured set of data held in computer storage, especially one that incorporates software to make it accessible in a variety of ways. A database is used to store, query, and retrieve information. It typically comprises a logical collection of interrelated information that is managed as a unit, stored in machine-readable form, and organized and structured as records that are presented in a standardized format in order to allow rapid search and retrieval by a computer. <em>See also</em> <span class='term'>system</span>. "
+  definition: "A structured set of data held in computer storage, especially one that incorporates software to make it accessible in a variety of ways. A database is used to store, query, and retrieve information. It typically comprises a logical collection of interrelated information that is managed as a unit, stored in machine-readable form, and organized and structured as records that are presented in a standardized format in order to allow rapid search and retrieval by a computer. <em>See also</em> <a href='#system'><span class='term'>system</span></a>. "
 
 - id: database field
-  definition: "<em>Also</em> called a <span class='term'>data field</span>. A placeholder for a unit of information in a database that forms one of the searchable items in that database. A database field is a portion of a structured machine-readable record containing a particular category of information (e.g., <em>term</em> and <em>scope note</em> would be fields included in a vocabulary record). "
+  definition: "<em>Also</em> called a data field. A placeholder for a unit of information in a database that forms one of the searchable items in that database. A database field is a portion of a structured machine-readable record containing a particular category of information (e.g., <em>term</em> and <em>scope note</em> would be fields included in a vocabulary record). "
 
 - id: database index
-  definition: "<em>Also</em> called a <span class='term'>data index</span>. A particular type of data structure that improves the speed of operations in a table by allowing the quick location of particular records based on key column values. Indexes are essential for good database performance. The concept is distinguished from human indexing (application of keywords and other data values to a descriptive record) and <span class='term'>automatic indexing</span>. "
+  definition: "<em>Also</em> called a data index. A particular type of data structure that improves the speed of operations in a table by allowing the quick location of particular records based on key column values. Indexes are essential for good database performance. The concept is distinguished from human indexing (application of keywords and other data values to a descriptive record) and <a href='#automatic_indexing'><span class='term'>automatic indexing</span></a>. "
 
 - id: database record
   crossref: record
 
 - id: data content standard
-  definition: "Rules that determine the vocabulary, syntax, or format of content entered into data fields or metadata elements—e.g., <span class='term'>RDA</span>, ISO 8601 (rules for recording date and time), <span class='term'>DACS</span><span class='term'>,</span><span class='term'> CCO</span>."
+  definition: "Rules that determine the vocabulary, syntax, or format of content entered into data fields or metadata elements—e.g., <a href='#resource_description_and_access_rda'><span class='term'>RDA</span></a>, ISO 8601 (rules for recording date and time), <a href='#describing_archives_a_content_standard_dacs'><span class='term'>DACS</span></a> ,<a href='#cataloging_cultural_objects_cco'><span class='term'>CCO</span></a>."
 
 - id: data preprocessing
   crossref: preprocessing
@@ -144,16 +144,16 @@
   definition: "Values that are assumed or supplied automatically (for example, by a computer system) if a value is not specified."
 
 - id: "Describing Archives: a Content Standard (DACS)"
-  definition: "A <span class='term'>data content standard</span> for describing archival collections. <a href='http://files.&#173;archivists.org/pubs/DACS2E-2013.pdf'>http://files.&#173;archivists.org/pubs/DACS2E-2013.pdf</a>"
+  definition: "A <a href='#data_content_standard'><span class='term'>data content standard</span></a> for describing archival collections. <a href='http://files.&#173;archivists.org/pubs/DACS2E-2013.pdf'>http://files.&#173;archivists.org/pubs/DACS2E-2013.pdf</a>"
 
 - id: diacritics
-  definition: "<em>Also </em>called <span class='term'>diacritical marks</span>. Signs or accent marks found over, under, or through alphabetic letters in many languages (e.g., the umlaut in German, <em>München</em>), used to indicate emphasis or pronunciation, often to distinguish different sounds or values of the same letter or character without the diacritical mark."
+  definition: "<em>Also </em>called diacritical marks. Signs or accent marks found over, under, or through alphabetic letters in many languages (e.g., the umlaut in German, <em>München</em>), used to indicate emphasis or pronunciation, often to distinguish different sounds or values of the same letter or character without the diacritical mark."
 
 - id: digital asset management system
   definition: "A type of system for organizing digital media assets, such as digital images or video clips, for storage and retrieval. Digital asset management systems sometimes incorporate a descriptive data cataloging component, but they tend to focus on managing workflow for creating digital assets and for managing asset rights, requests, and permissions."
 
 - id: digital signatures
-  definition: "A form of electronic <span class='term'>authentication</span> of a digital document. Digital signatures are created and verified using public key cryptography and serve to tie the document being signed to the signer. "
+  definition: "A form of electronic <a href='#authentication'><span class='term'>authentication</span></a> of a digital document. Digital signatures are created and verified using public key cryptography and serve to tie the document being signed to the signer. "
 
 - id: digital surrogate
   definition: "A digital “copy” of an original work or item (e.g., a JPEG or TIFF image of a painting or sculpture, or a PDF file of an article or book). In Open Archives Initiative nomenclature, digital surrogates are often referred to as “resources.”"
@@ -171,7 +171,7 @@
   definition: "Refers to a web page, metadata record, or other information object that is generated on demand, typically from content stored in a database and usually either in response to a user’s input or from dynamic data sources that are refreshed periodically. The expression “on the fly” is often used in relation to dynamically generated content."
 
 - id: Encoded Archival Description (EAD)
-  definition: "A data structure standard for encoding archival <span class='term'>finding aids</span> in SGML or <span class='term'>XML</span> according to the EAD document type definition (DTD) or <span class='term'>XML schema</span> that makes it possible for the semantic contents of a finding aid to be machine processed. <a href='http://www.loc.gov/ead/'>http://www.loc.gov/ead/</a>"
+  definition: "A data structure standard for encoding archival <a href='#finding_aid'><span class='term'>finding aids</span></a> in SGML or <a href='#xml_extensible_markup_language'><span class='term'>XML</span></a> according to the EAD document type definition (DTD) or <a href='#xml_schema'><span class='term'>XML schema</span></a> that makes it possible for the semantic contents of a finding aid to be machine processed. <a href='http://www.loc.gov/ead/'>http://www.loc.gov/ead/</a>"
 
 - id: encryption
   definition: "An encoding mechanism used to prevent unauthorized users from reading digital information and also for user and document authentication. Only designated users or recipients have the capability to decode encrypted materials."
@@ -180,31 +180,31 @@
   definition: "In the context of systems design, the term refers to any client for whom a database system is designed and operated; from that perspective, it could include the editors or catalogers for whom an editorial or cataloging system has been designed."
 
 - id: entity relationship model
-  definition: "A type of <span class='term'>conceptual data model</span> that represents structured data in terms of entities and relationships. An entity relationship diagram can be used to visually represent information objects and their relationships. Because the constructs used in the entity relationship model can easily be transformed into relational tables, this type of model is often used in database design."
+  definition: "A type of <a href='#conceptual_data_model'><span class='term'>conceptual data model</span></a> that represents structured data in terms of entities and relationships. An entity relationship diagram can be used to visually represent information objects and their relationships. Because the constructs used in the entity relationship model can easily be transformed into relational tables, this type of model is often used in database design."
 
 - id: Exif (Exchangeable Image File Format)
   definition: "A specification for an image file format for digital cameras that provides the ability to attach image metadata to JPEG, TIFF, and RIFF images. As of this writing, Exif is not maintained by any industry or standards organization but is widely used by camera manufacturers. <a href='http://www.cipa.jp/std/documents/e/DC-008-2012_E.pdf'>http://www.cipa.jp/std/documents/e/DC-008-2012_E.pdf</a>"
 
 - id: false hit
-  definition: "In search and retrieval, an entry in a list of results that does not comply with the user’s intended results. <em>Also</em> called a <span class='term'>false drop</span>."
+  definition: "In search and retrieval, an entry in a list of results that does not comply with the user’s intended results. <em>Also</em> called a false drop."
 
 - id: federated searching
-  definition: "<em>Also</em> called<span class='term'>,</span><span class='term'> cross-database searching</span><span class='term'>,</span><span class='term'> metasearching</span><span class='term'>,</span> and <span class='term'>parallel searching.</span> Performing queries simultaneously across resources residing in different domains and created by different communities. Federated searching may involve searching across multiple databases, different platforms, and varying protocols, thus requiring the application of <span class='term'>interoperability</span> between resources and vocabularies."
+  definition: "<em>Also</em> called, <a href='#cross_database_searching'><span class='term'>cross-database searching</span></a>, <a href='#metasearch'><span class='term'>metasearching</span></a>, and parallel searching. Performing queries simultaneously across resources residing in different domains and created by different communities. Federated searching may involve searching across multiple databases, different platforms, and varying protocols, thus requiring the application of <a href='#interoperability'><span class='term'>interoperability</span></a> between resources and vocabularies."
 
 - id: field mapping
   crossref: crosswalk
 
 - id: finding aid
-  definition: "A descriptive tool widely used in archives. Finding aids typically take the form of hierarchical narrative descriptions of cohesive groups of archival records or collections of manuscript materials. Finding aids traditionally were paper documents; <span class='term'>Encoded Archival Description (EAD)</span> is a structured way of expressing finding aids as machine-readable data."
+  definition: "A descriptive tool widely used in archives. Finding aids typically take the form of hierarchical narrative descriptions of cohesive groups of archival records or collections of manuscript materials. Finding aids traditionally were paper documents; <a href='#encoded_archival_description_ead'><span class='term'>Encoded Archival Description (EAD)</span></a> is a structured way of expressing finding aids as machine-readable data."
 
 - id: FOAF (Friend of a Friend)
   definition: "A machine-readable ontology that models data for persons, their activities, and their relationships to other people and objects. <a href='http://www.foaf-project.org/'>http://www.foaf-project.org/</a>"
 
 - id: folksonomy
-  definition: "An assemblage of concepts, represented by terms and names (called “tags”), that result from <span class='term'>social tagging.</span> A folksonomy differs from a <span class='term'>taxonomy</span> in that it is not structured hierarchically. The authors of the folksonomy are typically the casual users of the content rather than professional indexers following standard protocols and using standardized <span class='term'>controlled vocabularies</span>. "
+  definition: "An assemblage of concepts, represented by terms and names (called “tags”), that result from <a href='#social_tagging'><span class='term'>social tagging</span></a>. A folksonomy differs from a <a href='#taxonomy'><span class='term'>taxonomy</span></a> in that it is not structured hierarchically. The authors of the folksonomy are typically the casual users of the content rather than professional indexers following standard protocols and using standardized <a href='#controlled_vocabulary'><span class='term'>controlled vocabularies</span></a>. "
 
 - id: FRBRoo
-  definition: "A joint initiative of the International Federation of Library Associations and Institutions (IFLA) and the International Council of Museums–International Documentation Committee (ICOM-CIDOC) to create an object-oriented ontology that both captures the semantics of bibliographic information and harmonizes those concepts in common with the <span class='term'>CIDOC CRM</span>, thus facilitating information interchange between the museum and library communities. <a href='http://cidoc.ics.forth.gr/frbr_inro.html'>http://cidoc.ics.forth.gr/frbr_inro.html</a>"
+  definition: "A joint initiative of the International Federation of Library Associations and Institutions (IFLA) and the International Council of Museums–International Documentation Committee (ICOM-CIDOC) to create an object-oriented ontology that both captures the semantics of bibliographic information and harmonizes those concepts in common with the <a href='#cidoc_crm_cidoc_conceptual_reference_model'><span class='term'>CIDOC CRM</span></a>, thus facilitating information interchange between the museum and library communities. <a href='http://cidoc.ics.forth.gr/frbr_inro.html'>http://cidoc.ics.forth.gr/frbr_inro.html</a>"
 
 - id: free-text field
   definition: "A field that may contain data entered without any system-defined structure. It may be used to express ambiguity, uncertainty, and nuance in a note."
@@ -213,7 +213,7 @@
   definition: "A TCP/IP protocol that allows data files to be copied directly from one computer to another over the Internet."
 
 - id: Functional Requirements for Bibliographic Records (FRBR)
-  definition: "A set of requirements and a conceptual <span class='term'>entity relationship model</span> developed by the International Federation of Library Associations and Institutions to support bibliographic access and control. <a href='http://www.ifla.org/publications/functional'>http://www.ifla.org/publications/functional</a>-requirements-for-bibliographic-records"
+  definition: "A set of requirements and a conceptual <a href='#entity_relationship_model'><span class='term'>entity relationship model</span></a> developed by the International Federation of Library Associations and Institutions to support bibliographic access and control. <a href='http://www.ifla.org/publications/functional-requirements-for-bibliographic-records'>http://www.ifla.org/publications/functional-requirements-for-bibliographic-records</a>"
 
 - id: Google Sitemap
   definition: "Metadata about the content of a web site that assists the Googlebot web crawler to index a site more efficiently and comprehensively. "
@@ -222,16 +222,16 @@
   definition: "The level of detail at which an information object or resource is viewed or described."
 
 - id: harvester
-  definition: "In Open Archives Initiative nomenclature, a computer system that sends <span class='term'>Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH)</span> requests to <span class='term'>data providers’</span> repositories and harvests metadata records from them."
+  definition: "In Open Archives Initiative nomenclature, a computer system that sends <a href='#open_archives_initiative_protocol_for_metadata_harvesting_oai_pmh'><span class='term'>Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH)</span></a> requests to <a href='#data_provider'><span class='term'>data providers’</span></a> repositories and harvests metadata records from them."
 
 - id: heading
-  definition: "<em>Also</em> called a <span class='term'>label</span>. A string of words comprising a term combined with other information that serves to modify, disambiguate, amplify, or create a context for the main term in displays. <em>See also </em><span class='term'>authority heading</span>."
+  definition: "<em>Also</em> called a label. A string of words comprising a term combined with other information that serves to modify, disambiguate, amplify, or create a context for the main term in displays. <em>See also </em><a href='#authority_heading'><span class='term'>authority heading</span></a>."
 
 - id: hidden web
-  definition: "<em>Also</em> called <span class='term'>deep web</span> and<span class='term'> invisible web</span>. The sum of the web pages that are not accessible to web crawlers, usually because they are either dynamically generated by a user querying a database or are password protected or subscription based."
+  definition: "<em>Also</em> called <a href='#deep_web'><span class='term'>deep web</span></a> and<a href='#invisible_web'><span class='term'> invisible web</span></a>. The sum of the web pages that are not accessible to web crawlers, usually because they are either dynamically generated by a user querying a database or are password protected or subscription based."
 
 - id: hostname
-  definition: "An identifier for a specific machine on the Internet. The hostname identifies not only the machine, but also its subnet and domain—for example, “www.getty.edu.” <em>See also</em> <span class='term'>domain name</span>."
+  definition: "An identifier for a specific machine on the Internet. The hostname identifies not only the machine, but also its subnet and domain—for example, “www.getty.edu.” <em>See also</em> <a href='#domain_name'><span class='term'>domain name</span></a>."
 
 - id: HTML (HyperText Markup Language)
   definition: "An SGML-derived markup language used to create documents for World Wide Web applications. HTML has evolved to emphasize design and appearance rather than the representation of document structure and metadata elements. "
@@ -243,19 +243,19 @@
   definition: "An abbreviated reference to a “hypertext link,” a method of creating nonlinear pathways between related digital documents or to link to related objects such as image or audio files."
 
 - id: information object
-  definition: "A digital item or group of items referred to as a unit, regardless of type or format, that a computer can address or manipulate as a single discrete object. <em>See also</em> <span class='term'>content object</span>."
+  definition: "A digital item or group of items referred to as a unit, regardless of type or format, that a computer can address or manipulate as a single discrete object. <em>See also</em> <a href='#content_object'><span class='term'>content object</span></a>."
 
 - id: International Organization for Standardization (ISO)
   definition: "A worldwide voluntary network of national standards institutes from approximately 160 countries. The standards bodies work in partnership with international organizations, governments, industries, businesses, and consumer representatives to reach consensus, set standards, and promote their use with the goal of facilitating trade and meeting the broader needs of society. "
 
 - id: Internet
-  definition: "A global collection of computer networks that exchange information by the <span class='term'>TCP/IP</span> suite of networking protocols. "
+  definition: "A global collection of computer networks that exchange information by the <a href='#tcp_ip_transmission_control_protocol_internet_protocol'><span class='term'>TCP/IP</span></a> suite of networking protocols. "
 
 - id: Internet directory
   definition: "A thematically organized list of descriptive links to Internet sites, often created by humans who have classified sites by their content. Best of the Web (<a href='http://botw.org'>http://botw.org</a>) provides such directories. "
 
 - id: interoperability
-  definition: "The ability of different information systems to work together, particularly in the correct interpretation of data semantics and functionality. <em>See also</em> <span class='term'>semantic interoperability</span>."
+  definition: "The ability of different information systems to work together, particularly in the correct interpretation of data semantics and functionality. <em>See also</em> <a href='#semantic_interoperability'><span class='term'>semantic interoperability</span></a>."
 
 - id: invisible web
   crossref: hidden web
@@ -270,25 +270,25 @@
   definition: "Any significant word or phrase in the title, subject headings, or text associated with an information object."
 
 - id: keyword in context (KWIC)
-  definition: "A type of automatic indexing in which each word in a text, title, subject heading, string of words, or term becomes an entry word in the index, with the exception of words in <span class='term'>stop lists</span>. Variations include KWOCs (keyword out of context) and KWACs (keyword alongside context)."
+  definition: "A type of automatic indexing in which each word in a text, title, subject heading, string of words, or term becomes an entry word in the index, with the exception of words in <a href='#stop_list'><span class='term'>stop lists</span></a>. Variations include KWOCs (keyword out of context) and KWACs (keyword alongside context)."
 
 - id: keyword index
-  definition: "An index based on individual keywords found in a <span class='term'>controlled vocabulary</span>, text, or other <span class='term'>content object</span>."
+  definition: "An index based on individual keywords found in a <a href='#controlled_vocabulary'><span class='term'>controlled vocabulary</span></a>, text, or other <a href='#content_object'><span class='term'>content object</span></a>."
 
 - id: language model
-  definition: "A type of automatic indexing based on term weighting and relevance prediction that attempts to predict probable query search terms based on term frequencies within documents and the inverse document frequency of terms across the target data. It is similar to the <span class='term'>probabilistic model</span>."
+  definition: "A type of automatic indexing based on term weighting and relevance prediction that attempts to predict probable query search terms based on term frequencies within documents and the inverse document frequency of terms across the target data. It is similar to the <a href='#probabilistic_model'><span class='term'>probabilistic model</span></a>."
 
 - id: legacy system
   definition: "An information system that has been developed and modified over a period of time and has become outdated and difficult and costly to maintain but that holds information that is important and involves processes that are deeply ingrained in an organization. Legacy systems usually are eventually replaced by new hardware and software configurations."
 
 - id: LIDO (Lightweight Information Describing Objects)
-  definition: "A simple <span class='term'>XML schema</span> for describing and interchanging core information about museum objects. <a href='http://network.icom.museum/cidoc/working-groups/lido/'>http://network.icom.museum/cidoc/working-groups/lido/</a>"
+  definition: "A simple <a href='#xml_schema'><span class='term'>XML schema</span></a> for describing and interchanging core information about museum objects. <a href='http://network.icom.museum/cidoc/working-groups/lido/'>http://network.icom.museum/cidoc/working-groups/lido/</a>"
 
 - id: linked data
-  definition: "Data that is semantically linked by following a set of best practices for publishing and interlinking structured data that uses <span class='term'>RDF</span> syntaxes and HTTP <span class='term'>URI</span>s."
+  definition: "Data that is semantically linked by following a set of best practices for publishing and interlinking structured data that uses <a href='#resource_description_framework_rdf'><span class='term'>RDF</span></a> syntaxes and HTTP <a href='#uri_uniform_resource_identifier'><span class='term'>URI</span></a>s."
 
 - id: linked open data (LOD)
-  definition: "Linked data that is made available for use, reuse, and redistribution on the <span class='term'>visible web</span>."
+  definition: "Linked data that is made available for use, reuse, and redistribution on the <a href='#visible_web'><span class='term'>visible web</span></a>."
 
 - id: link resolver
   definition: "Software that uses the OpenURL standard to automatically redirect a user’s request to the most appropriate copy of a networked digital object. Typically, link resolvers are used by libraries to direct their patrons from bibliographic records or abstracts to licensed subscription-based resources such as full-text electronic versions of articles, books, etc. <a href='http://www.niso.org/apps/group_public/project/details.php?project_id=115'>http://www.niso.org/apps/group_public/project/details.php?project_id=115</a>"
@@ -297,31 +297,31 @@
   definition: "The process of moving or transferring files or software from one disk, computer, or server to another. To <em>upload</em> means to transfer from a local computer to a remote computer; to <em>download</em> means to transfer from a remote computer to a local one."
 
 - id: logical data model
-  definition: "A data model that includes all entities and the relationships among them based on the structures identified in a <span class='term'>conceptual data model</span> and that specifies all attributes for each entity. The data is described in as much detail as possible, without regard to how it will be physically implemented in a specific database. "
+  definition: "A data model that includes all entities and the relationships among them based on the structures identified in a <a href='#conceptual_data_model'><span class='term'>conceptual data model</span></a> and that specifies all attributes for each entity. The data is described in as much detail as possible, without regard to how it will be physically implemented in a specific database. "
 
 - id: mapping
-  definition: "A set of correspondences between terms, fields, or element names used for translating data from one standard or vocabulary into another, or as a means of combining terms or data for search and retrieval. <em>See also</em> <span class='term'>crosswalk</span>."
+  definition: "A set of correspondences between terms, fields, or element names used for translating data from one standard or vocabulary into another, or as a means of combining terms or data for search and retrieval. <em>See also</em> <a href='#crosswalk'><span class='term'>crosswalk</span></a>."
 
 - id: MARC (Machine-Readable Cataloging) format
   definition: "A set of standardized data structures for describing bibliographic materials that facilitates cooperative cataloging and data exchange in bibliographic information systems. <a href='http://www.loc.gov/marc/'>http://www.loc.gov/marc/</a>"
 
 - id: markup language
-  definition: "A formal way of annotating a document or collection of digital data using embedded encoding tags to indicate the structure of the document or data file and the contents of its data elements. It also provides a computer with information about how to process and display marked-up documents. <span class='term'>HTML</span>, <span class='term'>XML</span>, and SGML are examples of standardized markup languages."
+  definition: "A formal way of annotating a document or collection of digital data using embedded encoding tags to indicate the structure of the document or data file and the contents of its data elements. It also provides a computer with information about how to process and display marked-up documents. <a href='#html_hypertext_markup_language'><span class='term'>HTML</span></a>, <a href='#xml_extensible_markup_language'><span class='term'>XML</span></a>, and SGML are examples of standardized markup languages."
 
 - id: memory institution
   definition: "A generic term used to describe an institution that has a responsibility to collect, care for, and provide access to the human record—for example, museums, libraries, and archives."
 
 - id: Metadata Encoding Transmission Schema (METS)
-  definition: "A standard for encoding descriptive, administrative, and structural metadata relating to objects in a digital library, expressed in<span class='term'> XML</span>. METS enables the “packaging” of complex digital objects that include a range of metadata as well as related digital surrogates. <a href='http://www.loc.gov/standards/mets/'>http://www.loc.gov/standards/mets/</a>"
+  definition: "A standard for encoding descriptive, administrative, and structural metadata relating to objects in a digital library, expressed in <a href='#xml_extensible_markup_language'><span class='term'>XML</span></a>. METS enables the “packaging” of complex digital objects that include a range of metadata as well as related digital surrogates. <a href='http://www.loc.gov/standards/mets/'>http://www.loc.gov/standards/mets/</a>"
 
 - id: metadata mapping
-  definition: "A formal identification of equivalent or nearly equivalent metadata elements or groups of metadata elements within different metadata schemas, carried out in order to facilitate <span class='term'>semantic interoperability</span>. <em>See also</em> <span class='term'>mapping</span> <em>and</em> <span class='term'>crosswalk</span>."
+  definition: "A formal identification of equivalent or nearly equivalent metadata elements or groups of metadata elements within different metadata schemas, carried out in order to facilitate <a href='#semantic_interoperability'><span class='term'>semantic interoperability</span></a>. <em>See also</em> <a href='#mapping'><span class='term'>mapping</span></a> <em>and</em> <a href='#crosswalk'><span class='term'>crosswalk</span></a>."
 
 - id: metadata mining
   definition: "The automated extraction of metadata from electronic documents."
 
 - id: Metadata Object Description Schema (MODS)
-  definition: "An <span class='term'>XML schema</span> for bibliographic records, developed and maintained by the Library of Congress. <a href='http://www.loc.gov/standards/mods/'>http://www.loc.gov/standards/mods/</a>"
+  definition: "An <a href='#xml_schema'><span class='term'>XML schema</span></a> for bibliographic records, developed and maintained by the Library of Congress. <a href='http://www.loc.gov/standards/mods/'>http://www.loc.gov/standards/mods/</a>"
 
 - id: metasearch
   definition: "Searching of diverse databases on diverse platforms with diverse metadata in real time via one or more protocols. The <em>National Information Standards Organization</em> MetaSearch Initiative defines metasearch as “search and retrieval to span multiple databases, sources, platforms, protocols, and vendors at once.” Metasearch enables users to enter search criteria once and access several search engines simultaneously. With meta&#173;search, fresh records are always available because searching is in real time, in a distributed environment."
@@ -330,10 +330,10 @@
   definition: "An HTML tag that enables metadata to be embedded invisibly on web pages (e.g., description, keywords)."
 
 - id: meta tag spamming
-  definition: "The deliberate misuse of <span class='term'>meta tags</span> in order to attract traffic to a site (i.e., by boosting its ranking in search results)."
+  definition: "The deliberate misuse of <a href='#meta_tag'><span class='term'>meta tags</span></a> in order to attract traffic to a site (i.e., by boosting its ranking in search results)."
 
 - id: namespace
-  definition: "The set of unique names used to identify objects within a well-defined domain, particularly relevant for <span class='term'>XML</span>, <span class='term'>LOD</span>, and DNS applications. "
+  definition: "The set of unique names used to identify objects within a well-defined domain, particularly relevant for <a href='#xml_extensible_markup_language'><span class='term'>XML</span></a>, <a href='#linked_open_data_lod'><span class='term'>LOD</span></a>, and DNS applications. "
 
 - id: National Information Standards Organization (NISO)
   definition: "A nonprofit association that is accredited by the American National Standards Institute and identifies, develops, maintains, and publishes technical standards to manage information."
@@ -348,19 +348,19 @@
   definition: "A computerized inventory of a library’s holdings."
 
 - id: ontology
-  definition: "In the context of this book, an ontology is a formal, machine-readable specification of a conceptual model in which concepts, properties, relationships, functions, constraints, and axioms are all explicitly defined. While an ontology is not technically a <span class='term'>controlled vocabulary</span>, it uses one or more controlled vocabularies for a defined domain. Identifying an existing ontology, or developing an appropriate ontology, is the first step in expressing data as <span class='term'>linked open data (LOD)</span>."
+  definition: "In the context of this book, an ontology is a formal, machine-readable specification of a conceptual model in which concepts, properties, relationships, functions, constraints, and axioms are all explicitly defined. While an ontology is not technically a <a href='#controlled_vocabulary'><span class='term'>controlled vocabulary</span></a>, it uses one or more controlled vocabularies for a defined domain. Identifying an existing ontology, or developing an appropriate ontology, is the first step in expressing data as <a href='#linked_open_data_lod'><span class='term'>linked open data (LOD)</span></a>."
 
 - id: Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH)
-  definition: "A protocol used to harvest or collect metadata records from data providers. <em>See also</em> <span class='term'>data provider</span>, data harvester, and <span class='term'>service provider</span>. <a href='http://www.openarchives.org/pmh/'>http://www.openarchives.org/pmh/</a>"
+  definition: "A protocol used to harvest or collect metadata records from data providers. <em>See also</em> <a href='#data_provider'><span class='term'>data provider</span></a>, data harvester, and <a href='#service_provider'><span class='term'>service provider</span></a>. <a href='http://www.openarchives.org/pmh/'>http://www.openarchives.org/pmh/</a>"
 
 - id: operating system
-  definition: "A software program that runs a computer, as distinguished from an <span class='term'>application</span>, which is installed into an operating system in order to enable users to perform specific tasks. "
+  definition: "A software program that runs a computer, as distinguished from an <a href='#application'><span class='term'>application</span></a>, which is installed into an operating system in order to enable users to perform specific tasks. "
 
 - id: PageRank™
   definition: "A proprietary link-analysis algorithm developed by Google founders Larry Page and Sergey Brin to assign a numerical score to each document in a set of hypertext documents based on the number of referring links. The algorithm also takes into account the rank of the referring page; thus a link from a high-ranking page counts more than a link from a low-ranking page."
 
 - id: paradigmatic relationship
-  definition: "<em>Also</em> called a <span class='term'>semantic relationship</span>. A relationship between terms or concepts that is permanent and based on a known definition."
+  definition: "<em>Also</em> called a semantic relationship. A relationship between terms or concepts that is permanent and based on a known definition."
 
 - id: parsing
   definition: "In processing data, a process by which data is broken or filtered into smaller, more distinct units."
@@ -369,16 +369,16 @@
   definition: "In the context of this book, a measure of search effectiveness expressed as the ratio of relevant records or documents retrieved from a database to the total number retrieved in response to the query. A high-precision search means that most of the results retrieved will be relevant; however, a high-precision search will not necessarily retrieve all relevant results. Recall and precision are inversely related (when one goes up, the other goes down). "
 
 - id: preprocessing
-  definition: "<em>Also</em> called <span class='term'>data preprocessing</span>. Preliminary processing or transformation of data in order to facilitate further processing, parsing, etc."
+  definition: "<em>Also</em> called <a href='#data_preprocessing'><span class='term'>data preprocessing</span></a>. Preliminary processing or transformation of data in order to facilitate further processing, parsing, etc."
 
 - id: probabilistic model
-  definition: "An automatic relevance and weighting method in which terms in a text or other <span class='term'>content object</span> are modeled as random variables so that term frequency and distribution are used to predict the probability of relevance. <em>See also</em> <span class='term'>language model</span>."
+  definition: "An automatic relevance and weighting method in which terms in a text or other <a href='#content_object'><span class='term'>content object</span></a> are modeled as random variables so that term frequency and distribution are used to predict the probability of relevance. <em>See also</em> <a href='#language_model'><span class='term'>language model</span></a>."
 
 - id: procedure
-  definition: "A relatively independent portion of computer code within a larger computer program that performs a specific task in a series of steps. <em>Also</em> called a <span class='term'>subprogram</span> or <span class='term'>subroutine</span>."
+  definition: "A relatively independent portion of computer code within a larger computer program that performs a specific task in a series of steps. <em>Also</em> called a subprogram or subroutine."
 
 - id: processing
-  definition: "<em>Also</em> called <span class='term'>data processing</span>. The manipulation or transformation of data through a series of operations. In <span class='term'>batch processing</span>, the operations are grouped together in batches and performed automatically; in <span class='term'>interactive processing</span>, the operations are prompted by input from a human programmer or user. <em>See also</em> <span class='term'>computer program</span>."
+  definition: "<em>Also</em> called <a href='#data_processing'><span class='term'>data processing</span></a>. The manipulation or transformation of data through a series of operations. In batch processing, the operations are grouped together in batches and performed automatically; in >interactive processing, the operations are prompted by input from a human programmer or user. <em>See also</em> <a href='#computer_program'><span class='term'>computer program</span></a>."
 
 - id: program
   crossref: computer program
@@ -387,7 +387,7 @@
   definition: "A formal language defined by syntactic and semantic rules and used to write instructions that can be translated into machine language and then executed by a computer (e.g., PL/SQL, C++, C#, Java, Perl, Ruby, Python, BASIC)."
 
 - id: protocol
-  definition: "A specification—often a standard—that describes how computers communicate with each other (e.g., the <span class='term'>TCP/IP</span> suite of communication protocols or <span class='term'>Open Archives Initiative Protocol for Metadata Harvesting [OAI-PMH]</span>)."
+  definition: "A specification—often a standard—that describes how computers communicate with each other (e.g., the <a href='#tcp_ip_transmission_control_protocol_internet_protocol'><span class='term'>TCP/IP</span></a> suite of communication protocols or <a href='#open_archives_initiative_protocol_for_metadata_harvesting_oai_pmh'><span class='term'>Open Archives Initiative Protocol for Metadata Harvesting [OAI-PMH]</span></a>)."
 
 - id: query
   definition: "In the context of retrieval, a command to look in a database and find records or other information that meet a specified set of criteria. The most precise queries are those that return the fewest false hits."
@@ -396,10 +396,10 @@
   definition: "Reformulating a query in order to return a broader or more comprehensive set of results (e.g., adding synonyms to a search term)."
 
 - id: recall
-  definition: "A measure of a search system’s effectiveness in terms of retrieving all results that are possibly relevant, expressed as the ratio of the number of relevant records or documents retrieved over all the relevant records or documents. A high recall search retrieves a comprehensive set of relevant results; however, it also increases the likelihood that marginally relevant <span class='term'>content objects</span> will also be retrieved. Recall and <span class='term'>precision</span> are inversely related (when one goes up, the other goes down). "
+  definition: "A measure of a search system’s effectiveness in terms of retrieving all results that are possibly relevant, expressed as the ratio of the number of relevant records or documents retrieved over all the relevant records or documents. A high recall search retrieves a comprehensive set of relevant results; however, it also increases the likelihood that marginally relevant <a href='#content_object'><span class='term'>content objects</span></a> will also be retrieved. Recall and <a href='#precision'><span class='term'>precision</span></a> are inversely related (when one goes up, the other goes down). "
 
 - id: record
-  definition: "In the context of this book, a coherent, discrete group of populated fields or metadata elements. <em>Also</em> called a<span class='term'> </span><span class='term'>logical record</span>."
+  definition: "In the context of this book, a coherent, discrete group of populated fields or metadata elements. <em>Also</em> called a logical record."
 
 - id: relational database
   definition: "A database organized on a relational model that organizes data into one or more tables of rows and columns with a unique key for each row. The rows in a table can be linked to rows in other tables by storing the unique key of the row to which it should be linked."
@@ -414,22 +414,22 @@
   definition: "Data fields or metadata elements that are required to meet a standard or the requirements of a system’s operations. "
 
 - id: Resource Description and Access (RDA)
-  definition: "The cataloging standard for libraries that, as of this writing, has begun to replace <span class='term'>AACR2</span>. <a href='http://www.rdatoolkit.org/'>http://www.rdatoolkit.org/</a>"
+  definition: "The cataloging standard for libraries that, as of this writing, has begun to replace <a href='#anglo_american_cataloguing_rules_aacr'><span class='term'>AACR2</span></a>. <a href='http://www.rdatoolkit.org/'>http://www.rdatoolkit.org/</a>"
 
 - id: Resource Description Framework (RDF)
-  definition: "A standard model for data interchange on the web that extends the linking structure of the web to use <span class='term'>URIs</span> to name relationships between things. RDF enables structured and semistructured data to be exposed and shared across different applications. <a href='http://www.w3.org/RDF/'>http://www.w3.org/RDF/</a>"
+  definition: "A standard model for data interchange on the web that extends the linking structure of the web to use <a href='#uri_uniform_resource_identifier'><span class='term'>URIs</span></a> to name relationships between things. RDF enables structured and semistructured data to be exposed and shared across different applications. <a href='http://www.w3.org/RDF/'>http://www.w3.org/RDF/</a>"
 
 - id: resource discovery
   definition: "The process of searching for specific information objects on the web."
 
-- id: <span class='term'>retrieval</span>
-  definition: "In the context of this book, the activity of using a search or other method to find records or other data in a database. <em>See also</em> <span class='term'>query</span>."
+- id: retrieval
+  definition: "In the context of this book, the activity of using a search or other method to find records or other data in a database. <em>See also</em> <a href='#query'><span class='term'>query</span></a>."
 
 - id: robot
   crossref: web crawler
 
 - id: schema
-  definition: "<em>Also</em> called <span class='term'>scheme</span>. The organization, structure, and rules for encoding information that supports specific communities of users. The plural forms of the word schema are “schemas” and “schemata.” <em>See also</em> <span class='term'>XML schema</span>. "
+  definition: "<em>Also</em> called scheme. The organization, structure, and rules for encoding information that supports specific communities of users. The plural forms of the word schema are “schemas” and “schemata.” <em>See also</em> <a href='#xml_schema'><span class='term'>XML schema</span></a>. "
 
 - id: schema registry
   definition: "An authoritative source of names, semantics, and syntaxes for one or more schemas."
@@ -438,7 +438,7 @@
   definition: "A technique in which display data (usually unstructured) is automatically retrieved and extracted, for example from a web page."
 
 - id: search engine
-  definition: "A computer program that allows users to search electronic resources. In the context of the World Wide Web, the term usually refers to a program that searches a large index of web pages generated by an automated web crawler. <em>See also</em> <span class='term'>web search engine</span>."
+  definition: "A computer program that allows users to search electronic resources. In the context of the World Wide Web, the term usually refers to a program that searches a large index of web pages generated by an automated web crawler. <em>See also</em> <a href='#web_search_engine_internet_search_engine'><span class='term'>web search engine</span></a>."
 
 - id: searching
   definition: "Operations or algorithms intended to determine if one or more data items meet defined criteria or possess a specified property."
@@ -453,25 +453,25 @@
   definition: "An evolving, collaborative effort led by the World Wide Web Consortium (W3C) whose goal is to provide a common framework that will allow <em>data</em> to be shared and reused across various applications and enterprise and community boundaries. It derives from W3C director and inventor of the World Wide Web Tim Berners-Lee’s vision of the web as a universal medium for data, information, and knowledge exchange. "
 
 - id: server
-  definition: "An application that supplies resources or resource manifestations. Often used to refer to a networked computer that acts as a source of data and/or applications used by multiple client computers or devices. <em>See also</em> <span class='term'>client</span>."
+  definition: "An application that supplies resources or resource manifestations. Often used to refer to a networked computer that acts as a source of data and/or applications used by multiple client computers or devices. <em>See also</em> <a href='#client'><span class='term'>client</span></a>."
 
 - id: service provider
-  definition: "In Open Archives Initiative nomenclature, an institution or organization that harvests metadata from <span class='term'>data providers</span> and uses the aggregated metadata as a basis for building value-added services."
+  definition: "In Open Archives Initiative nomenclature, an institution or organization that harvests metadata from <a href='#data_provider'><span class='term'>data providers</span></a> and uses the aggregated metadata as a basis for building value-added services."
 
 - id: Simple Knowledge Organization System (SKOS)
-  definition: "An endeavor of the World Wide Web Consortium that develops specifications and standards to support the use of knowledge organization systems (KOS) such as thesauri, classification schemes, subject heading lists, and taxonomies within the framework of the <span class='term'>Semantic Web</span>. <a href='http://www.w3.org/2004/02/skos/'>http://www.w3.org/2004/02/skos/</a>"
+  definition: "An endeavor of the World Wide Web Consortium that develops specifications and standards to support the use of knowledge organization systems (KOS) such as thesauri, classification schemes, subject heading lists, and taxonomies within the framework of the <a href='#semantic_web'><span class='term'>Semantic Web</span></a>. <a href='http://www.w3.org/2004/02/skos/'>http://www.w3.org/2004/02/skos/</a>"
 
 - id: social bookmarking
   definition: "The decentralized practice and method by which individuals and groups create, classify, store, discover, and share web bookmarks or “favorites” in an online “social” environment."
 
 - id: social tagging
-  definition: "The decentralized practice and method by which individuals and groups create, manage, and share terms, names, etc.—called “tags”—to annotate and categorize digital resources in an online “social” environment. A <span class='term'>folksonomy</span> is the result of social tagging. Also referred to as collaborative tagging, social classification, social indexing, mob indexing, folk categorization. <em>See also</em> <span class='term'>tagging</span>."
+  definition: "The decentralized practice and method by which individuals and groups create, manage, and share terms, names, etc.—called “tags”—to annotate and categorize digital resources in an online “social” environment. A <a href='#folksonomy'><span class='term'>folksonomy</span></a> is the result of social tagging. Also referred to as collaborative tagging, social classification, social indexing, mob indexing, folk categorization. <em>See also</em> <a href='#tagging'><span class='term'>tagging</span></a>."
 
 - id: sorting
   definition: "The automated process of organizing a results list, data elements in a record, or other data in a particular sequence based on established criteria or attributes of the data—for example, alphabetically, by parent string, or by an associated date. There may be primary sort criteria and secondary sort criteria (e.g., an algorithm can be formulated to first sort place names in a results list alphabetically and then to sort by the parent string)."
 
 - id: spamming
-  definition: "Used in reference to <span class='term'>meta tags</span>, the abuse of metadata that web page creators include in the HTML header area of their pages in order to increase the number of visitors to a web site. Keyword spamming entails repeating keywords multiple times in order to appear at the top of search engine result listings or listing keywords that are irrelevant to the site in order to attract visitors under false pretenses."
+  definition: "Used in reference to <a href='#meta_tag'><span class='term'>meta tags</span></a>, the abuse of metadata that web page creators include in the HTML header area of their pages in order to increase the number of visitors to a web site. Keyword spamming entails repeating keywords multiple times in order to appear at the top of search engine result listings or listing keywords that are irrelevant to the site in order to attract visitors under false pretenses."
 
 - id: specifications
   definition: "In the context of designing an information system, the formal, detailed description of user and technical requirements, including specific descriptions of procedures, functions, screens, reports, materials, other features, and hardware. <em>See also</em> <em>user requirements</em>."
@@ -489,16 +489,16 @@
   definition: "In the context of search and retrieval, words in a vocabulary or target data that are ignored in searching or matching because they occur too frequently or are otherwise of little value in retrieval for a given domain. Common stop lists for a text contain articles, conjunctions, and prepositions, although these words are typically not included in a stop list for a vocabulary."
 
 - id: surrogate
-  definition: "<em>See</em> <span class='term'>digital surrogate</span>."
+  crossref: digital surrogate
 
 - id: system
-  definition: "<em>Also</em> called a <span class='term'>computer system</span>. A number of interrelated hardware and software components that work together to store and convert data into information by using electronic processing. <em>See also</em> <span class='term'>database</span>."
+  definition: "<em>Also</em> called a <a href='#computer_system'><span class='term'>computer system</span></a>. A number of interrelated hardware and software components that work together to store and convert data into information by using electronic processing. <em>See also</em> <a href='#database'><span class='term'>database</span></a>."
 
 - id: tagging
-  definition: "In the context of the web, the act of associating terms (called “tags”) with an information object (e.g., a web page, an image, a streaming video clip), thus describing the item and enabling keyword-based classification and retrieval. Tags—a form of user-generated metadata—from communities of users can be aggregated and analyzed, providing useful information about the collection of objects with which the tags have been associated. <em>See also</em> <span class='term'>social tagging</span>."
+  definition: "In the context of the web, the act of associating terms (called “tags”) with an information object (e.g., a web page, an image, a streaming video clip), thus describing the item and enabling keyword-based classification and retrieval. Tags—a form of user-generated metadata—from communities of users can be aggregated and analyzed, providing useful information about the collection of objects with which the tags have been associated. <em>See also</em> <a href='#social_tagging'><span class='term'>social tagging</span></a>."
 
 - id: taxonomy
-  definition: "An orderly classification that explicitly expresses the relationships, usually hierarchical (e.g., genus/species, whole/part, class/instance)—between and among the things being classified. A taxonomy can be used as a <span class='term'>controlled vocabulary</span>. <em>See also</em> <span class='term'>folksonomy</span>."
+  definition: "An orderly classification that explicitly expresses the relationships, usually hierarchical (e.g., genus/species, whole/part, class/instance)—between and among the things being classified. A taxonomy can be used as a <a href='#controlled_vocabulary'><span class='term'>controlled vocabulary</span></a>. <em>See also</em> <a href='#folksonomy'><span class='term'>folksonomy</span></a>."
 
 - id: TCP/IP (Transmission Control Protocol/ Internet Protocol)
   definition: "The <em>International Organization for Standardization</em> (ISO) standardized suite of network protocols that enables information systems to communicate with other information systems on the Internet regardless of their computer platforms. "
@@ -519,28 +519,28 @@
   definition: "A number or other string that is associated with a record or piece of data, exists only once in a database, and is used to uniquely identify and disambiguate that record or piece of data from all others in the database."
 
 - id: URI (Uniform Resource Identifier)
-  definition: "A short string that uniquely identifies a resource such as an HTML document, an image, a downloadable file, or a service. <span class='term'>URLs</span> and <span class='term'>URNs</span> are types of URIs."
+  definition: "A short string that uniquely identifies a resource such as an HTML document, an image, a downloadable file, or a service. <a href='#url_uniform_resource_locator'><span class='term'>URLs</span></a> and <a href='#urn_uniform_resource_name'><span class='term'>URNs</span></a> are types of URIs."
 
 - id: URL (Uniform Resource Locator)
-  definition: "A type of <span class='term'>URI</span> consisting of an Internet address that tells users how and where to locate a specific file on the World Wide Web. A URL includes not only the name of a file, but also the name of the host computer, the directory path to get to that file, and the protocol needed in order to use it (e.g., <a href='http://www.getty.edu/research/publications/electronic_&#173;publications/index.html'>http://www.getty.edu/research/publications/electronic_&#173;publications/index.html</a> specifies that the hypertext transfer protocol “http” should be used to retrieve the document “index.html” from the host “www.getty.edu” in the directory “research/publications/&#173;electronic_publications/index.html.”)"
+  definition: "A type of <a href='#uri_uniform_resource_identifier'><span class='term'>URI</span></a> consisting of an Internet address that tells users how and where to locate a specific file on the World Wide Web. A URL includes not only the name of a file, but also the name of the host computer, the directory path to get to that file, and the protocol needed in order to use it (e.g., <a href='http://www.getty.edu/research/publications/electronic_&#173;publications/index.html'>http://www.getty.edu/research/publications/electronic_&#173;publications/index.html</a> specifies that the hypertext transfer protocol “http” should be used to retrieve the document “index.html” from the host “www.getty.edu” in the directory “research/publications/&#173;electronic_publications/index.html.”)"
 
 - id: URN (Uniform Resource Name)
-  definition: "A type of <span class='term'>URI</span> consisting of a unique, location-independent identifier of a file available on the Internet. The file remains accessible by its URN regardless of changes that might occur in its host and directory path. For example, urn:issn:0167-6423 is the URN for the journal <em>Science of Computer Programming</em>. "
+  definition: "A type of <a href='#uri_uniform_resource_identifier'><span class='term'>URI</span></a> consisting of a unique, location-independent identifier of a file available on the Internet. The file remains accessible by its URN regardless of changes that might occur in its host and directory path. For example, urn:issn:0167-6423 is the URN for the journal <em>Science of Computer Programming</em>. "
 
 - id: user interface
-  definition: "The portion of the design and functionality of a cataloging, editorial, search and retrieval, or other system or web site with which end users interact, including the arrangement of displays, menus, clickable text or images, pagination, etc. A user interface that is easy for users to utilize is called <span class='term'>user friendly</span>."
+  definition: "The portion of the design and functionality of a cataloging, editorial, search and retrieval, or other system or web site with which end users interact, including the arrangement of displays, menus, clickable text or images, pagination, etc. A user interface that is easy for users to utilize is called user friendly."
 
 - id: user requirements
-  definition: "In system design, the initial formal explanation of functionalities, displays, and reports expressed from the point of view of the user’s needs and expectations. <em>See also</em><span class='term'>specifications</span>."
+  definition: "In system design, the initial formal explanation of functionalities, displays, and reports expressed from the point of view of the user’s needs and expectations. <em>See also</em> <a href='#specifications'><span class='term'>specifications</span></a>."
 
 - id: Virtual International Authority File (VIAF)
-  definition: "A federated resource that provides integrated access to millions of records from <span class='term'>authority files</span> compiled by libraries and other memory institutions from around the world. <a href='www.viaf.org'>www.viaf.org</a>"
+  definition: "A federated resource that provides integrated access to millions of records from <a href='#authority_file'><span class='term'>authority files</span></a> compiled by libraries and other memory institutions from around the world. <a href='www.viaf.org'>www.viaf.org</a>"
 
 - id: visible web
   definition: "The subset of the World Wide Web that is visible to web browsers and indexable by search engines’ web crawlers. In order to be accessible to web crawlers, the pages must be accessible simply by following links (i.e., not generated dynamically in response to user input) and not protected by a password. "
 
 - id: VRA Core 4.0
-  definition: "An <span class='term'>XML schema</span> developed by the Visual Resources Association (VRA) and supported by the Library of Congress, VRA Core is used for describing works of art and architecture and their visual surrogates. <a href='http://www.loc.gov/&#173;standards/vracore/schemas.html'>http://www.loc.gov/&#173;standards/vracore/schemas.html</a>"
+  definition: "An <a href='#xml_schema'><span class='term'>XML schema</span></a> developed by the Visual Resources Association (VRA) and supported by the Library of Congress, VRA Core is used for describing works of art and architecture and their visual surrogates. <a href='http://www.loc.gov/&#173;standards/vracore/schemas.html'>http://www.loc.gov/&#173;standards/vracore/schemas.html</a>"
 
 - id: web browser
   definition: "A software application that enables users to view and interact with information and media files on the web. Mozilla Firefox, Google Chrome, and Apple’s Safari are examples of web browsers."
@@ -573,7 +573,7 @@
   definition: "A relatively simple, flexible markup language used for publication and exchange of a wide variety of data on the web."
 
 - id: XML schema
-  definition: "A machine-readable definition of the structure, elements, and attributes allowed in a valid instance of a conforming XML document. XML schemas are expressed using the XML Schema Definition language, a <span class='term'>World Wide Web Consortium</span> (W3C) standard. <a href='http://www.w3.org/TR/xmlschema'>http://www.w3.org/TR/xmlschema</a>-0/"
+  definition: "A machine-readable definition of the structure, elements, and attributes allowed in a valid instance of a conforming XML document. XML schemas are expressed using the XML Schema Definition language, a <a href='#world_wide_web_consortium_w3c'><span class='term'>World Wide Web Consortium</span></a> (W3C) standard. <a href='http://www.w3.org/TR/xmlschema'>http://www.w3.org/TR/xmlschema</a>-0/"
 
 - id: XMP (Extensible Metadata Platform)
   definition: "A markup language, based on the Resource Description Framework (RDF), for recording and embedding metadata about digital assets. Developed by Adobe Systems and supported across the company’s range of software products and file formats. <a href='http://www.adobe.com/products/xmp.html'>http://www.adobe.com/products/xmp.html</a>"

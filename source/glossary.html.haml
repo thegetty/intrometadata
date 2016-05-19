@@ -5,14 +5,14 @@ sort_order: 7
 ---
 %ul.glossary
   - data.definitions.each do |term|
-    %li
+    %li{:id => "#{term.id.parameterize.underscore.to_sym}"}
       - if term.definition.nil?
-        %span.term= term.id.gsub("-", " ")
+        %span.term= term.id
         %br
-        %span.definition= "See <span class='term'>#{term.crossref}</span>"
+        %span.definition= "See <a href='##{term.crossref.parameterize.underscore.to_sym}'><span class='term'>#{term.crossref}</span></a>"
       - else
         - term.definition[0] = term.definition[0].capitalize
-        %span.term= term.id.gsub("-", " ")
+        %span.term= term.id
         - if term.plural
           %span.plural= "(plural <em>#{term.plural}</em>)"
         %br
