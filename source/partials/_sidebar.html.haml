@@ -9,6 +9,8 @@
         - chapters.each do |chapter|
           - if chapter.data.sidebar != false
             %li= link_to chapter.title, chapter
+  .nav-sidebar-downloads
+    = partial "partials/formats"
   %footer.nav-sidebar-footer
     %p
       #{data.book.rights}

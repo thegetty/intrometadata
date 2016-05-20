@@ -31,8 +31,23 @@ function offCanvasNav() {
   });
 }
 
+function expanderSetup() {
+  var $expanderContent  = $(".expander-content");
+  var $expanderTriggers = $(".expander-trigger");
+
+  $($expanderContent).addClass("expander--hidden");
+
+  $expanderTriggers.on("click", function() {
+    var $target = $(this).parent().find(".expander-content");
+    $target.slideToggle("fast", function() {
+      $target.toggleClass("expander--hidden");
+    });
+  });
+}
+
 // Call the other setup functions inside of this setup function
 // Call this function inside of $(document).ready();
 function uiSetup() {
   offCanvasNav();
+  expanderSetup();
 }

@@ -1,0 +1,11 @@
+.expander
+  %a{ :href => "javascript:void(0);", :class => "expander-trigger" }
+    %h5 Other Formats
+  .expander-content.nav-downloads
+    %ul
+      - data.book.editions.each do |edition|
+        - if edition.name != "Online"
+          - if edition.file_size_mb != nil
+            %li= link_to "#{edition.name} (#{edition.file_size_mb} MB)", edition.link, :target => "blank", :class => "no-smoothState"
+          - else
+            %li= link_to "#{edition.name}", edition.link, :target => "blank", :class => "no-smoothState"

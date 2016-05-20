@@ -98,16 +98,21 @@ $sliding-panel-fade-screen-bg: #000;
 
 .nav-sidebar-downloads,
 .nav-sidebar-cite {
-  h4 {
+  h5 {
     font-size: 1rem;
+    margin-bottom: $base-spacing;
   }
 }
 
 .nav-cite,
 .nav-downloads {
-  background-color: $dark-gray;
+  background-color: transparentize($sliding-panel-color, 0.75);
   font-size: 0.85em;
   padding: $small-spacing;
+}
+
+.nav-sidebar-downloads {
+  margin-top: $base-spacing;
 }
 
 .nav-sidebar-footer {
