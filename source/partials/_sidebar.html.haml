@@ -1,6 +1,7 @@
 .nav-sidebar-inner
   %header.nav-sidebar-header.nav-sidebar-toc-section
     %h2.nav-sidebar-title= title
+    %h3.nav-sidebar-author= data.book.author_as_it_appears[0]
     %a.nav-sidebar-close{:href => "javascript:void(0)", :id => "nav-menu-close"}
       %i.ion-android-close
     %nav-sidebar-content
