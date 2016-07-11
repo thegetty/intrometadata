@@ -77,9 +77,6 @@
   li {
     margin-bottom: $small-spacing;
   }
-  > li {
-    margin-top: $small-spacing;
-  }
 }
 
 .page-content ol {
@@ -97,15 +94,20 @@
   margin-bottom: $base-spacing * 2;
 }
 
-.page-content td ul {
+.page-content td p {
   font-size: $base-font-size;
   margin-left: 0;
-  list-style-type: none;
+  // list-style-type: none;
 }
 
-.page-content ul.bulleted-list {
-  margin-top: $small-spacing;
-  list-style-type: disc;
+.page-content td ul {
+  font-size: $base-font-size;
+  margin-left: 1em;
+}
+
+.page-content .nonbulleted-lists ul {
+  list-style-type: none;
+  margin-left: 0;
 }
 
 .page-content .table-note {
