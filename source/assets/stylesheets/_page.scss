@@ -77,9 +77,6 @@
   li {
     margin-bottom: $small-spacing;
   }
-  > li {
-    margin-top: $small-spacing;
-  }
 }
 
 .page-content ol {
@@ -97,6 +94,7 @@
   margin-bottom: $base-spacing * 2;
 }
 
+.page-content td p,
 .page-content td ul {
   font-size: $base-font-size;
   margin-left: 0;
@@ -104,7 +102,6 @@
 }
 
 .page-content ul.bulleted-list {
-  margin-top: $small-spacing;
   list-style-type: disc;
 }
 
