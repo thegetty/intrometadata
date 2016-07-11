@@ -117,7 +117,7 @@
   crossref: record
 
 - id: data content standard
-  definition: "Rules that determine the vocabulary, syntax, or format of content entered into data fields or metadata elements—e.g., <a href='#resource_description_and_access_rda'><span class='term'>RDA</span></a>, ISO 8601 (rules for recording date and time), <a href='#describing_archives_a_content_standard_dacs'><span class='term'>DACS</span></a> ,<a href='#cataloging_cultural_objects_cco'><span class='term'>CCO</span></a>."
+  definition: "Rules that determine the vocabulary, syntax, or format of content entered into data fields or metadata elements—e.g., <a href='#resource_description_and_access_rda'><span class='term'>RDA</span></a>, ISO 8601 (rules for recording date and time), <a href='#describing_archives_a_content_standard_dacs'><span class='term'>DACS</span></a>, <a href='#cataloging_cultural_objects_cco'><span class='term'>CCO</span></a>."
 
 - id: data preprocessing
   crossref: preprocessing
@@ -218,7 +218,7 @@
 - id: Google Sitemap
   definition: "Metadata about the content of a web site that assists the Googlebot web crawler to index a site more efficiently and comprehensively. "
 
-- id: granular / granularity
+- id: 'granular, granularity'
   definition: "The level of detail at which an information object or resource is viewed or described."
 
 - id: harvester
@@ -501,7 +501,7 @@
   definition: "An orderly classification that explicitly expresses the relationships, usually hierarchical (e.g., genus/species, whole/part, class/instance)—between and among the things being classified. A taxonomy can be used as a <a href='#controlled_vocabulary'><span class='term'>controlled vocabulary</span></a>. <em>See also</em> <a href='#folksonomy'><span class='term'>folksonomy</span></a>."
 
 - id: TCP/IP (Transmission Control Protocol/ Internet Protocol)
-  definition: "The <em>International Organization for Standardization</em> (ISO) standardized suite of network protocols that enables information systems to communicate with other information systems on the Internet regardless of their computer platforms. "
+  definition: "The <a href='#international_organization_for_standardization_iso'><span class='term'>International Organization for Standardization (ISO)</span></a> standardized suite of network protocols that enables information systems to communicate with other information systems on the Internet regardless of their computer platforms. "
 
 - id: Text Encoding Initiative (TEI)
   definition: "An international cooperative effort to develop guidelines for standard encoding schemes—i.e., the TEI and TEI Lite document type definitions (DTDs)—for literary and linguistic texts. <a href='http://www.tei-c.org/'>http://www.tei-c.org/</a>"
@@ -546,7 +546,7 @@
   definition: "A software application that enables users to view and interact with information and media files on the web. Mozilla Firefox, Google Chrome, and Apple’s Safari are examples of web browsers."
 
 - id: web crawler
-  definition: "A software program that systematically traverses the web, either for the purpose of generating a searchable index of web content or to gather statistics. See also robot and spider."
+  definition: "A software program that systematically traverses the web, either for the purpose of generating a searchable index of web content or to gather statistics. <em>See also</em> <a href='#robot'><span class='term'>robot</span></a> and <a href='#spider'><span class='term'>spider</span></a>."
 
 - id: web search engine / Internet search engine
   definition: "A software program that collects data taken from the content of files available on the web and puts them in an index or database that web users can search in a variety of ways. The search results provide links back to the pages matching the user’s search in their original location."
@@ -560,7 +560,7 @@
 - id: wiki
   definition: "A collaborative website that contains pages that any authorized user can edit. Wikis typically retain all former versions of each page, allowing the revision history of a page to be tracked and for unwanted revisions to be reversed."
 
-- id: Wikipedia
+- id: '<em>Wikipedia</em>'
   definition: "A free, collaborative, volunteer-driven, web-based encyclopedia that utilizes wiki software to allow anyone to edit articles. <a href='http://en.wikipedia.org/wiki/'>http://en.wikipedia.org/wiki/</a>"
 
 - id: World Wide Web
@@ -573,7 +573,7 @@
   definition: "A relatively simple, flexible markup language used for publication and exchange of a wide variety of data on the web."
 
 - id: XML schema
-  definition: "A machine-readable definition of the structure, elements, and attributes allowed in a valid instance of a conforming XML document. XML schemas are expressed using the XML Schema Definition language, a <a href='#world_wide_web_consortium_w3c'><span class='term'>World Wide Web Consortium</span></a> (W3C) standard. <a href='http://www.w3.org/TR/xmlschema'>http://www.w3.org/TR/xmlschema</a>-0/"
+  definition: "A machine-readable definition of the structure, elements, and attributes allowed in a valid instance of a conforming XML document. XML schemas are expressed using the XML Schema Definition language, a <a href='#world_wide_web_consortium_w3c'><span class='term'>World Wide Web Consortium</span></a> (W3C) standard. <a href='http://www.w3.org/TR/xmlschema-0'>http://www.w3.org/TR/xmlschema-0</a>"
 
 - id: XMP (Extensible Metadata Platform)
   definition: "A markup language, based on the Resource Description Framework (RDF), for recording and embedding metadata about digital assets. Developed by Adobe Systems and supported across the company’s range of software products and file formats. <a href='http://www.adobe.com/products/xmp.html'>http://www.adobe.com/products/xmp.html</a>"

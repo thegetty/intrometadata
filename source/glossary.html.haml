@@ -9,7 +9,7 @@ sort_order: 7
       - if term.definition.nil?
         %span.term= term.id
         %br
-        %span.definition= "See <a href='##{term.crossref.parameterize.underscore.to_sym}'><span class='term'>#{term.crossref}</span></a>"
+        %span.definition= "<em>See</em> <a href='##{term.crossref.parameterize.underscore.to_sym}'><span class='term'>#{term.crossref}</span></a>"
       - else
         - term.definition[0] = term.definition[0].capitalize
         %span.term= term.id
