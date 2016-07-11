@@ -11,15 +11,49 @@
   margin-bottom: $base-spacing;
   padding: $small-spacing;
 
-  .cover-title,
-  .cover-author {
-    text-align: center;
-  }
-
   .cover-title {
+    text-align: center;
     font-size: 5em;
     font-weight: 700;
     color: #fff;
     text-shadow: 2px 2px 2px $dark-gray;
+  }
+
+  .cover-subtitle,
+  .cover-author {
+    text-align: center;
+    text-shadow: 2px 2px 2px #fff;
+  }
+}
+
+.cover-colophon {
+  background-color: $light-gray;
+  font-family: $heading-font-family;
+  font-weight: 400;
+  padding-bottom: 1.5em;
+  padding-top: 1.5em;
+}
+
+.cover-colophon-inner {
+  @extend .container;
+}
+
+.colophon-text {
+  @include media($large-screen-up) {
+    float: left;
+    margin-left: $base-spacing;
+  }
+
+  p { margin-bottom: 0; }
+}
+
+.colophon-logo {
+  padding-top: $base-spacing;
+  width: 70px;
+
+  @include media($large-screen-up) {
+    float: right;
+    margin-right: $base-spacing;
+    padding-top: 0;
   }
 }

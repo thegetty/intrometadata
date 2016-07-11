@@ -4,8 +4,15 @@ layout: cover
 sort_order: 0
 sidebar: false
 ---
-%h2 This is the cover page for the book
-%p= lorem.paragraphs(2)
-%h3 Some kind of subheading
-%p= lorem.paragraph
-%p= lorem.paragraph
+%p
+  :markdown
+    The third edition of *Introduction to Metadata*, first published in 1998, provides an overview of metadata, including its types, roles, and characteristics; a discussion of metadata as it relates to Web resources; and a description of methods, tools, standards, and protocols for publishing and disseminating digital collections. This revised edition is an indispensable resource in the field, addressing advances in standards such as Linked Open Data, changes in intellectual property law, and new computing technologies, and offering an expanded glossary of essential terms.
+%p
+  %strong
+    Praise for the first edition:
+%p
+  “An excellent starting point for information professionals to gain a basic understanding of fundamental concepts, then move ahead with a guided path for further research and study.”
+  %br
+    %em
+      —Art Documentation
+= link_to 'Introduction', '/introduction.html', :class => "button"

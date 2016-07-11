@@ -71,6 +71,13 @@
   @extend %body-text;
 }
 
+.page-content .button {
+    clear: both;
+    display: table;
+    font-family: $heading-font-family;
+    margin: 2em auto;
+  }
+
 .page-content ul {
   margin-left: $base-spacing;
   list-style-type: disc;

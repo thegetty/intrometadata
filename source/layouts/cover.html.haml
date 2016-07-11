@@ -7,3 +7,16 @@
   %article.page
     %main.page-content
       = yield
+  .cover-colophon
+    .cover-colophon-inner
+      .colophon-text
+        :markdown
+          Published by the Getty Research Institute, Los Angeles <br />
+          © 2016 J. Paul Getty Trust
+        = link_to "About", "/about.html"
+        %span &#124;
+        = link_to "Privacy Policy", "http://www.getty.edu/legal/privacy.html", :target => "blank"
+        %span &#124;
+        = link_to "Terms of Use", "http://www.getty.edu/legal/copyright.html", :target => "blank"
+      .colophon-logo
+        = tag :img, :src => image_path("getty_logo.svg"), :alt => "Getty Logo"
