@@ -53,7 +53,7 @@ editions:
     pages: 96
     illustrations: "11 b/w  illustrations"
     link: http://shop.getty.edu/products/introduction-to-metadata-third-edition-978-1606064795
-    additional_description:      
+    additional_description:
   - name: Apple iBookstore (EPUB)
     type: Text
     format: application/epub+zip
@@ -85,3 +85,7 @@ rights: >-
   © 2016 J. Paul Getty Trust
 languages:
   - en-US
+revision_history:
+  - date: July 20, 2016
+    summary:
+      - First edition

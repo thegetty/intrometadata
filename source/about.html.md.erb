@@ -1,0 +1,33 @@
+---
+title: About
+layout: page
+sort_order: 9
+---
+<%= data.book.description_main %>
+
+---
+
+## Citation Information
+
+> #### Chicago
+> <%= data.book.creators.first.file_as %>. *<%= data.book.title.main %>*. <%= data.book.publisher_location %>: <%= data.book.publisher %>, <%= data.book.pub_date.year %>. <span class="force-wrap"><%= data.book.editions.find { |edition| edition.name == "Online" }.link %></span>.
+
+> #### MLA
+> <%= data.book.creators.first.file_as %>. *<%= data.book.title.main %>*. <%= data.book.publisher_location %>: <%= data.book.publisher_short %>, <%= data.book.pub_date.year %>. <span class="cite-current-date">DD Mon. YYYY</span> <span class="force-wrap">&#60;<%= data.book.editions.find { |edition| edition.name == "Online" }.link %>&#62;</span>.
+
+#### Permanent URL
+
+<span class="force-wrap"><%= data.book.editions.find { |edition| edition.name == "Online" }.link %></span>
+
+---
+
+## Revision History
+
+Any revisions or corrections made to this publication after the first edition date will be listed here and in the project repository at <span class="force-wrap"> <a href="<%= data.book.editions.find { |edition| edition.name == "Online" }.link %>" target="_blank"><%= data.book.editions.find { |edition| edition.name == "Online" }.link %></a></span>, where a more detailed version history is available. The revisions branch of the project repository, when present, will also show any changes currently under consideration but not yet published here.
+
+<% data.book.revision_history.each do |revisions| %>
+  <h4><%= revisions.date %></h4>
+  <ul>
+    <% revisions.summary.each do |item| %>
+    <li><%= item %></li><% end %>
+  </ul><% end %>
