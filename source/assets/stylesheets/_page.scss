@@ -23,7 +23,6 @@
   @include flex-direction(column);
   @include justify-content(center);
 
-  background-color: tint($light-gray, 30%);
   background-position: center top;
   background-size: cover;
   height: 200px;
