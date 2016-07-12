@@ -7,15 +7,18 @@ sort_order: 9
 
 ---
 
+{::options parse_block_html="true" /}
+<div class="smaller-text">
+
 ## Citation Information
 
-> #### Chicago
+> ### Chicago
 > <%= data.book.creators.first.last_name %>, <%= data.book.creators.first.first_name %>, ed. *<%= data.book.title.main %>*. 3rd ed. <%= data.book.publisher_location %>: <%= data.book.publisher %>, <%= data.book.pub_date.year %>. <span class="force-wrap"><%= data.book.editions.find { |edition| edition.name == "Online" }.link %></span>.
 
-> #### MLA
+> ### MLA
 > <%= data.book.creators.first.last_name %>, <%= data.book.creators.first.first_name %>, ed. *<%= data.book.title.main %>*. 3rd ed. <%= data.book.publisher_location %>: <%= data.book.publisher_short %>, <%= data.book.pub_date.year %>. <span class="cite-current-date">DD Mon. YYYY</span> <span class="force-wrap">&#60;<%= data.book.editions.find { |edition| edition.name == "Online" }.link %>&#62;</span>.
 
-#### Permanent URL
+### Permanent URL
 
 <span class="force-wrap"><%= permalink %></span>
 
@@ -23,11 +26,51 @@ sort_order: 9
 
 ## Revision History
 
-Any revisions or corrections made to this publication after the first edition date will be listed here and in the project repository at <span class="force-wrap"> <a href="<%= data.book.editions.find { |edition| edition.name == "Online" }.link %>" target="_blank"><%= data.book.editions.find { |edition| edition.name == "Online" }.link %></a></span>, where a more detailed version history is available. The revisions branch of the project repository, when present, will also show any changes currently under consideration but not yet published here.
+Any revisions or corrections made to this publication after the first edition date will be listed here and in the project repository at <span class="force-wrap"><a href="<%= data.book.repository_url %>" target="_blank"><%= data.book.repository_url %></a></span>, where a more detailed version history is available. The revisions branch of the project repository, when present, will also show any changes currently under consideration but not yet published here.
 
 <% data.book.revision_history.each do |revisions| %>
-  <h4><%= revisions.date %></h4>
+  <h3><%= revisions.date %></h3>
   <ul>
     <% revisions.summary.each do |item| %>
     <li><%= item %></li><% end %>
   </ul><% end %>
+
+---
+
+## Publication Information
+
+**The Getty Research Institute Publications Program**<br />
+Thomas W. Gaehtgens, *Director, Getty Research Institute*<br />
+Gail Feigenbaum, *Associate Director*
+
+© 2008, 2016 J. Paul Getty Trust<br />
+First edition 1998<br />
+Third edition 2016
+
+**Published by the Getty Research Institute, Los Angeles**<br />
+Getty Publications<br />
+1200 Getty Center Drive, Suite 500<br />
+Los Angeles, California 90049-1682<br />
+[www.getty.edu/publications](http://www.getty.edu/publications)
+
+Murtha Baca, *Series Editor*<br />
+Tom Fredrickson, *Manuscript Editor*<br />
+Marissa Clifford, *Proofreader*<br />
+Gary Hespenheide, *Designer*<br />
+Amita Molloy, *Production*<br />
+Eric Gardner, *Digital Designer and Developer*<br />
+Greg Albers, *Digital Project Manager*
+
+<div class="loc-cip">
+  <p>Library of Congress Cataloging-in-Publication Data</p>
+  <ul>
+    <% data.book.library_of_congress_cip_data.each do |item| %>
+    <li><%= item %></li><% end %>
+  </ul>
+</div>
+
+Cover illustration © 2016 Dung Hoang
+
+*Note: The editor and authors of this publication are aware that the noun “metadata” (like the noun “data”) is plural and, therefore, should take a plural verb form. However, in order to avoid awkward locutions, it has been treated here throughout as singular.*
+
+</div>

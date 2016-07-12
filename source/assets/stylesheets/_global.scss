@@ -58,3 +58,34 @@ html { min-height: 100vh; }
   @include media($medium-screen-up) { @include text-size(1.125); }
   @include media($large-screen-up) { @include text-size(1.25); }
 }
+
+.smaller-text {
+  h2 { font-size: 1.75em; }
+  h3 {
+    font-weight: 700;
+    font-size: 1.25em;
+  }
+
+  blockquote, li, p {
+    font-size: 1rem;
+    text-indent: 0;
+  }
+
+  blockquote {
+    background-color: $light-gray;
+    margin: $base-spacing 0 0 0;
+    padding: $base-spacing;
+    border-radius: $base-border-radius * 2;
+    h3 {
+      margin-top: 0;
+    }
+    p {
+      margin-bottom: 0;
+    }
+  }
+
+  p { margin-bottom: 1rem; }
+  p + p { text-indent: 0; }
+  ul { margin-bottom: 1rem; }
+
+}

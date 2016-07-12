@@ -150,6 +150,10 @@
   }
 }
 
+.page-content hr {
+  margin-top: $base-spacing * 2;
+}
+
 .page-content .glossary,
 .page-content .contributors {
   list-style-type: none;
@@ -159,5 +163,21 @@
   }
   a > .term {
     font-weight: normal;
+  }
+}
+
+.loc-cip {
+  margin-bottom: $base-spacing;
+  p {
+    margin-bottom: 0;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    li {
+      padding-left: $base-spacing;
+      text-indent: -$base-spacing;
+      margin-bottom: 0;
+    }
   }
 }
