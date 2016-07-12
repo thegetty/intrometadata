@@ -19,4 +19,5 @@
         %span &#124;
         = link_to "Terms of Use", "http://www.getty.edu/legal/copyright.html", :target => "blank"
       .colophon-logo
-        = tag :img, :src => image_path("getty_logo.svg"), :alt => "Getty Logo"
+        %a{:href => "http://www.getty.edu/", :target => "_blank", :title => "The Getty" }
+          = tag :img, :src => image_path("getty_logo.svg"), :alt => "Getty Logo"

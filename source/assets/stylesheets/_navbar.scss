@@ -21,20 +21,21 @@ $navbar-z-index: 9999;
   top: 0;
   width: 100%;
   z-index: $navbar-z-index;
+
+  .logo {
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    height: $navbar-height;
+    opacity: 0.5;
+  }
 }
 
 // Top-level units
 .navbar-left,
 .navbar-right {
   @include flex(3);
-}
-
-.navbar-left {
-  background-image: url(image-path("getty_logo.svg"));
-  background-repeat: no-repeat;
-  background-position: center left;
-  opacity: 0.5;
-  padding-left: $base-spacing;
 }
 
 .navbar-right {

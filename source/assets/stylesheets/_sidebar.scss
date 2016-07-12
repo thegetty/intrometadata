@@ -96,6 +96,11 @@ $sliding-panel-fade-screen-bg: #000;
   border-bottom: solid 1px transparentize($sliding-panel-color, 0.75);
 }
 
+.nav-sidebar-footer {
+  border-top: solid 1px transparentize($sliding-panel-color, 0.75);
+  padding-top: $base-spacing;
+}
+
 .nav-sidebar-downloads,
 .nav-sidebar-cite {
   h5 {

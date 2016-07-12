@@ -1,5 +1,7 @@
 %nav.navbar
   .navbar-left
+    %a{:href => "http://www.getty.edu/", :target => "_blank", :title => "The Getty" }
+      = tag :img, :src => image_path("getty_logo.svg"), :alt => "Getty Logo", :class => "logo"
   .navbar-center
     - if prev_chapter_path
       = link_to prev_chapter_path, { :id => "prev-link" } do

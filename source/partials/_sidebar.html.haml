@@ -1,6 +1,7 @@
 .nav-sidebar-inner
   %header.nav-sidebar-header.nav-sidebar-toc-section
-    %h2.nav-sidebar-title= title
+    %h2.nav-sidebar-title
+      = link_to "#{title}", "/index.html"
     %h3.nav-sidebar-author= data.book.author_as_it_appears[0]
     %a.nav-sidebar-close{:href => "javascript:void(0)", :id => "nav-menu-close"}
       %i.ion-android-close
@@ -13,14 +14,16 @@
     = partial "partials/formats"
   %footer.nav-sidebar-footer
     %p
-      #{data.book.rights}
+      Published by the #{data.book.imprint},
       %br
-      Published by the #{data.book.imprint}, #{data.book.publisher_location}
+      #{data.book.publisher_location}
+      %br
+      #{data.book.rights}
     = link_to "About", "/about.html"
     %span &#124;
-    = link_to "Privacy", "http://www.getty.edu/legal/privacy.html", { target: "blank" }
+    = link_to "Privacy", "http://www.getty.edu/legal/privacy.html", { target: "_blank" }
     %span &#124;
-    = link_to "Terms of Use", "http://www.getty.edu/legal/copyright.html", { target: "blank" }
+    = link_to "Terms of Use", "http://www.getty.edu/legal/copyright.html", { target: "_blank" }
     .nav-logo
-      = tag :img,
-        src: image_path("getty_logo.svg"), class: "nav-logo", alt: "Getty Logo"
+      %a{:href => "http://www.getty.edu/", :target => "_blank", :title => "The Getty" }
+        = tag :img, src: image_path("getty_logo.svg"), class: "nav-logo", alt: "Getty Logo"
