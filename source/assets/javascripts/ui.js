@@ -45,9 +45,17 @@ function expanderSetup() {
   });
 }
 
+// Get today's current date, using Moment JS
+function citationDate() {
+  var today = moment().format("D MMM. YYYY");
+  $(".cite-current-date").empty();
+  $(".cite-current-date").text(today);
+}
+
 // Call the other setup functions inside of this setup function
 // Call this function inside of $(document).ready();
 function uiSetup() {
   offCanvasNav();
   expanderSetup();
+  citationDate();
 }

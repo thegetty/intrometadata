@@ -1,7 +1,9 @@
 ---
 title: Introduction
 layout: page
-author: Murtha Baca
+author:
+ - first_name: Murtha
+   last_name: Baca
 sort_order: 1
 ---
 

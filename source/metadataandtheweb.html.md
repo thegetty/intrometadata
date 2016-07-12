@@ -1,8 +1,10 @@
 ---
 title: Metadata and the Web
 layout: page
-author: Tony Gill
-secondary_author: revised by Murtha Baca, with assistance from Joan Cobb, Nathaniel Deines, and Moon Kim
+author:
+ - first_name: Tony
+   last_name: Gill
+secondary_author: Revised by Murtha Baca, with assistance from Joan Cobb, Nathaniel Deines, and Moon Kim
 sort_order: 3
 ---
 

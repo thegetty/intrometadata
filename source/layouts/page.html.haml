@@ -2,7 +2,7 @@
   %header.page-cover
     %h1.page-title= current_page.data.title
     - if current_page.data.author
-      %h2.page-author= current_page.data.author
+      %h2.page-author #{current_page.data.author.first.first_name} #{current_page.data.author.first.last_name}
     - if current_page.data.secondary_author
       %h3.page-secondary-author= current_page.data.secondary_author
   %article.page
