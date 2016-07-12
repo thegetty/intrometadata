@@ -137,6 +137,9 @@
     margin-left: $base-spacing;
     list-style-type: decimal;
   }
+  ul {
+    list-style-type: none;
+  }
 }
 
 .page-content .sidebar {
