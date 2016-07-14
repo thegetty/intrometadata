@@ -52,10 +52,31 @@ function citationDate() {
   $(".cite-current-date").text(today);
 }
 
+function keyboardNav(){
+  $(document).keydown(function(event) {
+    var prev, next;
+    prev = document.getElementById("prev-link");
+    next = document.getElementById("next-link");
+
+    // 37 = left arrow key
+    if (event.which === 37 && prev) {
+      prev.click();
+      event.preventDefault();
+    }
+    // 39 = right arrow key
+    else if (event.which === 39 && next) {
+      next.click();
+      event.preventDefault();
+    }
+  });
+}
+
+
 // Call the other setup functions inside of this setup function
 // Call this function inside of $(document).ready();
 function uiSetup() {
   offCanvasNav();
   expanderSetup();
   citationDate();
+  keyboardNav();
 }
