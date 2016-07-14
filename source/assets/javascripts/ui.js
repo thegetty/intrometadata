@@ -15,6 +15,24 @@ function anchorScroll(href) {
   })
 }
 
+// Handle links when they go to a particular anchor on a different page
+function linkToAnchor(href) {
+  href = typeof(href) == "string" ? href : $(this).attr("href");
+  var fromTop = NAVHEIGHT;
+
+  if(href.indexOf("#") == 0) {
+    var $target = $(href);
+
+    if($target.length) {
+      $("html, body").animate({ scrollTop: $target.offset().top - fromTop });
+      if (history && "pushState" in history) {
+        history.pushState({}, document.title, window.location.pathname + href);
+        return false;
+      }
+    }
+  }
+}
+
 function footnoteScroll() {
   $(".footnote, .reversefootnote").click(function(event){
 
@@ -113,4 +131,5 @@ function uiSetup() {
   keyboardNav();
   anchorScroll();
   footnoteScroll();
+  linkToAnchor(window.location.hash);
 }
