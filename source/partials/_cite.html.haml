@@ -4,12 +4,32 @@
   .expander-content.nav-cite
     - if citation_author[-1] == "."
       %h6 Chicago
-      %p  #{citation_author} “#{current_page.data.title}.” #{book_info_chicago}
+      %p
+        #{citation_author} “#{current_page.data.title}.”
+        - if current_page.data.secondary_author
+          #{current_page.data.secondary_author}. #{book_info_chicago}
+        - else
+          #{book_info_chicago}
       %h6 MLA
-      %p  #{citation_author} “#{current_page.data.title}.” #{book_info_mla}
+      %p
+        #{citation_author} “#{current_page.data.title}.”
+        - if current_page.data.secondary_author
+          #{current_page.data.secondary_author}. #{book_info_mla}
+        - else
+          #{book_info_mla}
     - else
       %h6 Chicago
-      %p  #{citation_author}. “#{current_page.data.title}.” #{book_info_chicago}
+      %p
+        #{citation_author}. “#{current_page.data.title}.”
+        - if current_page.data.secondary_author
+          #{current_page.data.secondary_author}. #{book_info_chicago}
+        - else
+          #{book_info_chicago}
       %h6 MLA
-      %p  #{citation_author}. “#{current_page.data.title}.” #{book_info_mla}
+      %p
+        #{citation_author}. “#{current_page.data.title}.”
+        - if current_page.data.secondary_author
+          #{current_page.data.secondary_author}. #{book_info_mla}
+        - else
+          #{book_info_mla}
     = link_to "Full Catalogue Citation", "/about.html#citation-information"
