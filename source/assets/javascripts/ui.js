@@ -1,3 +1,35 @@
+var NAVHEIGHT = 60;
+
+// Use this to wrap selectors that contain : characters
+function jq(myid) { return myid.replace( /(:|\.|\[|\]|,)/g, "\\$1" );}
+
+function anchorScroll(href) {
+  $anchorLinks = $("a[href*='#']")
+  $anchorLinks.click(function(e) {
+    var target = $(this).attr("href");
+    var distance = $(jq(target)).offset().top;
+
+    $("html, body").animate({
+      scrollTop: distance - NAVHEIGHT
+    }, 250);
+  })
+}
+
+function footnoteScroll() {
+  $(".footnote, .reversefootnote").click(function(event){
+
+    var target = $(this).attr("href");
+    var distance = $(jq(target)).offset().top;
+
+    $("html, body").animate({
+      scrollTop: distance - NAVHEIGHT
+    }, 250);
+
+  });
+}
+
+
+
 function offCanvasNav() {
   var $sidebar = $(".nav-sidebar");
   var $menuButton = $("#navbar-menu");
@@ -79,4 +111,6 @@ function uiSetup() {
   expanderSetup();
   citationDate();
   keyboardNav();
+  anchorScroll();
+  footnoteScroll();
 }
