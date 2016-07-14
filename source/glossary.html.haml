@@ -7,8 +7,7 @@ sort_order: 7
   - data.definitions.each do |term|
     %li{:id => term.id.parameterize.underscore}
       .definition
-        %span.term= "#{term.id}"
-        %br
+        %strong.term{:style => "display: block;"}= "#{term.id}"
         - if term.crossref
           %em See
           %a{:href => "##{term.crossref.parameterize.underscore}"}= term.crossref
