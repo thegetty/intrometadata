@@ -1,8 +1,11 @@
 require "extensions/book"
 
-activate :directory_indexes
+activate :directory_indexes unless environment? :epub
 activate :autoprefixer
 activate :book
+activate :canto do |b|
+  b.ebook_cover = "cover.jpg"
+end
 
 set :relative_links, true
 set :css_dir, "assets/stylesheets"

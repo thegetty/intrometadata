@@ -154,13 +154,19 @@
   margin-top: $base-spacing * 2;
 }
 
+.definition > .term {
+  display: block;
+}
+
 .page-content .glossary,
 .page-content .contributors {
   list-style-type: none;
   padding-left: 0;
+
   .term {
     font-weight: 700;
   }
+
   a > .term {
     font-weight: normal;
   }

@@ -1,3 +1,13 @@
+GIT
+  remote: git@github.com:gettypubs/canto.git
+  revision: c64195e3483655a368cd466d63ff104c0ce10061
+  specs:
+    canto (0.1.0)
+      epzip
+      haml (>= 4.0)
+      middleman-core (>= 4.0)
+      slugify
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -31,6 +41,8 @@ GEM
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
+    epzip (0.8.0)
+      rubyzip (>= 0.9.4)
     erubis (2.7.0)
     eventmachine (1.2.0.1)
     execjs (2.6.0)
@@ -127,12 +139,14 @@ GEM
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
     ruby_dep (1.3.1)
+    rubyzip (1.2.0)
     sass (3.4.22)
     sassc (1.9.0)
       bundler
       ffi (~> 1.9.6)
       sass (>= 3.3.0)
     servolux (0.12.0)
+    slugify (1.0.7)
     sprockets (3.6.0)
       concurrent-ruby (~> 1.0)
       rack (> 1, < 3)
@@ -151,6 +165,7 @@ PLATFORMS
 
 DEPENDENCIES
   bourbon (~> 4.2)
+  canto!
   middleman (~> 4.0)
   middleman-autoprefixer (~> 2.6)
   middleman-deploy (= 2.0.0.pre.alpha)
@@ -160,4 +175,4 @@ DEPENDENCIES
   sassc (~> 1.8)
 
 BUNDLED WITH
-   1.11.2
+   1.12.5
