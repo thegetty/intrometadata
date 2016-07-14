@@ -15,4 +15,5 @@ gem "middleman-sprockets", "= 4.0.0.rc.1"
 gem "neat", "~> 1.7"
 gem "sassc", "~> 1.8"
 
+# gem "canto", :path => "~/Dev/canto"
 gem "canto", :git => "git@github.com:gettypubs/canto.git"

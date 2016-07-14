@@ -1,6 +1,6 @@
 GIT
   remote: git@github.com:gettypubs/canto.git
-  revision: 010a3c5d5ab45fc9669edc3766d1f5c56c8b515d
+  revision: c64195e3483655a368cd466d63ff104c0ce10061
   specs:
     canto (0.1.0)
       epzip
