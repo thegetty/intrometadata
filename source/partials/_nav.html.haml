@@ -16,6 +16,6 @@
       = link_to next_chapter_path, { :id => "next-link" } do
         %i.navbar-next-link
   .navbar-right
-    %a#navbar-menu{:href => "javascript:void(0);"}
+    %a#navbar-menu{:href => "javascript:void(0);", :data => {:turbolinks =>"false"}}
       %i.navbar-menu-icon
 %nav.nav-sidebar= partial "partials/sidebar"

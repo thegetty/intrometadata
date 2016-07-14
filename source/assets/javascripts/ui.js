@@ -1,7 +1,5 @@
 var NAVHEIGHT = 60;
 
-// Use this to wrap selectors that contain : characters
-function jq(myid) { return myid.replace( /(:|\.|\[|\]|,)/g, "\\$1" );}
 
 function anchorScroll(href) {
   $anchorLinks = $("a[href*='#']")
@@ -27,8 +25,6 @@ function footnoteScroll() {
 
   });
 }
-
-
 
 function offCanvasNav() {
   var $sidebar = $(".nav-sidebar");
@@ -111,6 +107,6 @@ function uiSetup() {
   expanderSetup();
   citationDate();
   keyboardNav();
-  anchorScroll();
-  footnoteScroll();
+  // anchorScroll();
+  // footnoteScroll();
 }
