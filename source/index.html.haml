@@ -1,6 +1,7 @@
 ---
-title: Cover
+title: Intro to Metadata
 layout: cover
+sort_order: 0
 sidebar: false
 ---
 %p
@@ -14,4 +15,5 @@ sidebar: false
   %br
     %em
       —Art Documentation
-= link_to 'Introduction', '/introduction.html', :class => "button"
+- unless environment? :epub
+  = link_to 'Introduction', '/introduction.html', :class => "button"
