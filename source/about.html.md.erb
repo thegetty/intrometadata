@@ -13,10 +13,10 @@ sort_order: 9
 ## Citation Information
 
 > ### Chicago
-> <%= data.book.creators.first.last_name %>, <%= data.book.creators.first.first_name %>, ed. *<%= data.book.title.main %>*. 3rd ed. <%= data.book.publisher_location %>: <%= data.book.publisher %>, <%= data.book.pub_date.year %>. <span class="force-wrap"><%= data.book.editions.find { |edition| edition.name == "Online" }.link %></span>.
+> <%= data.book.creators.first.last_name %>, <%= data.book.creators.first.first_name %>, ed. *<%= data.book.title.main %>*. <%= data.book.edition_number %> ed. <%= data.book.publisher_location %>: <%= data.book.publisher %>, <%= data.book.pub_date.year %>. <span class="force-wrap"><%= data.book.editions.find { |edition| edition.name == "Online" }.link %></span>.
 
 > ### MLA
-> <%= data.book.creators.first.last_name %>, <%= data.book.creators.first.first_name %>, ed. *<%= data.book.title.main %>*. 3rd ed. <%= data.book.publisher_location %>: <%= data.book.publisher_short %>, <%= data.book.pub_date.year %>. <span class="cite-current-date">DD Mon. YYYY</span> <span class="force-wrap">&#60;<%= data.book.editions.find { |edition| edition.name == "Online" }.link %>&#62;</span>.
+> <%= data.book.creators.first.last_name %>, <%= data.book.creators.first.first_name %>, ed. *<%= data.book.title.main %>*. <%= data.book.edition_number %> 3rd ed. <%= data.book.publisher_location %>: <%= data.book.publisher_short %>, <%= data.book.pub_date.year %>. <span class="cite-current-date">DD Mon. YYYY</span> <span class="force-wrap">&#60;<%= data.book.editions.find { |edition| edition.name == "Online" }.link %>&#62;</span>.
 
 ### Permanent URL
 

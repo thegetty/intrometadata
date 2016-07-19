@@ -36,6 +36,7 @@ module Book
       %(
         In <em>#{book.title.main}</em>,
         edited by #{book.creators.first.first_name} #{book.creators.first.last_name}.
+        #{book.edition_number} ed.
         #{book.publisher_location}:
         #{book.publisher},
         #{book.pub_date.year}.
@@ -47,7 +48,8 @@ module Book
       book = data.book
       path = current_path.gsub("index.html", "")
       %(
-        <em>#{book.title.main}</em>. Edited by #{author_name}.
+        <em>#{book.title.main}</em>. Ed. #{author_name}.
+        #{book.edition_number} ed.
         #{book.publisher_location}:
         #{book.publisher_short}, #{book.pub_date.year}.
         <span class="cite-current-date">DD Mon. YYYY</span>
