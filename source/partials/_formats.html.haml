@@ -5,7 +5,7 @@
     %ul
       - data.book.editions.each do |edition|
         - if edition.name != "Online"
-          - if edition.file_size_mb != nil
-            %li= link_to "#{edition.name} (#{edition.file_size_mb} MB)", edition.link, :target => "blank", :class => "no-smoothState"
-          - else
+          - if edition.link != nil
             %li= link_to "#{edition.name}", edition.link, :target => "blank", :class => "no-smoothState"
+          - else
+            %li= "#{edition.name} — Coming soon"

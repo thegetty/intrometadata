@@ -37,7 +37,25 @@ Any revisions or corrections made to this publication after the first edition da
 
 ---
 
-## Publication Information
+## Other Formats
+
+<div class="nonbulleted-lists">
+<ul>
+<% data.book.editions.each do |edition| %>
+  <% if edition.name != "Online" %>
+    <% if edition.link != nil %>
+      <li><a href="<%= edition.link %>" target="_blank" class="no-smoothState"><%= edition.name %></a></li>
+    <% else %>
+      <li><%= edition.name %> — Coming soon</li>
+    <% end %>
+  <% end %>
+<% end %>
+</ul>
+</div>
+
+---
+
+## Copyright
 
 **The Getty Research Institute Publications Program**<br />
 Thomas W. Gaehtgens, *Director, Getty Research Institute*<br />
