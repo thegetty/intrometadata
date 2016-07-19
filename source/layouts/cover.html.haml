@@ -11,8 +11,8 @@
     .cover-colophon-inner
       .colophon-text
         :markdown
-          Published by the Getty Research Institute, Los Angeles <br />
-          © 2016 J. Paul Getty Trust
+          Published by the #{data.book.imprint},  #{data.book.publisher_location} <br />
+          #{data.book.rights}
         = link_to "About", "/about.html"
         %span &#124;
         = link_to "Privacy Policy", "http://www.getty.edu/legal/privacy.html", :target => "blank"

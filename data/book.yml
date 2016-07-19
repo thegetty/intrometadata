@@ -84,7 +84,6 @@ publisher: Getty Publications
 imprint: Getty Research Institute
 publisher_short: Getty P
 publisher_location: Los Angeles
-rights: © 2016 J. Paul Getty Trust
 categories:
   - Reference
 coverage:
@@ -111,7 +110,7 @@ bisac:
     subject: "ART / Digital"
   - code: LAN025000
     subject: "LANGUAGE ARTS & DISCIPLINES / Library & Information Science / General"
-rights: © 2016 J. Paul Getty Trust
+rights: "© 2008, 2016 J. Paul Getty Trust"
 language: en-US
 revision_history:
   - date: July 20, 2016
