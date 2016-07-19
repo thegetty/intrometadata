@@ -4,7 +4,7 @@ title:
   short: Introduction to Metadata
   subtitle: Third Edition
 edition_number: 3rd
-pub_date: 2016-06-30
+pub_date: 2016-07-20
 creators:
   - first_name: Murtha
     last_name: Baca
@@ -51,7 +51,7 @@ editions:
   - name: Online
     type: InteractiveResource
     format: text/html
-    isbn:
+    isbn: 978-1-60606-500-6
     link: http://www.getty.edu/publications/intrometadata
     additional_description:
   - name: Paperback
@@ -65,14 +65,14 @@ editions:
   - name: Apple iBookstore (EPUB)
     type: Text
     format: application/epub+zip
-    isbn:
+    isbn: 978-1-60606-480-1
     file_size_mb:
     link:
     additional_description:
   - name: Amazon Kindle (MOBI)
     type: Text
     format: application/mobi
-    isbn:
+    isbn: 978-1-60606-480-1
     file_size_mb:
     link:
     additional_description:
@@ -85,14 +85,34 @@ imprint: Getty Research Institute
 publisher_short: Getty P
 publisher_location: Los Angeles
 rights: © 2016 J. Paul Getty Trust
-description: >-
-  A digital book template from Getty Publications.
-subjects:
-  - subject__ebooks
-rights: >-
-  © 2016 J. Paul Getty Trust
-languages:
-  - en-US
+categories:
+  - Reference
+coverage:
+keywords:
+  - metadata
+  - ontology
+  - authority file
+  - indexing
+  - cataloging
+  - classification
+  - crosswalk
+  - database
+  - entity relationship model
+  - standardization
+  - linked open data
+  - schema
+  - semantic web
+  - taxonomy
+  - uniform resource identifier
+bisac:
+  - code: ART025000
+    subject: "ART / Reference"
+  - code: ART046000
+    subject: "ART / Digital"
+  - code: LAN025000
+    subject: "LANGUAGE ARTS & DISCIPLINES / Library & Information Science / General"
+rights: © 2016 J. Paul Getty Trust
+language: en-US
 revision_history:
   - date: July 20, 2016
     summary:
