@@ -57,7 +57,7 @@
   definition: "A <a href='#data_content_standard'><span class='term'>data content standard</span></a> for describing works of art, architecture, and material culture. <a href='http://cco.vrafoundation.org/' target='_blank'>http://cco.vrafoundation.org/</a>"
 
 - id: CDWA (Categories for the Description of Works of Art) Lite
-  definition: "An <a href='#xml_schema'><span class='term'>XML schema</span></a> for core records for art, architecture, and material culture designed to work with the <a href='#open_archives_initiative_protocol_for_metadata_harvesting_oai_pmh'><span class='term'>Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH)</span></a>; the elements are based on a subset of the full element set of Categories for the Description of Works of Art. <a href='http://www.getty.edu/research/publications/&#173;electronic_publications/cdwa/cdwalite.html' target='_blank'>http://www.getty.edu/research/publications/&#173;electronic_publications/cdwa/cdwalite.html</a>"
+  definition: "An <a href='#xml_schema'><span class='term'>XML schema</span></a> for core records for art, architecture, and material culture designed to work with the <a href='#open_archives_initiative_protocol_for_metadata_harvesting_oai_pmh'><span class='term'>Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH)</span></a>; the elements are based on a subset of the full element set of Categories for the Description of Works of Art. <a href='http://www.getty.edu/research/publications/electronic_publications/cdwa/cdwalite.html' target='_blank'>http://www.getty.edu/research/publications/electronic_publications/cdwa/cdwalite.html</a>"
 
 - id: CGI script
   definition: "A computer program, most frequently written in C, Perl, or a shell script, that uses the Common Gateway Interface (CGI) standard and provides an interface between a user or an external computer application and a web server. CGI scripts are most commonly used to develop forms that allow users to submit information to a web server."
@@ -144,7 +144,7 @@
   definition: "Values that are assumed or supplied automatically (for example, by a computer system) if a value is not specified."
 
 - id: "Describing Archives: a Content Standard (DACS)"
-  definition: "A <a href='#data_content_standard'><span class='term'>data content standard</span></a> for describing archival collections. <a href='http://files.&#173;archivists.org/pubs/DACS2E-2013.pdf' target='_blank'>http://files.&#173;archivists.org/pubs/DACS2E-2013.pdf</a>"
+  definition: "A <a href='#data_content_standard'><span class='term'>data content standard</span></a> for describing archival collections. <a href='http://files.archivists.org/pubs/DACS2E-2013_v0315.pdf' target='_blank'>http://files.archivists.org/pubs/DACS2E-2013_v0315.pdf</a>"
 
 - id: diacritics
   definition: "<em>Also </em>called diacritical marks. Signs or accent marks found over, under, or through alphabetic letters in many languages (e.g., the umlaut in German, <em>München</em>), used to indicate emphasis or pronunciation, often to distinguish different sounds or values of the same letter or character without the diacritical mark."
@@ -540,7 +540,7 @@
   definition: "The subset of the World Wide Web that is visible to web browsers and indexable by search engines’ web crawlers. In order to be accessible to web crawlers, the pages must be accessible simply by following links (i.e., not generated dynamically in response to user input) and not protected by a password. "
 
 - id: VRA Core 4.0
-  definition: "An <a href='#xml_schema'><span class='term'>XML schema</span></a> developed by the Visual Resources Association (VRA) and supported by the Library of Congress, VRA Core is used for describing works of art and architecture and their visual surrogates. <a href='http://www.loc.gov/&#173;standards/vracore/schemas.html' target='_blank'>http://www.loc.gov/&#173;standards/vracore/schemas.html</a>"
+  definition: "An <a href='#xml_schema'><span class='term'>XML schema</span></a> developed by the Visual Resources Association (VRA) and supported by the Library of Congress, VRA Core is used for describing works of art and architecture and their visual surrogates. <a href='http://www.loc.gov/standards/vracore/schemas.html' target='_blank'>http://www.loc.gov/standards/vracore/schemas.html</a>"
 
 - id: web browser
   definition: "A software application that enables users to view and interact with information and media files on the web. Mozilla Firefox, Google Chrome, and Apple’s Safari are examples of web browsers."
