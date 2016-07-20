@@ -1,155 +1,21 @@
-# Middleman Book Template
+This is the repository for *Introduction to Metadata* (3rd edition) edited by Murtha Baca, published July 2016 by the Getty Research Institute, Los Angeles. This free online edition is available at [http://www.getty.edu/publications/intrometadata](http://www.getty.edu/publications/intrometadata). Paperback and e-book formats are also available for sale.
 
-- [About](#about)
-- [Included Libraries](#included-libraries)
-- [Getting Started](#getting-started)
-- [Useful Commands](#useful-commands)
-- [Project Structure](#project-structure)
-- [Content Authoring](#content-authoring)
+The book was created with an early version of Getty Publications’ [middleman book template](https://github.com/gettypubs/middleman-book-template). The template is a offspring of two earlier digital publications—catalogues of [ancient terracottas](https://github.com/gettypubs/terracottas) and [roman mosaics](https://github.com/gettypubs/romanmosaics) in the J. Paul Getty Museum—and it is currently being developed into a stable, open source package for use by other museums and publishers.
 
-## About
+## About the Book
 
-This is a project template for the
-[Middleman Static Site Generator](https://middlemanapp.com/) optimized for
-creating digital books. It is based on the
-[Proteus Middleman Template](https://github.com/thoughtbot/proteus-middleman),
-and has been extended by the team at Getty Publications.
+Metadata provides a means of indexing, accessing, preserving, and discovering digital resources. The volume of digital information available over electronic networks has created a pressing need for standards that ensure correct and proper use and interpretation of the data by its owners and users. Well-crafted metadata is needed more now than ever before and helps users to locate, retrieve, and manage information in this vast and complex universe.
 
-## Included Libraries
+The third edition of *Introduction to Metadata*, first published in 1998, provides an overview of metadata, including its types, roles, and characteristics; a discussion of metadata as it relates to web resources; and a description of methods, tools, standards, and protocols for publishing and disseminating digital collections. This revised edition is an indispensable resource in the field, addressing advances in standards such as linked open data, changes in intellectual property law, and new computing technologies, and offering an expanded glossary of essential terms.
 
-* [HAML](http://haml.info):
-  Simple template markup
-* [Coffeescript](http://coffeescript.org):
-  Write javascript with simpler syntax
-* [Sass (LibSass)](http://sass-lang.com):
-  CSS with superpowers
-* [Bourbon](http://bourbon.io):
-  Sass mixin library
-* [Neat](http://neat.bourbon.io):
-  Semantic grid for Sass and Bourbon
-* [Bitters](http://bitters.bourbon.io):
-  Scaffold styles, variables and structure for Bourbon projects.
-* [Middleman Live Reload](https://github.com/middleman/middleman-livereload):
-  Reloads the page when files change
-* [Middleman Deploy](https://github.com/karlfreeman/middleman-deploy):
-  Deploy your Middleman build via rsync, ftp, sftp, or git (deploys to Github Pages by default)
+## Using this Repository
 
-## Getting Started
+We are dedicated to maintaining the book at the permanent URL, [http://www.getty.edu/publications/intrometadata](http://www.getty.edu/publications/intrometadata), and in its various formats and incarnations. For any updates to the book, we will be following something between an app and traditional book publication model. Updates will only be made in regulated chunks as formal revisions and new editions and will always be thoroughly documented here in the repository, as well as in the Revision History included on the book’s About page.
 
-This project is designed for use as a
-[Middleman template](https://middlemanapp.com/advanced/project_templates/). To
-get started, first make sure you have recent versions of Ruby and Middleman
-installed.
+The primary content pieces of the book can be found in the `data` and `source` directories. The master branch represents the current, published edition at all times, and the revisions branch, when present, will show changes currently under consideration. We invite you to submit suggestions or corrections via pull request on the revisions branch, by posting an issue, or by emailing us at [pubsinfo@getty.edu](mailto:pubsinfo@getty.edu).
 
-### Setup on OSX
+## License
 
-For best results, we recommend that you have a ruby development environment set
-up on your machine. Assuming you are using a mac,
-[Thoughtbot's Laptop Script](https://github.com/thoughtbot/laptop) is an
-excellent place to start. Using this script removes the need to do any of the
-steps below. If you plan to set up manually, install the following tools (in
-this order):
+Introduction to Metadata © 2008, 2016 J. Paul Getty Trust.
 
-- Xcode Command-line tools (`xcode-select --install`), or all of Xcode if
-  running on Mac OSX 10.8 or lower
-- [Homebrew package manager](http://brew.sh)
-  `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-- [Rbenv](https://github.com/rbenv/rbenv) and ruby-build to manage different versions of Ruby  
-  After install, run `rbenv init` to setup  
-  `brew install rbenv ruby-build`  
-- Ruby 2.3.1: `rbenv install 2.3.1` (may take some time)
-- Use this version of ruby everywhere with `rbenv global 2.3.1`
-- Finally, run `gem install bundler` to install Ruby's Bundler tool. This tool
-  will install the remaining dependencies automatically.
-  
-### Other Dependencies
-
-To make use of the PDF generation features, install
-[Prince XML](http://www.princexml.com). A
-[free version](http://www.princexml.com/download/) of Prince is available for
-non-commercial use. If you plan to use this feature commercially, please
-[purchase an appropriate license](http://www.princexml.com/purchase/).
-
-### Create a new Project
-
-Create a new project by running this command:
-```
-middleman init my_book --template=gettypubs/middleman-book-template
-```
-This will create a `my_book` directory inside the current folder that contains
-everything you need to get started.
-
-#### Recommended
-
-Consider adding this project to version control by running `git init` inside
-this folder after initializing.
-
-## Useful Commands
-
-Install dependencies:
-```
-bundle install
-```
-
-Run the server
-```
-bundle exec middleman
-```
-
-Deploy to Github Pages
-```
-bundle exec middleman deploy
-```
-
-Build a PDF
-```
-bundle exec middleman build -e pdf
-```
-
-## Project Structure
-
-### Data and Configuration
-
-Add data that describes your book to the `/data/book.yml` file. This file
-includes fields for `title`, `author`, `description`, etc.; you are free to add
-additional fields.
-
-### Directories
-
-Stylesheets, fonts, images, and JavaScript files go in the `/source/assets/`
-directory. Vendor stylesheets and JavaScripts should go in each of their
-`/vendor/` directories. If you are planning on modifying the theme, take a look
-at the `_variables.scss` file in `/source/assets/stylesheets/base/`.
-
-## Content Authoring
-
-Inside the `/source/` directory, simply create whatever files you need, using
-the following format to name them: `filename.html.md`: The first extension
-(`.html`) represents the final format the file will convert to when built; the
-second extension (`.md`) represents the templating language being used.
-Middleman supports a variety of
-[templating languages](https://middlemanapp.com/basics/templating_language/).
-
-### Frontmatter
-
-At the beginning of your files, you can define page-specific metadata
-(frontmatter). More information on how to use this feature is available
-[here](https://middlemanapp.com/basics/frontmatter/).
-
-#### sort_order
-
-There is one special frontmatter value to be aware of: this template pays
-special attention to any files which contain a `sort_order` value, represented
-as an integer. Any item that has a `sort_order` defined becomes a "chapter",
-meaning it gets picked up by navigational elements and will automatically get
-included in any PDF generated from the site. Here's an example:
-
-```
----
-title: Chapter 1
-layout: page
-author: Getty Publications
-sort_order: 1
----
-```
-
+Proteus Middleman © 2014–2015 [thoughtbot, inc](http://thoughtbot.com). Proteus Middleman is free software and may be redistributed under the terms specified in the [license](https://github.com/thoughtbot/bourbon/blob/master/LICENSE.md).
