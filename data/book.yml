@@ -76,7 +76,7 @@ editions:
     file_size_mb:
     link:
     additional_description:
-description_main: |
+description: |
   Metadata provides a means of indexing, accessing, preserving, and discovering digital resources. The volume of digital information available over electronic networks has created a pressing need for standards that ensure correct and proper use and interpretation of the data by its owners and users. Well-crafted metadata is needed more now than ever before and helps users to locate, retrieve, and manage information in this vast and complex universe.
 
   The third edition of *Introduction to Metadata*, first published in 1998, provides an overview of metadata, including its types, roles, and characteristics; a discussion of metadata as it relates to web resources; and a description of methods, tools, standards, and protocols for publishing and disseminating digital collections. This revised edition is an indispensable resource in the field, addressing advances in standards such as linked open data, changes in intellectual property law, and new computing technologies, and offering an expanded glossary of essential terms.
@@ -111,7 +111,9 @@ bisac:
   - code: LAN025000
     subject: "LANGUAGE ARTS & DISCIPLINES / Library & Information Science / General"
 rights: "© 2008, 2016 J. Paul Getty Trust"
-language: en-US
+languages:
+  - en-US
+pub_id: 978-1-60606-480-1
 revision_history:
   - date: July 20, 2016
     summary:
