@@ -3,7 +3,7 @@
   @include flex-direction(column);
   @include justify-content(center);
 
-  background-image: url(image-path("cover.jpg"));
+  background-image: url(image-path("cover-background.jpg"));
   background-color: tint($light-gray, 30%);
   background-position: center center;
   background-size: cover;

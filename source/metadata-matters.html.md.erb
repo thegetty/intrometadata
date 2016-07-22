@@ -133,8 +133,7 @@ The CIMI test bed was successful in that it demonstrated the pitfalls of migrati
 
 In the mid-1990s, paralleling the work of the CIMI project, the visual resources community—led by the Visual Resources Association (VRA), the leading organization in North America for visual resources information professionals—developed a schema for describing image collections. After reviewing the elements of description employed by more than sixty institutions, the community developed a core group of thirteen elements based on the *Categories for the Description of Works of Art* (CDWA).[^49] The VRA schema has five metadata elements that describe the content of an image and five elements that describe a digital or other surrogate. The Library of Congress hosts the VRA Core 4.0 standard, which is expressed as an XML schema.[^50] Mapping between VRA Core and Dublin Core is fairly straightforward, so long as the underlying data has been consistently recorded. The cultural heritage organizations and projects that use the CONTENTdm collection management system for their digital collections have the choice of using Dublin Core or VRA Core as their metadata standard. Dublin Core has a longer history with library projects than VRA Core and is a standard with which many libraries have more familiarity. One challenge is that Dublin Core purportedly follows the principle that each record should describe either the original *or* a digital surrogate, but not both.[^51] In reality, it is not unusual for institutions and projects to violate this principle for the sake of expediency: many libraries lack a separate preservation database or digital asset management system in which they can record details concerning the digital surrogate they must manage. In contrast, a VRA Core record—like many records in photo archives and other image repositories—has a “hybrid” structure that supports the description of both the original work of art, architecture, or material culture and its visual surrogates, digital or otherwise. The VRA Core schema has the added advantage of describing the cultural aspects of the object; for example, ­*culturalContext* and ­*creatorRole* are elements in the VRA Core schema; Dublin Core could never accommodate this kind of specificity.
 
-Providing a metadata structure to record categories of content (a “data <em>structure</em> standard” according to our typology of data standards; see <%= chapter_link "table 1 in chapter 1", "setting-the-stage.html#typology-of-data-standards
-" %>) is not the same as providing the rules to follow in populating the individual metadata categories (“data <em>content</em> standard,” according to our typology). Cataloging Cultural Objects (CCO)[^52] is a data content standard establishing the rules for cataloging cultural materials and their visual (including digital) surrogates for the cultural heritage community. CCO was conceived in 1999 and was published in the summer of 2006 by the American Library Association. The need of a transmission standard to support data using CCO led to the creation of the CDWA Lite XML schema.[^53]
+Providing a metadata structure to record categories of content (a “data <em>structure</em> standard” according to our typology of data standards; see <%= chapter_link "table 1 in chapter 1", "setting-the-stage.html#typology-of-data-standards" %>) is not the same as providing the rules to follow in populating the individual metadata categories (“data <em>content</em> standard,” according to our typology). Cataloging Cultural Objects (CCO)[^52] is a data content standard establishing the rules for cataloging cultural materials and their visual (including digital) surrogates for the cultural heritage community. CCO was conceived in 1999 and was published in the summer of 2006 by the American Library Association. The need of a transmission standard to support data using CCO led to the creation of the CDWA Lite XML schema.[^53]
 
 ### Case Study 3: Preparing Metadata Records in the CDWA Lite XML Schema for Harvesting by Artstor
 
@@ -167,7 +166,7 @@ The technological universe of crosswalks, mapping, federated searching over hete
 
 [^4]: See [http://www.openarchives.org/](http://www.openarchives.org/). Of specific interest, under documents, is the documentation on the protocol for harvesting, a tutorial, and a link to the National Science Digital Library’s Metadata Primer.
 
-[^5]: See [http://www.dublincore.org/documents/usageguide/glossary.shtml\#I](http://www.dublincore.org/documents/usageguide/glossary.shtml\#I).
+[^5]: See [http://www.dublincore.org/documents/usageguide/glossary.shtml#I](http://www.dublincore.org/documents/usageguide/glossary.shtml#I).
 
 [^6]: Ibid. Crosswalks can be expressed or coded for machines to automate the mapping between standards.
 
@@ -239,7 +238,7 @@ The technological universe of crosswalks, mapping, federated searching over hete
 
 [^40]: The full report can be found at [http://www.libraries.psu.edu/tas/jca/ccda/tf-onix1.html](http://www.libraries.psu.edu/tas/jca/ccda/tf-onix1.html). The ONIX standard is available at [http://www.editeur.org/](http://www.editeur.org/). The crosswalk between ONIX and MARC21 can be found at [http://www.loc.gov/marc/onix2marc.html](http://www.loc.gov/marc/onix2marc.html).
 
-[^41]: See [http://www.loc.gov/catdir/beat/](http://www.loc.gov/catdir/beat/). The announcement of the ONIX project is available at [http://www.loc.gov/catdir/beat/beat_report.1.2001](http://www.loc.gov/catdir/beat/beat_report.1.2001).html.
+[^41]: See [http://www.loc.gov/catdir/beat/](http://www.loc.gov/catdir/beat/). The announcement of the ONIX project is available at [http://www.loc.gov/catdir/beat/beat_report.1.2001.html](http://www.loc.gov/catdir/beat/beat_report.1.2001.html).
 
 [^42]: See [http://www.rda-jsc.org/rdaonixann.html](http://www.rda-jsc.org/rdaonixann.html).
 
@@ -269,12 +268,12 @@ The technological universe of crosswalks, mapping, federated searching over hete
 
 [^55]: Erin Coburn et al., *LIDO—Lightweight Information Describing Objects, Version 1.0*. (ICOM-CIDOC, November 2010), [http://www.lido-schema.org/schema/v1.0 /lido-v1.0-specification.pdf](http://www.lido-schema.org/schema/v1.0/lido-v1.0-specification.pdf).
 
-[^56]: See [http://network.icom.museum/cidoc/working-groups/data-harvesting-and-interchange /what-is-lido/](http://network.icom.museum/cidoc/working-groups/data-harvesting-and-interchange/what-is-lido/).
+[^56]: See [http://network.icom.museum/cidoc/working-groups/data-harvesting-and-interchange/what-is-lido/](http://network.icom.museum/cidoc/working-groups/data-harvesting-and-interchange/what-is-lido/).
 
 [^57]: Coburn et al., *LIDO*, 27.
 
-[^58]: A select list of implementations of LIDO is available at [http://network.icom.museum /cidoc/working-groups/data-harvesting-and-interchange/lido-community/use-of-lido/](http://network.icom.museum/cidoc/working-groups/data-harvesting-and-interchange/lido-community/use-of-lido/).
+[^58]: A select list of implementations of LIDO is available at [http://network.icom.museum/cidoc/working-groups/data-harvesting-and-interchange/lido-community/use-of-lido/](http://network.icom.museum/cidoc/working-groups/data-harvesting-and-interchange/lido-community/use-of-lido/).
 
 [^59]: See [http://www.europeana.eu](http://www.europeana.eu).
 
-[^60]: See [http://britishart.yale.edu/sites/default/files/2011\_GS\_CI\_Implementing\_Lightweight\_Information\_Describing\_Objects\_LIDO\_at\_the\_Yale\_Center\_for\_British \_Art.pdf](http://britishart.yale.edu/sites/default/files/2011_GS_CI_Implementing_Lightweight_Information_Describing_Objects_LIDO_at_the_Yale_Center_for_British_Art.pdf){: .force-wrap}.
+[^60]: See [http://britishart.yale.edu/sites/default/files/files/2011\_GS\_CI\_Implementing\_Lightweight\_Information\_Describing\_Objects\_LIDO\_at\_the\_Yale\_Center\_for\_British\_Art.pdf](http://britishart.yale.edu/sites/default/files/files/2011_GS_CI_Implementing_Lightweight_Information_Describing_Objects_LIDO_at_the_Yale_Center_for_British_Art.pdf){: .force-wrap}.

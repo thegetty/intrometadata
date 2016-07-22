@@ -1,3 +1,53 @@
+var NAVHEIGHT = 60;
+
+// Use this to wrap selectors that contain : characters
+function jq(myid) { return myid.replace( /(:|\.|\[|\]|,)/g, "\\$1" );}
+
+function anchorScroll(href) {
+  $anchorLinks = $("a[href*='#']")
+  $anchorLinks.click(function(e) {
+    var target = $(this).attr("href");
+    var distance = $(jq(target)).offset().top;
+
+    $("html, body").animate({
+      scrollTop: distance - NAVHEIGHT
+    }, 250);
+  })
+}
+
+// Handle links when they go to a particular anchor on a different page
+function linkToAnchor(href) {
+  href = typeof(href) == "string" ? href : $(this).attr("href");
+  var fromTop = NAVHEIGHT;
+
+  if(href.indexOf("#") == 0) {
+    var $target = $(href);
+
+    if($target.length) {
+      $("html, body").animate({ scrollTop: $target.offset().top - fromTop });
+      if (history && "pushState" in history) {
+        history.pushState({}, document.title, window.location.pathname + href);
+        return false;
+      }
+    }
+  }
+}
+
+function footnoteScroll() {
+  $(".footnote, .reversefootnote").click(function(event){
+
+    var target = $(this).attr("href");
+    var distance = $(jq(target)).offset().top;
+
+    $("html, body").animate({
+      scrollTop: distance - NAVHEIGHT
+    }, 250);
+
+  });
+}
+
+
+
 function offCanvasNav() {
   var $sidebar = $(".nav-sidebar");
   var $menuButton = $("#navbar-menu");
@@ -52,10 +102,34 @@ function citationDate() {
   $(".cite-current-date").text(today);
 }
 
+function keyboardNav(){
+  $(document).keydown(function(event) {
+    var prev, next;
+    prev = document.getElementById("prev-link");
+    next = document.getElementById("next-link");
+
+    // 37 = left arrow key
+    if (event.which === 37 && prev) {
+      prev.click();
+      event.preventDefault();
+    }
+    // 39 = right arrow key
+    else if (event.which === 39 && next) {
+      next.click();
+      event.preventDefault();
+    }
+  });
+}
+
+
 // Call the other setup functions inside of this setup function
 // Call this function inside of $(document).ready();
 function uiSetup() {
   offCanvasNav();
   expanderSetup();
   citationDate();
+  keyboardNav();
+  anchorScroll();
+  footnoteScroll();
+  linkToAnchor(window.location.hash);
 }
