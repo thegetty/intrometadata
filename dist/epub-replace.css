@@ -1,0 +1,177 @@
+@font-face {
+  font-family: "Merriweather";
+  src: url("../fonts/merriweather-regular.otf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Merriweather";
+  src: url("../fonts/merriweather-bold.otf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Merriweather";
+  src: url("../fonts/merriweather-italic.otf");
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "SourceSans";
+  src: url("../fonts/sourcesanspro-regular.otf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "SourceSans";
+  src: url("../fonts/sourcesanspro-italic.otf");
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "SourceSans";
+  src: url("../fonts/sourcesanspro-bold.otf");
+  font-weight: 700;
+}
+
+body {
+  font-family: "Merriweather", serif;
+  font-size: 14px;
+	line-height: 1.5;
+}
+
+p {
+	text-indent: 0;
+	margin: 0;
+  orphans: 2;
+  widows: 2;
+  -epub-hyphens: none;
+}
+
+p + p {
+	text-indent: 5%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "SourceSans";
+  font-weight: bold;
+  -epub-hyphens: none;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+blockquote em {
+  font-style: normal;
+}
+
+blockquote p {
+  text-indent: 0;
+  margin-bottom: 1em;
+}
+
+img {
+	width: 90%;
+  margin-right: 5%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+li {
+  margin-bottom: .5em;
+}
+
+hr {
+  margin: 1em;
+}
+
+.titlepage {
+  margin-top: 3em;
+  text-align: center;
+}
+
+.titlepage h1,
+.titlepage h2,
+.titlepage h3,
+.titlepage h4 {
+  text-align: center;
+}
+
+.titlepage img {
+  text-align: center;
+  margin: 1em auto;
+  margin: 1em auto 0px;
+  width: 15%;
+  max-width: 50%;
+}
+
+.force-wrap {
+  overflow-wrap: break-word;
+  word-break: break-word;
+  word-wrap: break-word;
+}
+
+.glossary, .contributors {
+  padding-left: 0;
+}
+
+.glossary li, .contributors li {
+  list-style-type: none;
+  margin-bottom: 1em;
+}
+
+header {
+  margin-bottom: 4em;
+}
+
+.author {
+  margin-bottom: 0;
+}
+
+.secondary-author {
+  margin-top: 0;
+  color: #999;
+}
+
+.sidebar {
+  background-color: #eee;
+  border-radius: 6px;
+  border: 1px solid #999;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding-left: .5em;
+  padding-right: .5em;
+}
+
+.smaller-text p {
+  font-size: .9em;
+  text-indent: 0;
+  margin-bottom: 1em;
+}
+
+.loc-cip p {
+  margin-bottom: 0;
+}
+
+.loc-cip ul {
+  list-style-type: none;
+  margin-top: 0;
+  padding-left: 0;
+}
+
+.loc-cip li {
+  padding-left: 1em;
+  text-indent: -1em;
+  margin-bottom: 0;
+}

@@ -1,4 +1,6 @@
 .DS_Store
 /build
-/dist
+/dist/epub
+/dist/*.epub
+/dist/*.mobi
 Gemfile.lock
