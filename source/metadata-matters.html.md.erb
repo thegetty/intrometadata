@@ -28,13 +28,21 @@ Semantic mapping is analyzing the definitions of the elements or fields so as to
 
 Structural interoperability refers to the presence of data models or wrappers that specify the semantic scheme being used. For example, the Resource Description Framework (RDF) is a model that allows metadata to be defined and shared by communities.[^7]
 
-**Table 1. Example of a Crosswalk of a Subset of Elements from Different Metadata Schemes**
+<% if environment? :epub %>
+  ![Table 1: Crosswalk Example](assets/images/crosswalk-example.jpg){: id="crosswalk-example"}
+<% else %>
+  **Table 1. Example of a Crosswalk of a Subset of Elements from Different Metadata Schemes**
 
-<%= partial "assets/tables/crosswalk-example.html" %>
+  <%= partial "assets/tables/crosswalk-example.html" %>
+<% end %>
 
-**Table 2. Example of a Crosswalk: MARC21 to Simple Dublin Core**
+<% if environment? :epub %>
+  ![Table 2: MARC21 to Simple Dublin Core](assets/images/crosswalk-example-marc21-dublin-core.jpg){: id="crosswalk-example-marc21-dublin-core"}
+<% else %>
+  **Table 2. Example of a Crosswalk: MARC21 to Simple Dublin Core**
 
-<%= partial "assets/tables/crosswalk-example-marc21-dublin-core.html" %>
+  <%= partial "assets/tables/crosswalk-example-marc21-dublin-core.html" %>
+<% end %>
 
 Mapping metadata elements between standards is only one level of crosswalking. At another level of semantic interoperability are the content standards or cataloging rules for populating metadata elements or fields, such as the form for personal names, encoding standards for dates, and thesauri used for topical or subject headings. A weakness of crosswalks of metadata elements alone is that the results of a query will be less successful if the name or concept is expressed differently in each resource. By using controlled vocabularies for identifying people, places, corporate bodies, and concepts, it is possible to greatly improve retrieval of relevant information associated with a particular concept; it is hoped that if linked open data makes the Semantic Web a reality, this kind of vocabulary-enhanced search and retrieval will become much more prevalent than it is at present.
 
@@ -81,9 +89,13 @@ Some of the commercial “metasearch” engines for libraries are still using th
 
 The limitations of Z39.50 have encouraged the development of alternative solutions to federated searching to improve results. One approach is the Metasearch XML Gateway (MXG), which allows queries in an XML format from a client to generate result sets from a server in an XML format.[^28] Another approach used by metasearch engines when the database does not support Z39.50 is relying on HTTP parsing or “screen scraping.” In this approach, the search retrieves an HTML page that is parsed and submitted to the user as a set of search results. Unfortunately, this approach requires a high level of maintenance, as the target databases change continually and the level of accuracy in retrieving content varies from one database to another.
 
-**Table 3. Methods for Gathering, Aggregating, and Making Metadata Available**
+<% if environment? :epub %>
+  ![Table 3: Making Metadata Available](assets/images/making-metadata-available.jpg){: id="making-metadata-available"}
+<% else %>
+  **Table 3. Methods for Gathering, Aggregating, and Making Metadata Available**
 
-<%= partial "assets/tables/making-metadata-available.html" %>
+  <%= partial "assets/tables/making-metadata-available.html" %>
+<% end %>
 
 The key to improvement may lie in implementing multiple protocols rather than a single protocol. Currently, some vendors[^29] are combining Z39.50 and XML gateway techniques to increase the number of “targets” or servers that can be queried.
 

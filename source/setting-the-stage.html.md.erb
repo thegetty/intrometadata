@@ -21,9 +21,13 @@ In general, all information objects, regardless of the physical or intellectual 
 
 All objects carry with them certain metadata that innately results from the circumstances of their creation, management, and use. However, cultural heritage information professionals such as museum registrars, library catalogers, and archival processors often apply the term *metadata* to the value-added information they create to arrange, describe, track, and otherwise enhance access to information objects and the physical items and collections related to those objects. Such metadata is frequently governed by community-developed and community-fostered standards and best practices in order to ensure quality, consistency, and interoperability. Our Typology of Data Standards (table 1) organizes these standards into categories and provides examples of each. Markup languages such as HTML and XML and a variety of schemas and metadata formats provide standardized ways to structure and express these standards for machine processing, publication, and implementation.
 
-**Table 1. A Typology of Data Standards**{: #typology-of-data-standards}
+<% if environment? :epub %>
+  ![Table 1: Typology of Data Standards](assets/images/typology-of-data-standards.jpg){: id="typology-of-standards"}
+<% else %>
+  **Table 1. A Typology of Data Standards**{: #typology-of-data-standards}
 
-<%= partial "assets/tables/typology-of-data-standards.html" %>
+  <%= partial "assets/tables/typology-of-data-standards.html" %>
+<% end %>
 
 Library metadata development has been first and foremost about providing intellectual and physical access to collection materials. *Library metadata* includes indexes, abstracts, and bibliographic records created according to cataloging rules (i.e., data content standards, according to our typology) such as the Anglo-American Cataloguing Rules (AACR) and more recently Resource Description and Access (RDA) and data structure standards such as the MARC (Machine-Readable Cataloging) and BIBFRAME (Bibliographic Framework) formats, in combination with data value standards such as the Library of Congress Subject Headings (LCSH) or the Getty’s *Art & Architecture Thesaurus* (AAT). Such bibliographic metadata has been systematically and cooperatively created and shared since the 1960s and made available to repositories and users through automated systems such as bibliographic utilities, online public access catalogs (OPACs), and commercially available databases. Today this type of metadata is created not only by humans but also in a variety of automated ways such as metadata mining, metadata harvesting, and web crawling.
 
@@ -59,15 +63,25 @@ User-created metadata, both individually contributed and crowd sourced, has been
 
 All of these perspectives on metadata should be considered in the development of networked digital information systems, but they lead to a very broad and often confusing conception. To understand this conception better, it is helpful to separate metadata into distinct categories—administrative, descriptive, preservation, technical, and use metadata—that reflect key aspects of metadata functionality. Table 2 defines each of these metadata categories and gives examples of common functions that each might perform in a digital information system.
 
-**Table 2. Different Categories of Metadata and Their Functions**
+<% if environment? :epub %>
+  ![Table 2: Categories of Metadata](assets/images/categories-of-metadata-and-functions.jpg){: id="categories-of-metadata-and-functions"}
+<% else %>
+  **Table 2. Different Categories of Metadata and Their Functions**
 
-<%= partial "assets/tables/categories-of-metadata-and-functions.html" %>
+  <%= partial "assets/tables/categories-of-metadata-and-functions.html" %>
+<% end %>
 
 In addition to its different types and functions, metadata exhibits many different characteristics. Table 3 presents some key characteristics of metadata, with examples. Metadata creation and management have become a complex mix of manual and automatic processes and layers created by many different functions and individuals at different points during the life cycle of an information object. Effective and efficient metadata management is essential to ensure that the metadata we rely on to validate digital resources is itself trustworthy and that the large volume of metadata that potentially can accumulate throughout the life of a resource is subject to a summarization and disposition regime.[^6]
 
-**Table 3. Attributes and Characteristics of Metadata**
+<% if environment? :epub %>
+  ![Table 3: Attributes and Characteristics](assets/images/attributes-characteristics-metadata.jpg){: id="attributes-characteristics-metadata"}
 
-<%= partial "assets/tables/attributes-characteristics-metadata.html" %>
+  ![Table 3, cont.: Attributes and Characteristics](assets/images/attributes-characteristics-metadata-2.jpg)
+<% else %>
+  **Table 3. Attributes and Characteristics of Metadata**
+
+  <%= partial "assets/tables/attributes-characteristics-metadata.html" %>
+<% end %>
 
 Figure 1 illustrates the different phases through which information objects typically move during their life cycles in today’s digital environment.[^7] As they move through each phase, information objects acquire layers of metadata that can be associated with them in several ways.
 
