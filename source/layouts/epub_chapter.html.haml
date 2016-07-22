@@ -5,6 +5,9 @@
     = tag :link, :href => "assets/stylesheets/epub.css", :rel => "stylesheet"
   %body
     %h2.chapter-title= current_page.data.title
+    - if current_page.data.author
+      %h3.chapter-author #{current_page.data.author.first.first_name} #{current_page.data.author.first.last_name}
+    - if current_page.data.secondary_author
+      %h4.chapter-secondary-author= current_page.data.secondary_author
     .chapter-body
       = yield
-
