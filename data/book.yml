@@ -136,8 +136,9 @@ repository_url: https://www.github.com/gettypubs/intrometadata
 library_of_congress_cip_data:
   - "Names: Baca, Murtha, editor. | Getty Research Institute, issuing body."
   - "Title: Introduction to metadata / edited by Murtha Baca."
-  - "Description: Third edition. | Los Angeles : Getty Research Institute, [2016] | ©2016 | Includes bibliographical references. | “Metadata provides a means of indexing, accessing, preserving, and discovering digital resources. The volume of digital information available over electronic networks has created a pressing need for standards that ensure correct and proper use and interpretation of the data by its owners and users. Well-crafted metadata is needed more now than ever before and helps users to locate, retrieve, and manage information in this vast and complex universe. The third edition of Introduction to Metadata, first published in 1998, provides an overview of metadata, including its types, roles, and characteristics; a discussion of metadata as it relates to web resources; and a description of methods, tools, standards, and protocols for publishing and disseminating digital collections. An indispensable resource for the field, this revised edition addresses advances in standards such as linked open data, changes in intellectual property law, and new computing technologies, and offers an expanded glossary of essential terms.” —Publisher description."
-  - "Identifiers: LCCN 2015046323 (print) | LCCN 2015050428 (ebook) | ISBN 9781606064795 | ISBN 9781606064801 ( )"
+  - "Other titles: Introduction to metadata (2016)"
+  - "Description: Third edition. | Los Angeles : Getty Research Institute, [2016] | Includes bibliographical references."
+  - "Identifiers: LCCN 2015046323 (print) | LCCN 2015050428 (ebook) | ISBN 9781606064795 (pbk.) | ISBN 9781606064801 (epub) | ISBN 9781606065006 (online)"
   - "Subjects: LCSH: Metadata. | Database management. | World Wide Web. | Information organization."
-  - "Classification: LCC QA76.9.D3 I599 2016 (print) | LCC QA76.9.D3 (ebook) | DDC 025.3—dc23"
+  - "Classification: LCC QA76.9.D3 I599 2016 (print) | LCC QA76.9.D3 (ebook) | DDC 025.3--dc23"
   - "LC record available at <a href=\"http://lccn.loc.gov/2015046323\" target=\"_blank\">http://lccn.loc.gov/2015046323</a>"
