@@ -62,19 +62,33 @@ editions:
     illustrations: "11 b/w  illustrations"
     link: http://shop.getty.edu/products/introduction-to-metadata-third-edition-978-1606064795
     additional_description:
-  - name: Apple iBookstore (EPUB)
-    type: Text
-    format: application/epub+zip
-    isbn: 978-1-60606-480-1
-    file_size_mb:
-    link:
-    additional_description:
   - name: Amazon Kindle (MOBI)
     type: Text
     format: application/mobi
     isbn: 978-1-60606-480-1
     file_size_mb:
-    link:
+    link: https://www.amazon.com/dp/B01K4N4ZOY
+    additional_description:
+  - name: Apple iBookstore (EPUB)
+    type: Text
+    format: application/epub+zip
+    isbn: 978-1-60606-480-1
+    file_size_mb:
+    link: http://itunes.apple.com/us/book/id1169121910
+    additional_description:
+  - name: Google Play (EPUB)
+    type: Text
+    format: application/epub+zip
+    isbn: 978-1-60606-480-1
+    file_size_mb:
+    link: https://play.google.com/store/books/details/Murtha_Baca_Introduction_to_Metadata?id=tKPKDAAAQBAJ
+    additional_description:
+  - name: Barnes & Noble NOOK (EPUB)
+    type: Text
+    format: application/epub+zip
+    isbn: 978-1-60606-480-1
+    file_size_mb:
+    link: http://www.barnesandnoble.com/w/1123222581?ean=9781606064801
     additional_description:
 description: |
   Metadata provides a means of indexing, accessing, preserving, and discovering digital resources. The volume of digital information available over electronic networks has created a pressing need for standards that ensure correct and proper use and interpretation of the data by its owners and users. Well-crafted metadata is needed more now than ever before and helps users to locate, retrieve, and manage information in this vast and complex universe.
