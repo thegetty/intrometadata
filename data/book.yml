@@ -132,6 +132,10 @@ revision_history:
   - date: July 20, 2016
     summary:
       - First release
+  - date: November 9, 2016
+    summary:
+      - Add links to e-book editions
+      - Update Cataloguing in Publication record
 repository_url: https://www.github.com/gettypubs/intrometadata
 library_of_congress_cip_data:
   - "Names: Baca, Murtha, editor. | Getty Research Institute, issuing body."
